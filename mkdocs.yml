@@ -9,6 +9,7 @@ repo_url: https://github.com/julianobarbosa/tiger-900
 theme:
   name: material
   language: pt-BR
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.sections
@@ -81,6 +82,7 @@ markdown_extensions:
 
 extra_javascript:
   - assets/js/roteiro-interativo.js
+  - assets/js/pwa-register.js
 
 extra_css:
   - assets/css/roteiro-interativo.css

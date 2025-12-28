@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="{{ config.site_url }}manifest.json">
+  <meta name="theme-color" content="#009688">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Tiger Roteiro">
+  <link rel="apple-touch-icon" href="{{ config.site_url }}assets/icons/icon-192x192.png">
+{% endblock %}

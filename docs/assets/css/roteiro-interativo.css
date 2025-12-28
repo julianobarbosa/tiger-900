@@ -391,3 +391,81 @@
 [data-md-color-scheme="slate"] .day-dot.climax {
   background: linear-gradient(135deg, #4a4000 0%, #665800 100%);
 }
+
+/* === PWA ELEMENTS === */
+
+/* Botão de instalar app */
+.pwa-install-btn {
+  margin-left: 0.5rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.pwa-install-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Notificação de atualização */
+.pwa-update-notification {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--md-primary-fg-color);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  z-index: 9999;
+  animation: slideUp 0.3s ease;
+}
+
+.pwa-update-notification button {
+  background: white;
+  color: var(--md-primary-fg-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.pwa-update-notification button:hover {
+  background: #f0f0f0;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* PWA Mobile adjustments */
+@media screen and (max-width: 768px) {
+  .pwa-install-btn {
+    display: block;
+    margin: 0.5rem 0 0 0;
+    width: 100%;
+  }
+
+  .pwa-update-notification {
+    left: 10px;
+    right: 10px;
+    transform: none;
+    flex-direction: column;
+    text-align: center;
+  }
+}
