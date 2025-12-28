@@ -43,6 +43,7 @@ nav:
     - 'Guia Gastronômico': viagens/serras-gauchas-2026/guia-gastronomico.md
     - 'Manutenção em Viagem': viagens/serras-gauchas-2026/manutencao-viagem.md
   - Garagem:
+    - 'Assistência 24h': garagem/assistencia-24h.md
     - 'Manutenção': garagem/manutencao.md
     - 'Ficha Técnica': garagem/ficha-tecnica.md
     - 'Manuais e Documentação': garagem/manuais.md

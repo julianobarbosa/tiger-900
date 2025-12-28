@@ -18,17 +18,26 @@
 
 | Informação | Detalhe |
 |------------|---------|
-| **Telefone** | 0800 770 1050 |
-| **WhatsApp** | (11) 94753-0150 |
-| **Horário** | 24 horas |
+| **Telefone 24h** | **0800 727 2077** |
+| **SAC** | 0800 727 2025 |
+| **E-mail SAC** | sac.triumph@portoseguro.com.br |
+| **Horário SAC** | Seg-Sex 9h-18h (exceto feriados) |
 | **Cobertura** | Nacional |
 
 **Serviços incluídos:**
-- Guincho até concessionária mais próxima
-- Auxílio pane seca
-- Chaveiro
-- Troca de pneus
-- Hospedagem em caso de pernoite forçado
+
+- **Reboque:** Transporte até concessionária autorizada mais próxima (limite 200 km)
+- **Assistência aos ocupantes:** Táxi para retorno, continuação de viagem ou retirada da moto (limite 200 km)
+- **Mensagens urgentes:** Envio de mensagens para familiares
+
+**Condições importantes:**
+
+- Exclusivo para motos **dentro da garantia de fábrica**
+- Necessário apresentar **chaves e documento** da motocicleta
+- **NÃO cobre acidentes** - apenas panes mecânicas/elétricas
+- Cliente deve retirar a moto na concessionária após reparo
+
+> **Mais detalhes:** [Triumph Assistência 24h](https://www.triumphmotorcycles.com.br/owners/roadside-assistance)
 
 ---
 
@@ -224,7 +233,7 @@
 ### 3. Chamadas
 1. **192 (SAMU)** - Se houver feridos
 2. **193 (Bombeiros)** - Se precisar de resgate
-3. **0800 770 1050** - Triumph Assistência (guincho)
+3. **0800 727 2077** - Triumph Assistência 24h (guincho)
 4. Contato de emergência pessoal
 
 ### 4. Documentação
