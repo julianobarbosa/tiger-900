@@ -14,7 +14,14 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.top
+    - search.highlight
+    - search.suggest
     - toc.integrate
+    - content.tabs.link
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -87,3 +94,9 @@ extra_javascript:
 
 extra_css:
   - assets/css/roteiro-interativo.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/julianobarbosa
+  generator: false

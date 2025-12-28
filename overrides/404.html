@@ -1,0 +1,18 @@
+{% extends "main.html" %}
+
+{% block content %}
+<div class="md-content" data-md-component="content">
+  <article class="md-content__inner md-typeset">
+    <h1>Ops! Caminho errado</h1>
+    <p>Parece que pegamos uma trilha que nao existe no mapa.</p>
+    <p>
+      <a href="{{ config.site_url }}" class="md-button md-button--primary">
+        Voltar para a Home
+      </a>
+      <a href="{{ config.site_url }}viagens/serras-gauchas-2026/" class="md-button">
+        Ver Roteiro da Viagem
+      </a>
+    </p>
+  </article>
+</div>
+{% endblock %}

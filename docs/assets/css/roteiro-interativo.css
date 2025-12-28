@@ -625,3 +625,711 @@
 [data-md-color-scheme="slate"] .weather-badge {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 }
+
+/* ============================================
+   P0: MOBILE CARDS - Tabela transformada em cards
+   ============================================ */
+
+@media screen and (max-width: 768px) {
+  /* Esconder tabela original em mobile */
+  #resumo-tabela table {
+    display: none !important;
+  }
+
+  /* Container de cards */
+  .mobile-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  /* Card individual */
+  .mobile-day-card {
+    background: var(--md-default-bg-color);
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid var(--md-primary-fg-color);
+    transition: all 0.2s ease;
+  }
+
+  .mobile-day-card:active {
+    transform: scale(0.98);
+  }
+
+  /* Header do card */
+  .mobile-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .mobile-card-day {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--md-primary-fg-color);
+  }
+
+  .mobile-card-date {
+    font-size: 0.85rem;
+    color: var(--md-default-fg-color--light);
+    background: var(--md-code-bg-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+  }
+
+  /* Trecho do card */
+  .mobile-card-route {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--md-default-fg-color);
+  }
+
+  .mobile-card-route a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .mobile-card-route a:hover {
+    color: var(--md-accent-fg-color);
+  }
+
+  /* Footer do card */
+  .mobile-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+    font-size: 0.85rem;
+  }
+
+  .mobile-card-km {
+    font-weight: 700;
+    color: var(--md-accent-fg-color);
+  }
+
+  .mobile-card-type {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  /* Estados dos cards */
+  .mobile-day-card.card-hoje {
+    border-left-color: #ffc107;
+    background: linear-gradient(135deg,
+      rgba(255, 193, 7, 0.15) 0%,
+      var(--md-default-bg-color) 100%);
+    animation: pulse-card 2s ease-in-out infinite;
+  }
+
+  .mobile-day-card.card-passado {
+    opacity: 0.6;
+    border-left-color: var(--md-default-fg-color--light);
+  }
+
+  .mobile-day-card.card-climax {
+    border-left-color: #ff5722;
+    background: linear-gradient(135deg,
+      rgba(255, 87, 34, 0.1) 0%,
+      var(--md-default-bg-color) 100%);
+  }
+
+  .mobile-day-card.card-folga {
+    border-left-color: #9c27b0;
+  }
+
+  .mobile-day-card.card-home {
+    border-left-color: #4caf50;
+  }
+
+  @keyframes pulse-card {
+    0%, 100% { box-shadow: 0 2px 8px rgba(255, 193, 7, 0.3); }
+    50% { box-shadow: 0 4px 16px rgba(255, 193, 7, 0.5); }
+  }
+
+  /* Accordion por fase */
+  .mobile-phase-accordion {
+    margin-bottom: 1rem;
+  }
+
+  .mobile-phase-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--md-primary-fg-color);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ease;
+  }
+
+  .mobile-phase-header:active {
+    transform: scale(0.98);
+  }
+
+  .mobile-phase-header .phase-icon {
+    font-size: 1.5rem;
+  }
+
+  .mobile-phase-header .phase-info {
+    flex: 1;
+  }
+
+  .mobile-phase-header .phase-name {
+    font-size: 1rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .mobile-phase-header .phase-meta {
+    font-size: 0.75rem;
+    opacity: 0.9;
+  }
+
+  .mobile-phase-header .phase-toggle {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+  }
+
+  .mobile-phase-accordion.expanded .phase-toggle {
+    transform: rotate(180deg);
+  }
+
+  .mobile-phase-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .mobile-phase-accordion.expanded .mobile-phase-content {
+    max-height: 2000px;
+  }
+
+  .mobile-phase-cards {
+    padding: 0.75rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Desktop: esconder container mobile */
+@media screen and (min-width: 769px) {
+  .mobile-cards-container,
+  .mobile-phase-accordion {
+    display: none !important;
+  }
+}
+
+/* Dark mode cards */
+[data-md-color-scheme="slate"] .mobile-day-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+[data-md-color-scheme="slate"] .mobile-phase-header {
+  background: var(--md-primary-fg-color--dark);
+}
+
+/* ============================================
+   P0: BANNER DIA ATUAL STICKY
+   ============================================ */
+
+.current-day-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: linear-gradient(135deg,
+    var(--md-primary-fg-color) 0%,
+    #00897b 100%);
+  color: white;
+  padding: 0.75rem 1rem;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  font-size: 0.9rem;
+}
+
+.current-day-banner.visible {
+  display: flex;
+}
+
+.current-day-banner .banner-day {
+  font-weight: 800;
+  font-size: 1.2rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+}
+
+.current-day-banner .banner-route {
+  flex: 1;
+  text-align: center;
+  font-weight: 500;
+}
+
+.current-day-banner .banner-km {
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.current-day-banner .banner-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.current-day-banner .banner-close:hover {
+  opacity: 1;
+}
+
+/* Ajuste do conteúdo quando banner visível */
+body.banner-active {
+  padding-top: 50px;
+}
+
+/* Mobile banner */
+@media screen and (max-width: 768px) {
+  .current-day-banner {
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    gap: 0.5rem;
+  }
+
+  .current-day-banner .banner-day {
+    font-size: 1rem;
+  }
+
+  .current-day-banner .banner-route {
+    width: 100%;
+    order: 3;
+    font-size: 0.85rem;
+  }
+}
+
+/* ============================================
+   P1: NAVEGAÇÃO STICKY ENTRE DIAS
+   ============================================ */
+
+.day-navigation {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 998;
+  background: var(--md-default-bg-color);
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  padding: 0.5rem;
+}
+
+.day-navigation.visible {
+  display: flex;
+}
+
+.day-navigation .nav-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background: none;
+  border: none;
+  color: var(--md-default-fg-color);
+  font-size: 0.85rem;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.day-navigation .nav-btn:hover {
+  background: var(--md-code-bg-color);
+}
+
+.day-navigation .nav-btn:active {
+  transform: scale(0.95);
+}
+
+.day-navigation .nav-btn.prev {
+  justify-content: flex-start;
+}
+
+.day-navigation .nav-btn.next {
+  justify-content: flex-end;
+}
+
+.day-navigation .nav-btn .nav-day {
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+}
+
+.day-navigation .nav-btn .nav-label {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.75rem;
+}
+
+.day-navigation .nav-current {
+  flex: 2;
+  text-align: center;
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.day-navigation .nav-current .current-day-num {
+  font-size: 1.1rem;
+}
+
+.day-navigation .nav-current .current-day-name {
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Ajuste do conteúdo quando nav visível */
+body.nav-active .md-content {
+  padding-bottom: 70px;
+}
+
+/* Dark mode nav */
+[data-md-color-scheme="slate"] .day-navigation {
+  background: var(--md-default-bg-color);
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ============================================
+   P2: CHECKLIST PERSISTENTE
+   ============================================ */
+
+/* Estilo para checkboxes interativos */
+.persistent-checklist {
+  position: relative;
+}
+
+.persistent-checklist .checklist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.persistent-checklist .checklist-progress {
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.persistent-checklist .checklist-reset {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  background: var(--md-code-bg-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--md-default-fg-color--light);
+  transition: all 0.2s;
+}
+
+.persistent-checklist .checklist-reset:hover {
+  background: var(--md-accent-fg-color);
+  color: white;
+}
+
+/* Checkbox items */
+.checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.25rem 0;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.checklist-item:hover {
+  background: var(--md-code-bg-color);
+}
+
+.checklist-item input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--md-primary-fg-color);
+  cursor: pointer;
+}
+
+.checklist-item.checked {
+  opacity: 0.6;
+}
+
+.checklist-item.checked label {
+  text-decoration: line-through;
+  color: var(--md-default-fg-color--light);
+}
+
+/* ============================================
+   P2: TOUCH PREVIEW MODAL (Mobile)
+   ============================================ */
+
+.touch-preview-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.touch-preview-modal.visible {
+  display: flex;
+  opacity: 1;
+}
+
+.touch-preview-content {
+  background: var(--md-default-bg-color);
+  border-radius: 16px;
+  max-width: 320px;
+  width: 100%;
+  overflow: hidden;
+  transform: scale(0.9);
+  transition: transform 0.2s ease;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+.touch-preview-modal.visible .touch-preview-content {
+  transform: scale(1);
+}
+
+.touch-preview-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.touch-preview-body {
+  padding: 1rem;
+}
+
+.touch-preview-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--md-default-fg-color);
+}
+
+.touch-preview-desc {
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 1rem;
+}
+
+.touch-preview-close {
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--md-primary-fg-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.touch-preview-close:active {
+  transform: scale(0.95);
+}
+
+/* ============================================
+   P1: HOMEPAGE HERO & COUNTDOWN
+   ============================================ */
+
+.hero-section {
+  position: relative;
+  margin: -1rem -1rem 2rem -1rem;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg,
+    rgba(0, 150, 136, 0.9) 0%,
+    rgba(0, 77, 64, 0.95) 100%);
+  color: white;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200') center/cover;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+/* Countdown */
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.countdown-item {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  border-radius: 12px;
+  min-width: 70px;
+  backdrop-filter: blur(10px);
+}
+
+.countdown-value {
+  font-size: 2rem;
+  font-weight: 800;
+  display: block;
+}
+
+.countdown-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  background: white;
+  color: var(--md-primary-fg-color);
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Mobile hero */
+@media screen and (max-width: 768px) {
+  .hero-section {
+    padding: 2rem 1rem;
+    margin: -0.5rem -0.5rem 1.5rem -0.5rem;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .countdown-container {
+    gap: 0.5rem;
+  }
+
+  .countdown-item {
+    padding: 0.75rem;
+    min-width: 60px;
+  }
+
+  .countdown-value {
+    font-size: 1.5rem;
+  }
+
+  .countdown-label {
+    font-size: 0.65rem;
+  }
+
+  .hero-cta {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Trip status badges */
+.trip-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.trip-status.planning {
+  background: rgba(255, 193, 7, 0.2);
+  color: #ffc107;
+}
+
+.trip-status.active {
+  background: rgba(76, 175, 80, 0.2);
+  color: #4caf50;
+  animation: pulse-status 2s infinite;
+}
+
+.trip-status.completed {
+  background: rgba(158, 158, 158, 0.2);
+  color: #9e9e9e;
+}
+
+@keyframes pulse-status {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
