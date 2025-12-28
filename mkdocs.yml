@@ -1,0 +1,53 @@
+site_name: Triumph Tiger 900 Rally Pro
+site_url: https://julianobarbosa.github.io/tiger-900
+site_author: Juliano Barbosa
+site_description: Blog pessoal e manual de proprietário da Triumph Tiger 900 Rally Pro.
+
+repo_name: julianobarbosa/tiger-900
+repo_url: https://github.com/julianobarbosa/tiger-900
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Viagens:
+    - 'Serras Gaúchas 2026': viagens/serras-gauchas-2026/index.md
+  - Garagem:
+    - 'Manutenção': garagem/manutencao.md
+    - 'Ficha Técnica': garagem/ficha-tecnica.md
+    - 'Manuais e Documentação': garagem/manuais.md
+  - Sobre: sobre.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
