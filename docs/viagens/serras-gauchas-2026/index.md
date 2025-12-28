@@ -10,6 +10,9 @@
 
 Esta expedição de 20 dias tem como foco as lendárias estradas das serras do Rio Grande do Sul e Santa Catarina. O objetivo não é apenas chegar, mas aproveitar cada curva.
 
+*   [📅 Ver Roteiro Detalhado (Dia a Dia)](roteiro.md)
+*   [✅ Ver Checklist de Viagem](checklist.md)
+
 ### Destaques do Trajeto
 *   🏔️ **Serra do Rio do Rastro:** O teste definitivo de freios e vertigem.
 *   🦅 **Serra do Corvo Branco:** Estradas estreitas e visuais dramáticos.

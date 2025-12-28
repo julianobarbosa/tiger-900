@@ -35,6 +35,8 @@ nav:
   - Home: index.md
   - Viagens:
     - 'Serras Gaúchas 2026': viagens/serras-gauchas-2026/index.md
+    - 'Roteiro Detalhado': viagens/serras-gauchas-2026/roteiro.md
+    - 'Checklist': viagens/serras-gauchas-2026/checklist.md
   - Garagem:
     - 'Manutenção': garagem/manutencao.md
     - 'Ficha Técnica': garagem/ficha-tecnica.md
