@@ -1,0 +1,157 @@
+/**
+ * Roteiro Interativo - Estilos Customizados
+ * Serras Gaúchas 2026
+ */
+
+/* === DESTAQUE DO DIA ATUAL === */
+
+/* Dia de hoje - destaque forte */
+.dia-hoje {
+  background: linear-gradient(90deg,
+    rgba(0, 150, 136, 0.3) 0%,
+    rgba(0, 150, 136, 0.15) 100%) !important;
+  border-left: 4px solid var(--md-primary-fg-color) !important;
+  animation: pulse-hoje 2s ease-in-out infinite;
+}
+
+.dia-hoje td {
+  font-weight: 600 !important;
+}
+
+.dia-hoje td:first-child a {
+  font-size: 1.2em;
+}
+
+@keyframes pulse-hoje {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.85; }
+}
+
+/* Dias passados - opacidade reduzida */
+.dia-passado {
+  opacity: 0.6;
+}
+
+.dia-passado:hover {
+  opacity: 1;
+}
+
+/* Dias futuros - normal */
+.dia-futuro {
+  opacity: 1;
+}
+
+/* === LINKS DA TABELA === */
+
+/* Link do dia */
+.dia-link {
+  font-weight: 700;
+  font-size: 1.1em;
+  text-decoration: none;
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.dia-link:hover {
+  background: var(--md-primary-fg-color);
+  color: white !important;
+}
+
+/* Link do trecho (Google Maps) */
+#resumo-tabela td:nth-child(3) a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  transition: all 0.2s ease;
+}
+
+#resumo-tabela td:nth-child(3) a:hover {
+  color: var(--md-accent-fg-color) !important;
+  text-decoration: underline;
+}
+
+/* Ícone de mapa */
+#resumo-tabela td:nth-child(3) a .twemoji,
+#resumo-tabela td:nth-child(3) a svg {
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+#resumo-tabela td:nth-child(3) a:hover .twemoji,
+#resumo-tabela td:nth-child(3) a:hover svg {
+  opacity: 1;
+}
+
+/* === BOTÃO DE COMPARTILHAR === */
+
+.share-container {
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.share-btn {
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.share-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* === EMOJIS DA COLUNA TIPO === */
+
+#resumo-tabela td:last-child {
+  white-space: nowrap;
+}
+
+/* === RESPONSIVIDADE MOBILE === */
+
+@media screen and (max-width: 768px) {
+  /* Tabela mais compacta */
+  #resumo-tabela table {
+    font-size: 0.85rem;
+  }
+
+  /* Esconder coluna Km em telas pequenas */
+  #resumo-tabela th:nth-child(4),
+  #resumo-tabela td:nth-child(4) {
+    display: none;
+  }
+
+  /* Botão compartilhar centralizado */
+  .share-container {
+    text-align: center;
+  }
+
+  /* Links mais tocáveis */
+  .dia-link {
+    padding: 0.4em 0.6em;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Destaque hoje mais visível no mobile */
+  .dia-hoje {
+    border-left-width: 6px !important;
+  }
+}
+
+/* === DARK MODE ADJUSTMENTS === */
+
+[data-md-color-scheme="slate"] .dia-hoje {
+  background: linear-gradient(90deg,
+    rgba(0, 150, 136, 0.4) 0%,
+    rgba(0, 150, 136, 0.2) 100%) !important;
+}
+
+[data-md-color-scheme="slate"] .dia-passado {
+  opacity: 0.5;
+}

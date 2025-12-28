@@ -13,23 +13,27 @@
 
 ## Resumo Executivo
 
+<div id="resumo-tabela" markdown>
+
 | Dia | Data | Trecho | Km | Tipo |
-|-----|------|--------|----|----|
-| 1 | 19/01 Dom | Goiânia → Uberaba | 380 | Deslocamento |
-| 2 | 20/01 Seg | Uberaba → Ourinhos | 360 | Deslocamento |
-| 3 | 21/01 Ter | Ourinhos → Ponta Grossa | 350 | Deslocamento |
-| 4 | 22/01 Qua | Ponta Grossa → Urubici | 380 | Deslocamento |
-| 5 | 23/01 Qui | Urubici (Corvo Branco + Pedra Furada) | 60 | **Exploração** |
-| 6 | 24/01 Sex | Urubici → Bom Jardim + Rio do Rastro | 80 | **CLÍMAX** |
-| 7 | 25/01 Sáb | Bom Jardim → Cambará do Sul | 180 | Transição |
-| 8 | 26/01 Dom | Cambará do Sul (Cânions) | 60 | **Exploração** |
-| 9 | 27/01 Seg | Cambará → Bento Gonçalves | 180 | Serra Gaúcha |
-| 10 | 28/01 Ter | Bento (Vale dos Vinhedos) | 40 | **Vinícolas** |
-| 11 | 29/01 Qua | Bento → Curitiba | 430 | Retorno |
-| 12 | 30/01 Qui | Curitiba (descanso + explorar) | - | **Folga** |
-| 13 | 31/01 Sex | Curitiba → Ourinhos | 400 | Retorno |
-| 14 | 01/02 Sáb | Ourinhos → Uberaba | 360 | Retorno |
-| 15 | 02/02 Dom | Uberaba → Goiânia | 380 | Retorno |
+|:---:|:----:|:------:|:--:|:----:|
+| [1](#dia-1-domingo-19012026){ .dia-link data-date="2026-01-19" } | 19/01 Dom | [Goiânia → Uberaba :material-map-marker-path:](https://www.google.com/maps/dir/Goiânia,GO,Brazil/Uberaba,MG,Brazil){ target="_blank" } | 380 | 🛣️ Deslocamento |
+| [2](#dia-2-segunda-20012026){ .dia-link data-date="2026-01-20" } | 20/01 Seg | [Uberaba → Ourinhos :material-map-marker-path:](https://www.google.com/maps/dir/Uberaba,MG,Brazil/Ourinhos,SP,Brazil){ target="_blank" } | 360 | 🛣️ Deslocamento |
+| [3](#dia-3-terca-21012026){ .dia-link data-date="2026-01-21" } | 21/01 Ter | [Ourinhos → Ponta Grossa :material-map-marker-path:](https://www.google.com/maps/dir/Ourinhos,SP,Brazil/Ponta+Grossa,PR,Brazil){ target="_blank" } | 350 | 🛣️ Deslocamento |
+| [4](#dia-4-quarta-22012026){ .dia-link data-date="2026-01-22" } | 22/01 Qua | [Ponta Grossa → Urubici :material-map-marker-path:](https://www.google.com/maps/dir/Ponta+Grossa,PR,Brazil/Urubici,SC,Brazil){ target="_blank" } | 380 | 🛣️ Deslocamento |
+| [5](#dia-5-quinta-23012026){ .dia-link data-date="2026-01-23" } | 23/01 Qui | [Urubici (Corvo Branco + Pedra Furada) :material-map-marker-path:](https://www.google.com/maps/dir/Urubici,SC,Brazil/Serra+do+Corvo+Branco,SC,Brazil/Pedra+Furada,Urubici,SC,Brazil){ target="_blank" } | 60 | 🏔️ **Exploração** |
+| [6](#dia-6-sexta-24012026){ .dia-link data-date="2026-01-24" } | 24/01 Sex | [Urubici → Bom Jardim + Rio do Rastro :material-map-marker-path:](https://www.google.com/maps/dir/Urubici,SC,Brazil/Serra+do+Rio+do+Rastro,SC,Brazil/Bom+Jardim+da+Serra,SC,Brazil){ target="_blank" } | 80 | ⭐ **CLÍMAX** |
+| [7](#dia-7-sabado-25012026){ .dia-link data-date="2026-01-25" } | 25/01 Sáb | [Bom Jardim → Cambará do Sul :material-map-marker-path:](https://www.google.com/maps/dir/Bom+Jardim+da+Serra,SC,Brazil/Cambará+do+Sul,RS,Brazil){ target="_blank" } | 180 | 🔄 Transição |
+| [8](#dia-8-domingo-26012026){ .dia-link data-date="2026-01-26" } | 26/01 Dom | [Cambará do Sul (Cânions) :material-map-marker-path:](https://www.google.com/maps/dir/Cambará+do+Sul,RS,Brazil/Cânion+Itaimbezinho,RS,Brazil/Cânion+Fortaleza,RS,Brazil){ target="_blank" } | 60 | 🏔️ **Exploração** |
+| [9](#dia-9-segunda-27012026){ .dia-link data-date="2026-01-27" } | 27/01 Seg | [Cambará → Bento Gonçalves :material-map-marker-path:](https://www.google.com/maps/dir/Cambará+do+Sul,RS,Brazil/Bento+Gonçalves,RS,Brazil){ target="_blank" } | 180 | 🍇 Serra Gaúcha |
+| [10](#dia-10-terca-28012026){ .dia-link data-date="2026-01-28" } | 28/01 Ter | [Bento (Vale dos Vinhedos) :material-map-marker-path:](https://www.google.com/maps/dir/Bento+Gonçalves,RS,Brazil/Vale+dos+Vinhedos,RS,Brazil){ target="_blank" } | 40 | 🍷 **Vinícolas** |
+| [11](#dia-11-quarta-29012026){ .dia-link data-date="2026-01-29" } | 29/01 Qua | [Bento → Curitiba :material-map-marker-path:](https://www.google.com/maps/dir/Bento+Gonçalves,RS,Brazil/Curitiba,PR,Brazil){ target="_blank" } | 430 | 🔙 Retorno |
+| [12](#dia-12-quinta-30012026){ .dia-link data-date="2026-01-30" } | 30/01 Qui | [Curitiba (descanso + explorar) :material-map-marker-path:](https://www.google.com/maps/search/pontos+turísticos+Curitiba,PR,Brazil){ target="_blank" } | - | 😴 **Folga** |
+| [13](#dia-13-sexta-31012026){ .dia-link data-date="2026-01-31" } | 31/01 Sex | [Curitiba → Ourinhos :material-map-marker-path:](https://www.google.com/maps/dir/Curitiba,PR,Brazil/Ourinhos,SP,Brazil){ target="_blank" } | 400 | 🔙 Retorno |
+| [14](#dia-14-sabado-01022026){ .dia-link data-date="2026-02-01" } | 01/02 Sáb | [Ourinhos → Uberaba :material-map-marker-path:](https://www.google.com/maps/dir/Ourinhos,SP,Brazil/Uberaba,MG,Brazil){ target="_blank" } | 360 | 🔙 Retorno |
+| [15](#dia-15-domingo-02022026){ .dia-link data-date="2026-02-02" } | 02/02 Dom | [Uberaba → Goiânia :material-map-marker-path:](https://www.google.com/maps/dir/Uberaba,MG,Brazil/Goiânia,GO,Brazil){ target="_blank" } | 380 | 🏠 Retorno |
+
+</div>
 
 ---
 
