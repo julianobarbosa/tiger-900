@@ -11,6 +11,82 @@
 
 ---
 
+## Timeline da Viagem
+
+<div id="viagem-timeline" class="timeline-container" markdown>
+
+<div class="timeline">
+
+<div class="timeline-phase" data-phase="1" data-start="2026-01-19" data-end="2026-01-22">
+<div class="phase-marker">🛣️</div>
+<div class="phase-content">
+<h4>Fase 1: Deslocamento</h4>
+<span class="phase-dates">19-22 Jan</span>
+<span class="phase-km">1.470 km</span>
+<div class="phase-days">
+<a href="#dia-1-domingo-19012026" class="day-dot" data-date="2026-01-19" title="Dia 1: Goiânia → Uberaba">1</a>
+<a href="#dia-2-segunda-20012026" class="day-dot" data-date="2026-01-20" title="Dia 2: Uberaba → Ourinhos">2</a>
+<a href="#dia-3-terca-21012026" class="day-dot" data-date="2026-01-21" title="Dia 3: Ourinhos → Ponta Grossa">3</a>
+<a href="#dia-4-quarta-22012026" class="day-dot" data-date="2026-01-22" title="Dia 4: Ponta Grossa → Urubici">4</a>
+</div>
+</div>
+</div>
+
+<div class="timeline-phase" data-phase="2" data-start="2026-01-23" data-end="2026-01-24">
+<div class="phase-marker">🏔️</div>
+<div class="phase-content">
+<h4>Fase 2: Serras Catarinenses</h4>
+<span class="phase-dates">23-24 Jan</span>
+<span class="phase-km">140 km</span>
+<div class="phase-days">
+<a href="#dia-5-quinta-23012026" class="day-dot" data-date="2026-01-23" title="Dia 5: Corvo Branco + Pedra Furada">5</a>
+<a href="#dia-6-sexta-24012026" class="day-dot climax" data-date="2026-01-24" title="Dia 6: Serra do Rio do Rastro ⭐">6</a>
+</div>
+</div>
+</div>
+
+<div class="timeline-phase" data-phase="3" data-start="2026-01-25" data-end="2026-01-28">
+<div class="phase-marker">🍇</div>
+<div class="phase-content">
+<h4>Fase 3: Cânions e Serra Gaúcha</h4>
+<span class="phase-dates">25-28 Jan</span>
+<span class="phase-km">460 km</span>
+<div class="phase-days">
+<a href="#dia-7-sabado-25012026" class="day-dot" data-date="2026-01-25" title="Dia 7: Bom Jardim → Cambará">7</a>
+<a href="#dia-8-domingo-26012026" class="day-dot" data-date="2026-01-26" title="Dia 8: Cânions">8</a>
+<a href="#dia-9-segunda-27012026" class="day-dot" data-date="2026-01-27" title="Dia 9: Cambará → Bento">9</a>
+<a href="#dia-10-terca-28012026" class="day-dot" data-date="2026-01-28" title="Dia 10: Vale dos Vinhedos 🍷">10</a>
+</div>
+</div>
+</div>
+
+<div class="timeline-phase" data-phase="4" data-start="2026-01-29" data-end="2026-02-02">
+<div class="phase-marker">🏠</div>
+<div class="phase-content">
+<h4>Fase 4: Retorno</h4>
+<span class="phase-dates">29 Jan - 02 Fev</span>
+<span class="phase-km">1.570 km</span>
+<div class="phase-days">
+<a href="#dia-11-quarta-29012026" class="day-dot" data-date="2026-01-29" title="Dia 11: Bento → Curitiba">11</a>
+<a href="#dia-12-quinta-30012026" class="day-dot folga" data-date="2026-01-30" title="Dia 12: Folga em Curitiba 😴">12</a>
+<a href="#dia-13-sexta-31012026" class="day-dot" data-date="2026-01-31" title="Dia 13: Curitiba → Ourinhos">13</a>
+<a href="#dia-14-sabado-01022026" class="day-dot" data-date="2026-02-01" title="Dia 14: Ourinhos → Uberaba">14</a>
+<a href="#dia-15-domingo-02022026" class="day-dot home" data-date="2026-02-02" title="Dia 15: Uberaba → Goiânia 🏠">15</a>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="timeline-progress-info">
+<span id="progress-status">Viagem começa em 19/01/2026</span>
+<span id="progress-percent"></span>
+</div>
+
+</div>
+
+---
+
 ## Resumo Executivo
 
 <div id="resumo-tabela" markdown>

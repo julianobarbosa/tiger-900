@@ -155,3 +155,239 @@
 [data-md-color-scheme="slate"] .dia-passado {
   opacity: 0.5;
 }
+
+/* === TIMELINE VERTICAL === */
+
+.timeline-container {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: var(--md-code-bg-color);
+  border-radius: 8px;
+  border-left: 4px solid var(--md-primary-fg-color);
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: relative;
+}
+
+/* Linha vertical conectora */
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 24px;
+  top: 40px;
+  bottom: 40px;
+  width: 3px;
+  background: linear-gradient(
+    to bottom,
+    var(--md-primary-fg-color) 0%,
+    var(--md-accent-fg-color) 50%,
+    var(--md-primary-fg-color) 100%
+  );
+  border-radius: 2px;
+}
+
+.timeline-phase {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+.phase-marker {
+  font-size: 1.8rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--md-default-bg-color);
+  border: 3px solid var(--md-primary-fg-color);
+  border-radius: 50%;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.timeline-phase.phase-atual .phase-marker {
+  background: var(--md-primary-fg-color);
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 150, 136, 0.5);
+}
+
+.timeline-phase.phase-passada .phase-marker {
+  opacity: 0.5;
+  border-color: var(--md-default-fg-color--light);
+}
+
+.timeline-phase.phase-futura .phase-marker {
+  opacity: 0.8;
+}
+
+.phase-content {
+  flex: 1;
+  padding-top: 0.5rem;
+}
+
+.phase-content h4 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1rem;
+  color: var(--md-default-fg-color);
+}
+
+.phase-dates {
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+  margin-right: 1rem;
+}
+
+.phase-km {
+  font-size: 0.8rem;
+  color: var(--md-accent-fg-color);
+  font-weight: 600;
+}
+
+/* Day dots dentro de cada fase */
+.phase-days {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.day-dot {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--md-default-bg-color);
+  border: 2px solid var(--md-primary-fg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--md-primary-fg-color);
+  transition: all 0.2s ease;
+}
+
+.day-dot:hover {
+  background: var(--md-primary-fg-color);
+  color: white;
+  transform: scale(1.15);
+}
+
+/* Estados dos dias */
+.day-dot.day-passado {
+  background: var(--md-default-fg-color--light);
+  border-color: var(--md-default-fg-color--light);
+  color: var(--md-default-bg-color);
+  opacity: 0.6;
+}
+
+.day-dot.day-hoje {
+  background: var(--md-primary-fg-color);
+  color: white;
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(0, 150, 136, 0.6);
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+.day-dot.day-futuro {
+  opacity: 0.9;
+}
+
+/* Dias especiais */
+.day-dot.climax {
+  border-color: #ffc107;
+  background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);
+}
+
+.day-dot.folga {
+  border-color: #9c27b0;
+}
+
+.day-dot.home {
+  border-color: #4caf50;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { box-shadow: 0 0 10px rgba(0, 150, 136, 0.6); }
+  50% { box-shadow: 0 0 20px rgba(0, 150, 136, 0.9); }
+}
+
+/* Progress info */
+.timeline-progress-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 0.9rem;
+}
+
+#progress-status {
+  color: var(--md-default-fg-color--light);
+}
+
+#progress-percent {
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+}
+
+/* === TIMELINE RESPONSIVO === */
+
+@media screen and (max-width: 768px) {
+  .timeline-container {
+    padding: 0.75rem;
+  }
+
+  .timeline::before {
+    left: 20px;
+  }
+
+  .phase-marker {
+    width: 40px;
+    height: 40px;
+    font-size: 1.4rem;
+  }
+
+  .phase-content h4 {
+    font-size: 0.9rem;
+  }
+
+  .day-dot {
+    width: 24px;
+    height: 24px;
+    font-size: 0.65rem;
+  }
+
+  .timeline-progress-info {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}
+
+/* === DARK MODE TIMELINE === */
+
+[data-md-color-scheme="slate"] .timeline-container {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+[data-md-color-scheme="slate"] .phase-marker {
+  background: var(--md-default-bg-color);
+}
+
+[data-md-color-scheme="slate"] .day-dot {
+  background: var(--md-default-bg-color);
+}
+
+[data-md-color-scheme="slate"] .day-dot.climax {
+  background: linear-gradient(135deg, #4a4000 0%, #665800 100%);
+}
