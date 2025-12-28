@@ -62,6 +62,11 @@
     - Atenção aos radares na saída de Goiânia
     - Uberaba é conhecida pelo Zebu - visite o ABCZ se tiver tempo
 
+!!! info "Assistência Triumph"
+    - **SAGA Goiânia:** [(62) 3416-2000](tel:+556234162000) - Rod. BR-153
+    - **Uberlândia:** [(34) 3253-4600](tel:+553432534600) - desvio de ~100km de Uberaba
+    - [Ver todas as concessionárias](assistencia-triumph.md)
+
 ---
 
 ### Dia 2 - Segunda, 20/01/2026
@@ -86,6 +91,10 @@
     - Rodovias paulistas excelentes
     - Pedágios frequentes (reserve ~R$ 50)
     - Ourinhos tem boas opções de hospedagem
+
+!!! info "Assistência Triumph"
+    - **Maggi Ribeirão Preto:** [(16) 3600-9750](tel:+551636009750) - Av. Braz Olaia Acosta, 520
+    - [Ver todas as concessionárias](assistencia-triumph.md)
 
 ---
 
@@ -177,6 +186,13 @@
 
 - Morro da Igreja (ponto mais alto de SC - 1.822m)
 - Cascata Véu de Noiva (62m)
+
+!!! warning "Assistência Triumph - Emergência"
+    Não há concessionárias na serra catarinense. Em caso de emergência:
+
+    - **Edisa Floripa:** [+55 (48) 9815-0143](tel:+5548981550143) - ~170km de Urubici
+    - **Triumph Assistência 24h:** **0800 727 2077** (reboque até 200km)
+    - [Ver todas as concessionárias](assistencia-triumph.md)
 
 ---
 
@@ -312,6 +328,10 @@ Uma das estradas mais bonitas do Brasil!
 - Mais de 30 vinícolas
 - Paisagem toscana brasileira
 
+!!! info "Assistência Triumph"
+    - **Caxias do Sul:** [(54) 3770-1317](tel:+555437701317) - apenas 30km de Bento Gonçalves
+    - [Ver todas as concessionárias](assistencia-triumph.md)
+
 ---
 
 ### Dia 10 - Terça, 28/01/2026
@@ -390,6 +410,14 @@ Uma das estradas mais bonitas do Brasil!
 - [ ] Verificar nível de óleo
 - [ ] Checar pastilhas de freio
 
+!!! success "Assistência Triumph - Revisão Recomendada"
+    Aproveite o dia de folga para uma revisão rápida na concessionária:
+
+    - **Triumph Curitiba:** [(41) 3330-2000](tel:+554133302000)
+    - **Endereço:** Rua Brandilina Rosa Vilella Pereira, 76 - Loja 02
+    - **Agende com antecedência!**
+    - [Ver detalhes da concessionária](assistencia-triumph.md#5-curitiba-pr)
+
 ---
 
 ### Dia 13 - Sexta, 31/01/2026
@@ -448,7 +476,11 @@ Uma das estradas mais bonitas do Brasil!
 - 07:00 - Saída de Uberaba
 - 09:00 - Parada em Frutal (café)
 - 10:30 - Parada em Itumbiara (combustível)
-- 12:00 - **Chegada em Goiânia!** 🏠
+- 12:00 - **Chegada em Goiânia!**
+
+!!! info "Assistência Triumph"
+    - **SAGA Goiânia:** [(62) 3416-2000](tel:+556234162000) - Rod. BR-153
+    - Faça uma revisão pós-viagem após ~3.200km rodados!
 
 ---
 
@@ -519,3 +551,5 @@ Bento → São José dos Ausentes → Vacaria → Lages → Curitiba → Goiâni
 *Roteiro otimizado para 15 dias. Horários e distâncias são estimativas. Ajuste conforme seu ritmo.*
 
 *Última atualização: Dezembro/2025*
+
+*Informações de assistência técnica atualizadas com dados do site oficial Triumph Brasil*

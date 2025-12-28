@@ -43,28 +43,23 @@
 
 ## Concessionárias Triumph na Rota
 
-### Paraná
+!!! info "Guia Completo"
+    Consulte o **[Guia de Assistência Técnica Triumph](assistencia-triumph.md)** para informações detalhadas de todas as concessionárias no trajeto, incluindo endereços, telefones e vinculação dia-a-dia.
 
-| Cidade | Concessionária | Telefone | Endereço |
-|--------|---------------|----------|----------|
-| **Curitiba** | Triumph Curitiba | (41) 3338-3338 | Av. Marechal Floriano Peixoto, 5503 |
-| **Londrina** | Triumph Londrina | (43) 3324-3324 | Av. Juscelino Kubitschek, 2500 |
+### Resumo Rápido
 
-### Santa Catarina
+| Região | Concessionária | Telefone | Dias do Roteiro |
+|--------|---------------|----------|-----------------|
+| **GO** | SAGA Goiânia | [(62) 3416-2000](tel:+556234162000) | 1, 15 |
+| **MG** | Uberlândia | [(34) 3253-4600](tel:+553432534600) | Desvio |
+| **SP** | Maggi Ribeirão Preto | [(16) 3600-9750](tel:+551636009750) | 2, 14 |
+| **PR** | North Londrina | [(43) 3328-8011](tel:+554333288011) | Desvio |
+| **PR** | Curitiba | [(41) 3330-2000](tel:+554133302000) | 11, 12, 13 |
+| **SC** | Edisa Floripa | [+55 48 9815-0143](tel:+5548981550143) | Emergência |
+| **RS** | Caxias do Sul | [(54) 3770-1317](tel:+555437701317) | 9, 10, 11 |
+| **RS** | Edisa POA | [(51) 3103-1560](tel:+555131031560) | Emergência |
 
-| Cidade | Concessionária | Telefone | Endereço |
-|--------|---------------|----------|----------|
-| **Florianópolis** | Triumph Floripa | (48) 3028-3028 | Rod. SC-401, 4800 |
-| **Joinville** | Triumph Joinville | (47) 3422-3422 | R. Otto Boehm, 500 |
-
-### Rio Grande do Sul
-
-| Cidade | Concessionária | Telefone | Endereço |
-|--------|---------------|----------|----------|
-| **Porto Alegre** | Triumph Porto Alegre | (51) 3337-3337 | Av. Ipiranga, 6681 |
-| **Caxias do Sul** | Triumph Caxias | (54) 3221-3221 | R. Sinimbu, 1800 |
-
-> **Nota:** Distâncias médias até concessionárias: 100-200 km das áreas de serra
+> **Nota:** Nas serras (Urubici, Bom Jardim, Cambará), a concessionária mais próxima fica a 150-200 km.
 
 ---
 
@@ -284,4 +279,4 @@
 ---
 
 *Mantenha este guia impresso ou salvo offline no celular.*
-*Última atualização: Dezembro 2024*
+*Última atualização: Dezembro/2025*

@@ -66,6 +66,7 @@ O orçamento foi calculado para uma viagem confortável, mas consciente.
 ## Guias Complementares
 
 - [:material-hospital-box: Guia de Emergências](guia-emergencias.md) - Hospitais, mecânicas, contatos
+- [:material-motorbike: Assistência Técnica Triumph](assistencia-triumph.md) - Concessionárias no trajeto
 - [:material-silverware-fork-knife: Guia Gastronômico](guia-gastronomico.md) - Onde comer em cada região
 - [:material-weather-partly-cloudy: Guia de Clima](guia-clima.md) - Previsões e o que vestir
 - [:material-tools: Manutenção em Viagem](manutencao-viagem.md) - Cuidados com a moto
