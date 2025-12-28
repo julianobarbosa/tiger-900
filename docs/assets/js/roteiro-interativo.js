@@ -3,12 +3,14 @@
  * Funcionalidades:
  * - Destaque do dia atual na tabela
  * - Timeline visual com progresso
+ * - Hover preview com imagens dos destinos
  * - Botão de compartilhamento
  */
 
 document.addEventListener('DOMContentLoaded', function() {
   highlightToday();
   updateTimeline();
+  initHoverPreviews();
   addShareButton();
 });
 
@@ -127,6 +129,62 @@ function updateTimeline() {
       percentEl.textContent = progress + '%';
     }
   }
+}
+
+/**
+ * Inicializa hover previews nos day-dots da timeline
+ */
+function initHoverPreviews() {
+  // Verifica se é mobile (não usar preview em touch)
+  if (window.matchMedia('(max-width: 768px)').matches) {
+    return;
+  }
+
+  var dayDots = document.querySelectorAll('.day-dot[data-preview-img]');
+
+  dayDots.forEach(function(dot) {
+    var imgUrl = dot.getAttribute('data-preview-img');
+    var title = dot.getAttribute('data-preview-title') || '';
+    var desc = dot.getAttribute('data-preview-desc') || '';
+
+    if (!imgUrl) return;
+
+    // Criar elemento de preview
+    var preview = document.createElement('div');
+    preview.className = 'day-preview';
+
+    // Imagem
+    var img = document.createElement('img');
+    img.className = 'day-preview-img';
+    img.src = imgUrl;
+    img.alt = title;
+    img.loading = 'lazy';
+    preview.appendChild(img);
+
+    // Texto
+    if (title || desc) {
+      var textDiv = document.createElement('div');
+      textDiv.className = 'day-preview-text';
+
+      if (title) {
+        var titleEl = document.createElement('div');
+        titleEl.className = 'day-preview-title';
+        titleEl.textContent = title;
+        textDiv.appendChild(titleEl);
+      }
+
+      if (desc) {
+        var descEl = document.createElement('div');
+        descEl.className = 'day-preview-desc';
+        descEl.textContent = desc;
+        textDiv.appendChild(descEl);
+      }
+
+      preview.appendChild(textDiv);
+    }
+
+    dot.appendChild(preview);
+  });
 }
 
 /**

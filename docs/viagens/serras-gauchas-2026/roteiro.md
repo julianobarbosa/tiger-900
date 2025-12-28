@@ -24,10 +24,10 @@
 <span class="phase-dates">19-22 Jan</span>
 <span class="phase-km">1.470 km</span>
 <div class="phase-days">
-<a href="#dia-1-domingo-19012026" class="day-dot" data-date="2026-01-19" title="Dia 1: Goiânia → Uberaba">1</a>
-<a href="#dia-2-segunda-20012026" class="day-dot" data-date="2026-01-20" title="Dia 2: Uberaba → Ourinhos">2</a>
-<a href="#dia-3-terca-21012026" class="day-dot" data-date="2026-01-21" title="Dia 3: Ourinhos → Ponta Grossa">3</a>
-<a href="#dia-4-quarta-22012026" class="day-dot" data-date="2026-01-22" title="Dia 4: Ponta Grossa → Urubici">4</a>
+<a href="#dia-1-domingo-19012026" class="day-dot" data-date="2026-01-19" title="Dia 1: Goiânia → Uberaba" data-preview-img="https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=400&h=300&fit=crop" data-preview-title="Goiânia → Uberaba" data-preview-desc="380 km pela BR-050">1</a>
+<a href="#dia-2-segunda-20012026" class="day-dot" data-date="2026-01-20" title="Dia 2: Uberaba → Ourinhos" data-preview-img="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=300&fit=crop" data-preview-title="Uberaba → Ourinhos" data-preview-desc="360 km rumo ao sul">2</a>
+<a href="#dia-3-terca-21012026" class="day-dot" data-date="2026-01-21" title="Dia 3: Ourinhos → Ponta Grossa" data-preview-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" data-preview-title="Ourinhos → Ponta Grossa" data-preview-desc="350 km chegando no Paraná">3</a>
+<a href="#dia-4-quarta-22012026" class="day-dot" data-date="2026-01-22" title="Dia 4: Ponta Grossa → Urubici" data-preview-img="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&h=300&fit=crop" data-preview-title="Ponta Grossa → Urubici" data-preview-desc="380 km até as serras catarinenses">4</a>
 </div>
 </div>
 </div>
@@ -39,8 +39,8 @@
 <span class="phase-dates">23-24 Jan</span>
 <span class="phase-km">140 km</span>
 <div class="phase-days">
-<a href="#dia-5-quinta-23012026" class="day-dot" data-date="2026-01-23" title="Dia 5: Corvo Branco + Pedra Furada">5</a>
-<a href="#dia-6-sexta-24012026" class="day-dot climax" data-date="2026-01-24" title="Dia 6: Serra do Rio do Rastro ⭐">6</a>
+<a href="#dia-5-quinta-23012026" class="day-dot" data-date="2026-01-23" title="Dia 5: Corvo Branco + Pedra Furada" data-preview-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" data-preview-title="Serra do Corvo Branco" data-preview-desc="Pedra Furada e mirantes">5</a>
+<a href="#dia-6-sexta-24012026" class="day-dot climax" data-date="2026-01-24" title="Dia 6: Serra do Rio do Rastro ⭐" data-preview-img="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&h=300&fit=crop" data-preview-title="Serra do Rio do Rastro" data-preview-desc="⭐ O ponto alto da viagem!">6</a>
 </div>
 </div>
 </div>
@@ -52,10 +52,10 @@
 <span class="phase-dates">25-28 Jan</span>
 <span class="phase-km">460 km</span>
 <div class="phase-days">
-<a href="#dia-7-sabado-25012026" class="day-dot" data-date="2026-01-25" title="Dia 7: Bom Jardim → Cambará">7</a>
-<a href="#dia-8-domingo-26012026" class="day-dot" data-date="2026-01-26" title="Dia 8: Cânions">8</a>
-<a href="#dia-9-segunda-27012026" class="day-dot" data-date="2026-01-27" title="Dia 9: Cambará → Bento">9</a>
-<a href="#dia-10-terca-28012026" class="day-dot" data-date="2026-01-28" title="Dia 10: Vale dos Vinhedos 🍷">10</a>
+<a href="#dia-7-sabado-25012026" class="day-dot" data-date="2026-01-25" title="Dia 7: Bom Jardim → Cambará" data-preview-img="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop" data-preview-title="Bom Jardim → Cambará" data-preview-desc="180 km rumo aos cânions">7</a>
+<a href="#dia-8-domingo-26012026" class="day-dot" data-date="2026-01-26" title="Dia 8: Cânions" data-preview-img="https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=400&h=300&fit=crop" data-preview-title="Cânions do Sul" data-preview-desc="Itaimbezinho e Fortaleza">8</a>
+<a href="#dia-9-segunda-27012026" class="day-dot" data-date="2026-01-27" title="Dia 9: Cambará → Bento" data-preview-img="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=400&h=300&fit=crop" data-preview-title="Serra Gaúcha" data-preview-desc="180 km até vinícolas">9</a>
+<a href="#dia-10-terca-28012026" class="day-dot" data-date="2026-01-28" title="Dia 10: Vale dos Vinhedos 🍷" data-preview-img="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=400&h=300&fit=crop" data-preview-title="Vale dos Vinhedos" data-preview-desc="🍷 Degustação de vinhos">10</a>
 </div>
 </div>
 </div>
@@ -67,11 +67,11 @@
 <span class="phase-dates">29 Jan - 02 Fev</span>
 <span class="phase-km">1.570 km</span>
 <div class="phase-days">
-<a href="#dia-11-quarta-29012026" class="day-dot" data-date="2026-01-29" title="Dia 11: Bento → Curitiba">11</a>
-<a href="#dia-12-quinta-30012026" class="day-dot folga" data-date="2026-01-30" title="Dia 12: Folga em Curitiba 😴">12</a>
-<a href="#dia-13-sexta-31012026" class="day-dot" data-date="2026-01-31" title="Dia 13: Curitiba → Ourinhos">13</a>
-<a href="#dia-14-sabado-01022026" class="day-dot" data-date="2026-02-01" title="Dia 14: Ourinhos → Uberaba">14</a>
-<a href="#dia-15-domingo-02022026" class="day-dot home" data-date="2026-02-02" title="Dia 15: Uberaba → Goiânia 🏠">15</a>
+<a href="#dia-11-quarta-29012026" class="day-dot" data-date="2026-01-29" title="Dia 11: Bento → Curitiba" data-preview-img="https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=400&h=300&fit=crop" data-preview-title="Bento → Curitiba" data-preview-desc="430 km início do retorno">11</a>
+<a href="#dia-12-quinta-30012026" class="day-dot folga" data-date="2026-01-30" title="Dia 12: Folga em Curitiba 😴" data-preview-img="https://images.unsplash.com/photo-1565711561500-49678a10a63f?w=400&h=300&fit=crop" data-preview-title="Curitiba" data-preview-desc="😴 Dia de descanso">12</a>
+<a href="#dia-13-sexta-31012026" class="day-dot" data-date="2026-01-31" title="Dia 13: Curitiba → Ourinhos" data-preview-img="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=300&fit=crop" data-preview-title="Curitiba → Ourinhos" data-preview-desc="400 km voltando">13</a>
+<a href="#dia-14-sabado-01022026" class="day-dot" data-date="2026-02-01" title="Dia 14: Ourinhos → Uberaba" data-preview-img="https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=400&h=300&fit=crop" data-preview-title="Ourinhos → Uberaba" data-preview-desc="360 km quase em casa">14</a>
+<a href="#dia-15-domingo-02022026" class="day-dot home" data-date="2026-02-02" title="Dia 15: Uberaba → Goiânia 🏠" data-preview-img="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=300&fit=crop" data-preview-title="Uberaba → Goiânia" data-preview-desc="🏠 Chegada em casa!">15</a>
 </div>
 </div>
 </div>
