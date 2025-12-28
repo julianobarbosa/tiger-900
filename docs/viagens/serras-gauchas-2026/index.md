@@ -44,3 +44,5 @@ Para enviar as rotas para o painel da Tiger 900:
 
 !!! info "Dica Técnica"
     Sempre mantenha os mapas offline do Google Maps baixados para a região, pois o sinal de celular é inexistente em vários trechos da serra.
+
+    [Confira o guia passo a passo para baixar mapas offline](mapas-offline.md).
