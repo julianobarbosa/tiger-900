@@ -1,14 +1,14 @@
 # Serras Gaúchas 2026: O Planejamento
 
 **Status:** :material-calendar: Planejamento
-**Data:** 19/01/2026 a 02/02/2026 (15 dias)
+**Data:** 19/01/2026 a 05/02/2026 (18 dias)
 **Moto:** Triumph Tiger 900 Rally Pro
 
 ---
 
 ## O Roteiro
 
-Esta expedição de 15 dias tem como foco as lendárias estradas das serras do Rio Grande do Sul e Santa Catarina. O objetivo não é apenas chegar, mas aproveitar cada curva.
+Esta expedição de 18 dias tem como foco as lendárias estradas das serras do Rio Grande do Sul e Santa Catarina, incluindo o lendário **Rastro da Serpente** com suas 1.200 curvas! O objetivo não é apenas chegar, mas aproveitar cada curva.
 
 - [:material-calendar: Ver Roteiro Detalhado (Dia a Dia)](roteiro.md)
 - [:material-checkbox-marked-outline: Ver Checklist de Viagem](checklist.md)
@@ -24,12 +24,13 @@ Esta expedição de 15 dias tem como foco as lendárias estradas das serras do R
 | Serras SC | 5-6 | Corvo Branco, Rio do Rastro |
 | Cânions | 7-8 | Itaimbezinho, Fortaleza |
 | Vinhedos | 9-10 | Vale dos Vinhedos |
-| Retorno | 11-15 | Via Curitiba (dia de folga) |
+| Retorno | 11-18 | Via Curitiba (dia de folga) |
 
 ---
 
 ## Destaques do Trajeto
 
+- :material-snake: **Rastro da Serpente:** 1.200 curvas de pura adrenalina!
 - :material-image-filter-hdr: **Serra do Rio do Rastro:** O teste definitivo de freios e vertigem.
 - :material-bird: **Serra do Corvo Branco:** Estradas estreitas e visuais dramáticos.
 - :material-terrain: **Cânions de Cambará do Sul:** Itaimbezinho e Fortaleza.
@@ -78,10 +79,12 @@ Os arquivos de rota detalhados estão disponíveis para download:
 
 | Arquivo | Descrição |
 |---------|-----------|
-| [:material-download: 01_Rota_Cenica_Completa.gpx](downloads/01_Rota_Cenica_Completa.gpx){ download } | Roteiro completo de 15 dias |
+| [:material-download: 00_Rota_Dream.gpx](downloads/00_Rota_Dream.gpx){ download } | Rota dos sonhos - destaques |
+| [:material-download: 01_Rota_Cenica_Completa.gpx](downloads/01_Rota_Cenica_Completa.gpx){ download } | Roteiro completo de 18 dias |
 | [:material-download: 02_Rota_Ida_Cenica.gpx](downloads/02_Rota_Ida_Cenica.gpx){ download } | Trecho Goiânia → Urubici |
 | [:material-download: 03_Rota_Volta_Asfaltada.gpx](downloads/03_Rota_Volta_Asfaltada.gpx){ download } | Retorno rápido (padrão) |
 | [:material-download: 04_Rota_Volta_Cenica.gpx](downloads/04_Rota_Volta_Cenica.gpx){ download } | Retorno cênico (alternativa) |
+| [:material-download: 05_Rota_Litoral_SC.gpx](downloads/05_Rota_Litoral_SC.gpx){ download } | Extensão pelo litoral de SC |
 
 ### Como usar os GPX
 
@@ -126,5 +129,5 @@ Bento → São José dos Ausentes → Vacaria → Lages → Curitiba → Goiâni
 
 ---
 
-*Última atualização: Dezembro/2025*
+*Última atualização: Janeiro/2026*
 
