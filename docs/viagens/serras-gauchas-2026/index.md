@@ -30,7 +30,7 @@ Esta expedição de 15 dias tem como foco as lendárias estradas das serras do R
 
 ## Destaques do Trajeto
 
-- :material-mountain: **Serra do Rio do Rastro:** O teste definitivo de freios e vertigem.
+- :material-image-filter-hdr: **Serra do Rio do Rastro:** O teste definitivo de freios e vertigem.
 - :material-bird: **Serra do Corvo Branco:** Estradas estreitas e visuais dramáticos.
 - :material-terrain: **Cânions de Cambará do Sul:** Itaimbezinho e Fortaleza.
 - :material-bottle-wine: **Vale dos Vinhedos:** Um pouco de conforto e gastronomia.
@@ -127,3 +127,4 @@ Bento → São José dos Ausentes → Vacaria → Lages → Curitiba → Goiâni
 ---
 
 *Última atualização: Dezembro/2025*
+
