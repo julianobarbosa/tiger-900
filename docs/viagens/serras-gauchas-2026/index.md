@@ -78,10 +78,10 @@ Os arquivos de rota detalhados estão disponíveis para download:
 
 | Arquivo | Descrição |
 |---------|-----------|
-| `01_Rota_Cenica_Completa.gpx` | Roteiro completo de 15 dias |
-| `02_Rota_Ida_Cenica.gpx` | Trecho Goiânia → Urubici |
-| `03_Rota_Volta_Asfaltada.gpx` | Retorno rápido (padrão) |
-| `04_Rota_Volta_Cenica.gpx` | Retorno cênico (alternativa) |
+| [:material-download: 01_Rota_Cenica_Completa.gpx](downloads/01_Rota_Cenica_Completa.gpx){ download } | Roteiro completo de 15 dias |
+| [:material-download: 02_Rota_Ida_Cenica.gpx](downloads/02_Rota_Ida_Cenica.gpx){ download } | Trecho Goiânia → Urubici |
+| [:material-download: 03_Rota_Volta_Asfaltada.gpx](downloads/03_Rota_Volta_Asfaltada.gpx){ download } | Retorno rápido (padrão) |
+| [:material-download: 04_Rota_Volta_Cenica.gpx](downloads/04_Rota_Volta_Cenica.gpx){ download } | Retorno cênico (alternativa) |
 
 ### Como usar os GPX
 

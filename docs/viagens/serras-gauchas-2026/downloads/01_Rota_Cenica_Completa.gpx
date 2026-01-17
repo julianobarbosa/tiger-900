@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Tiger900 Trip Planner"
+  xmlns="http://www.topografix.com/GPX/1/1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Serras Gaúchas 2026 - Roteiro Completo</name>
+    <desc>Expedição de 15 dias: Goiânia → Serras SC/RS → Goiânia</desc>
+    <author><name>Juliano Barbosa</name></author>
+    <time>2026-01-19T08:00:00Z</time>
+  </metadata>
+  <rte>
+    <name>Roteiro Completo 15 Dias</name>
+    <rtept lat="-16.6869" lon="-49.2648"><name>Goiânia - Partida</name><desc>Dia 1: Início da viagem</desc></rtept>
+    <rtept lat="-19.9167" lon="-43.9345"><name>Belo Horizonte</name><desc>Dia 2: Pernoite</desc></rtept>
+    <rtept lat="-22.9068" lon="-43.1729"><name>Rio de Janeiro</name><desc>Dia 3: Passagem</desc></rtept>
+    <rtept lat="-28.0147" lon="-49.5902"><name>Urubici</name><desc>Dia 4-5: Base para as serras</desc></rtept>
+    <rtept lat="-28.4647" lon="-49.5233"><name>Serra do Rio do Rastro</name><desc>Dia 5: Ponto alto</desc></rtept>
+    <rtept lat="-28.1836" lon="-49.3897"><name>Serra do Corvo Branco</name><desc>Dia 6: Travessia</desc></rtept>
+    <rtept lat="-29.0489" lon="-50.1439"><name>Cambará do Sul</name><desc>Dia 7-8: Cânions</desc></rtept>
+    <rtept lat="-29.1687" lon="-51.5181"><name>Bento Gonçalves</name><desc>Dia 9-10: Vale dos Vinhedos</desc></rtept>
+    <rtept lat="-28.7769" lon="-50.7056"><name>Vacaria</name><desc>Dia 11: Início retorno</desc></rtept>
+    <rtept lat="-25.4290" lon="-49.2671"><name>Curitiba</name><desc>Dia 12: Dia de descanso</desc></rtept>
+    <rtept lat="-23.5505" lon="-46.6333"><name>São Paulo (bypass)</name><desc>Dia 13: Passagem</desc></rtept>
+    <rtept lat="-19.7476" lon="-47.9356"><name>Uberaba</name><desc>Dia 14: Pernoite</desc></rtept>
+    <rtept lat="-16.6869" lon="-49.2648"><name>Goiânia - Chegada</name><desc>Dia 15: Fim da viagem</desc></rtept>
+  </rte>
+</gpx>

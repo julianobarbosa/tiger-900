@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Tiger900 Trip Planner"
+  xmlns="http://www.topografix.com/GPX/1/1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Serras Gaúchas 2026 - Retorno Rápido</name>
+    <desc>Retorno via rodovias principais: Bento → Goiânia (~1.570km em 5 dias)</desc>
+    <author><name>Juliano Barbosa</name></author>
+    <time>2026-01-30T08:00:00Z</time>
+  </metadata>
+  <rte>
+    <name>Retorno Rápido (Padrão)</name>
+    <rtept lat="-29.1687" lon="-51.5181"><name>Bento Gonçalves</name><desc>Dia 11: Partida</desc></rtept>
+    <rtept lat="-28.7769" lon="-50.7056"><name>Vacaria</name><desc>Dia 11: Via RS-020</desc></rtept>
+    <rtept lat="-28.2622" lon="-50.3354"><name>São José dos Ausentes</name><desc>Dia 11: Trecho cênico</desc></rtept>
+    <rtept lat="-25.4290" lon="-49.2671"><name>Curitiba</name><desc>Dia 12: Pernoite (dia de descanso)</desc></rtept>
+    <rtept lat="-23.3045" lon="-51.1696"><name>Londrina</name><desc>Dia 13: Via BR-376</desc></rtept>
+    <rtept lat="-22.3246" lon="-49.0606"><name>Ourinhos</name><desc>Dia 13: Pernoite</desc></rtept>
+    <rtept lat="-19.7476" lon="-47.9356"><name>Uberaba</name><desc>Dia 14: Via SP-294</desc></rtept>
+    <rtept lat="-18.5913" lon="-46.5194"><name>Patrocínio</name><desc>Dia 14: Pernoite</desc></rtept>
+    <rtept lat="-16.6869" lon="-49.2648"><name>Goiânia</name><desc>Dia 15: Chegada</desc></rtept>
+  </rte>
+</gpx>

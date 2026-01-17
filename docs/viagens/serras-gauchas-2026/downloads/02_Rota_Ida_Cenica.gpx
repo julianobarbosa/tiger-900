@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Tiger900 Trip Planner"
+  xmlns="http://www.topografix.com/GPX/1/1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Serras Gaúchas 2026 - Ida Cênica</name>
+    <desc>Trecho Goiânia → Urubici (Dias 1-4)</desc>
+    <author><name>Juliano Barbosa</name></author>
+    <time>2026-01-19T08:00:00Z</time>
+  </metadata>
+  <rte>
+    <name>Ida: Goiânia → Urubici</name>
+    <rtept lat="-16.6869" lon="-49.2648"><name>Goiânia</name><desc>Dia 1: Partida às 06:00</desc></rtept>
+    <rtept lat="-18.9113" lon="-48.2622"><name>Uberlândia</name><desc>Dia 1: Parada combustível</desc></rtept>
+    <rtept lat="-21.1767" lon="-47.8108"><name>Ribeirão Preto</name><desc>Dia 1: Pernoite</desc></rtept>
+    <rtept lat="-23.5505" lon="-46.6333"><name>São Paulo</name><desc>Dia 2: Bypass pelo Rodoanel</desc></rtept>
+    <rtept lat="-25.4290" lon="-49.2671"><name>Curitiba</name><desc>Dia 2: Pernoite</desc></rtept>
+    <rtept lat="-26.3044" lon="-48.8487"><name>Joinville</name><desc>Dia 3: Via SC-418</desc></rtept>
+    <rtept lat="-27.5954" lon="-48.5480"><name>Florianópolis</name><desc>Dia 3: Pernoite</desc></rtept>
+    <rtept lat="-28.4816" lon="-49.0039"><name>Gravatal</name><desc>Dia 4: Subida para serra</desc></rtept>
+    <rtept lat="-28.0147" lon="-49.5902"><name>Urubici</name><desc>Dia 4: Chegada - Base das serras</desc></rtept>
+  </rte>
+</gpx>

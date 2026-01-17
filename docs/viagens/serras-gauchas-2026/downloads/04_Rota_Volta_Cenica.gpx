@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Tiger900 Trip Planner"
+  xmlns="http://www.topografix.com/GPX/1/1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Serras Gaúchas 2026 - Retorno Cênico</name>
+    <desc>Retorno alternativo por estradas cênicas: Bento → Goiânia (~1.700km em 5 dias)</desc>
+    <author><name>Juliano Barbosa</name></author>
+    <time>2026-01-30T08:00:00Z</time>
+  </metadata>
+  <rte>
+    <name>Retorno Cênico (Alternativa)</name>
+    <rtept lat="-29.1687" lon="-51.5181"><name>Bento Gonçalves</name><desc>Dia 11: Partida</desc></rtept>
+    <rtept lat="-28.2622" lon="-50.3354"><name>São José dos Ausentes</name><desc>Dia 11: Estrada cênica RS-020</desc></rtept>
+    <rtept lat="-29.0489" lon="-50.1439"><name>Cambará do Sul (revisita)</name><desc>Dia 11: Vista dos cânions</desc></rtept>
+    <rtept lat="-28.7769" lon="-50.7056"><name>Vacaria</name><desc>Dia 11: Pernoite</desc></rtept>
+    <rtept lat="-27.8161" lon="-50.3269"><name>Lages</name><desc>Dia 12: Via SC-114</desc></rtept>
+    <rtept lat="-26.2441" lon="-49.2654"><name>Mafra</name><desc>Dia 12: Estrada cênica</desc></rtept>
+    <rtept lat="-25.4290" lon="-49.2671"><name>Curitiba</name><desc>Dia 12: Pernoite</desc></rtept>
+    <rtept lat="-24.0446" lon="-49.4583"><name>Ponta Grossa</name><desc>Dia 13: Via campos gerais</desc></rtept>
+    <rtept lat="-22.3246" lon="-49.0606"><name>Ourinhos</name><desc>Dia 13: Pernoite</desc></rtept>
+    <rtept lat="-19.7476" lon="-47.9356"><name>Uberaba</name><desc>Dia 14: Pernoite</desc></rtept>
+    <rtept lat="-16.6869" lon="-49.2648"><name>Goiânia</name><desc>Dia 15: Chegada</desc></rtept>
+  </rte>
+</gpx>
