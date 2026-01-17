@@ -50,6 +50,11 @@ nav:
     - 'Guia de Emergências': viagens/serras-gauchas-2026/guia-emergencias.md
     - 'Guia Gastronômico': viagens/serras-gauchas-2026/guia-gastronomico.md
     - 'Manutenção em Viagem': viagens/serras-gauchas-2026/manutencao-viagem.md
+    - 'Guia Vale dos Vinhedos': viagens/serras-gauchas-2026/guia-vale-vinhedos.md
+    - 'Guia Acesso aos Cânions': viagens/serras-gauchas-2026/guia-acesso-canions.md
+    - 'Dicas de Fotografia': viagens/serras-gauchas-2026/dicas-fotografia.md
+    - 'Opções de Camping': viagens/serras-gauchas-2026/camping-opcoes.md
+    - 'Pontos de Interesse': viagens/serras-gauchas-2026/pontos-interesse.md
   - Garagem:
     - 'Manutenção': garagem/manutencao.md
     - 'Ficha Técnica': garagem/ficha-tecnica.md
@@ -88,12 +93,16 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_javascript:
+  # Legacy scripts (to be migrated)
   - assets/js/roteiro-interativo.js
   - assets/js/pwa-register.js
   - assets/js/previsao-tempo.js
+  # New modular architecture loader
+  - assets/js/loader.js
 
 extra_css:
   - assets/css/roteiro-interativo.css
+  - assets/css/core.css
 
 extra:
   social:
