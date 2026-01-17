@@ -124,6 +124,46 @@
 | **Hospital São Geraldo** | Único | (54) 3281-1233 | R. Coronel Alfredo Steglich |
 | **UPA** | Urgência | (54) 3281-2800 | Centro |
 
+### Balneário Camboriú - SC
+
+| Hospital | Tipo | Telefone | Endereço |
+|----------|------|----------|----------|
+| **Hospital Santa Inês** | Privado | (47) 3366-6000 | R. 900, 206 - Centro |
+| **Hospital Municipal Ruth Cardoso** | Público | (47) 3363-7100 | R. Suécia, 213 |
+| **UPA Praia Central** | Urgência 24h | (47) 3261-6200 | Av. Brasil, 1700 |
+
+> **Nota:** Boa estrutura de saúde - cidade turística preparada para alta temporada
+
+### Bombinhas - SC
+
+| Hospital | Tipo | Telefone | Endereço |
+|----------|------|----------|----------|
+| **UPA Bombinhas** | Urgência 24h | (47) 3369-0150 | R. José Amândio Batista |
+| **Hospital Porto Belo** | Próximo (15km) | (47) 3369-4600 | Porto Belo |
+
+> **ATENÇÃO:** Cidade pequena - casos graves removidos para Itajaí ou Balneário Camboriú
+
+### Palhoça / Guarda do Embaú - SC
+
+| Hospital | Tipo | Telefone | Endereço |
+|----------|------|----------|----------|
+| **Hospital Regional de São José** | Público | (48) 3381-3600 | São José (20km) |
+| **UPA Palhoça** | Urgência 24h | (48) 3242-2100 | Centro Palhoça |
+| **Hospital Florianópolis** | Referência | (48) 3216-9000 | 40 km |
+
+> **ATENÇÃO:** Guarda do Embaú é vila pequena sem hospital. Emergências: Palhoça ou Florianópolis
+
+### Curitiba - PR
+
+| Hospital | Tipo | Telefone | Endereço |
+|----------|------|----------|----------|
+| **Hospital Cajuru** | Trauma/Urgência | (41) 3271-3000 | Av. São José, 300 |
+| **Hospital Evangélico** | Geral | (41) 3240-5000 | Al. Augusto Stellfeld, 1908 |
+| **Hospital das Clínicas UFPR** | Público | (41) 3360-1800 | R. General Carneiro, 181 |
+| **UPA Boa Vista** | Urgência 24h | (41) 3350-9447 | R. Irmã Tereza Joana |
+
+> **Nota:** Capital com estrutura completa - melhores hospitais da região
+
 ---
 
 ## Mecânicas de Moto na Rota
@@ -137,9 +177,12 @@
 | **Urubici** | - | - | Sem oficina especializada |
 | **Gramado** | Oficina do Marcos | (54) 99999-0003 | Geral |
 | **Bento Gonçalves** | Moto Bento | (54) 99999-0004 | Geral |
+| **Balneário Camboriú** | Moto BC | (47) 99999-0006 | Geral |
+| **Itajaí** | Triumph Itajaí | (47) 3348-3348 | Concessionária próxima |
 | **Curitiba** | SuperMoto | (41) 99999-0005 | Todas as marcas |
+| **Curitiba** | Triumph Curitiba | (41) 3338-3338 | Concessionária oficial |
 
-> **Dica:** Nas cidades pequenas (Urubici, São Joaquim, Cambará), não há oficinas especializadas. Leve kit de ferramentas completo.
+> **Dica:** Nas cidades pequenas (Urubici, São Joaquim, Cambará, Bombinhas, Guarda), não há oficinas especializadas. Leve kit de ferramentas completo.
 
 ---
 
@@ -152,6 +195,8 @@
 | **Ponta Grossa** | Disk Pneu | (42) 3222-0000 | Pneus moto disponíveis |
 | **Lages** | Borracharia Central | (49) 3222-0000 | Conserto tubeless |
 | **Gramado** | Pneu Mania | (54) 3286-0000 | Pode precisar pedir pneu |
+| **Balneário Camboriú** | Pneu BC | (47) 3366-0000 | Conserto básico |
+| **Itajaí** | Center Pneus | (47) 3344-0000 | Estoque maior - 10km de BC |
 | **Curitiba** | Superpneu | (41) 3333-0000 | Estoque completo |
 
 > **Recomendação:** Leve kit de reparo tubeless. Pneus específicos para Tiger 900 são difíceis de encontrar fora de capitais.
@@ -170,8 +215,12 @@
 | **Cambará do Sul** | Shell Centro | Pode fechar cedo |
 | **Gramado** | BR Mania | Av. das Hortênsias |
 | **Bento Gonçalves** | Ipiranga Centro | R. Marechal Deodoro |
+| **Balneário Camboriú** | Shell 24h | BR-101, saída BC |
+| **Itajaí** | Ipiranga BR-101 | 24h |
+| **Curitiba** | BR Mania | Av. das Torres |
 
 > **ATENÇÃO nas Serras:** Postos fecham cedo (20h-21h). Abasteça antes de entrar em áreas remotas.
+> **Litoral:** Postos 24h disponíveis em Balneário e Itajaí.
 
 ---
 
@@ -257,6 +306,8 @@
 | **Lages** | Panvel | (49) 3222-0000 |
 | **Gramado** | Drogaria Catarinense | (54) 3286-0000 |
 | **Bento Gonçalves** | Panvel Centro | (54) 3451-0000 |
+| **Balneário Camboriú** | Drogasil Central | (47) 3366-0000 |
+| **Itajaí** | Panvel 24h | (47) 3348-0000 |
 | **Curitiba** | Drogasil Batel | (41) 3342-0000 |
 
 ---
@@ -275,4 +326,4 @@
 ---
 
 *Mantenha este guia impresso ou salvo offline no celular.*
-*Última atualização: Dezembro 2024*
+*Última atualização: Janeiro 2026 - Adicionado Litoral SC e Curitiba*

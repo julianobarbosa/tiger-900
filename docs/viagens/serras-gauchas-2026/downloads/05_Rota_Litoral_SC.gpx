@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="PAI Travel Assistant" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Rota Litoral SC - Bento a Curitiba via Praias 2026</name>
+    <author>Juliano M. Barbosa</author>
+    <desc>Rota costeira de 3 dias: Bento Goncalves → Balneario Camboriu → Bombinhas → Guarda do Embau → Curitiba. Inclui Serra Verde Express.</desc>
+    <time>2026-01-17T00:00:00Z</time>
+  </metadata>
+
+  <trk>
+    <name>Litoral SC + Curitiba - 4 dias (Dias 11-14)</name>
+    <trkseg>
+      <!-- DIA 11: Bento Goncalves → Balneario Camboriu (280 km) -->
+
+      <trkpt lat="-29.1690" lon="-51.5170">
+        <name>Dia 11 - Bento Goncalves (Partida)</name>
+        <desc>Saida 07:00. Rumo ao litoral!</desc>
+      </trkpt>
+      <trkpt lat="-28.5076" lon="-50.9370">
+        <name>Vacaria - RS (Parada)</name>
+        <desc>Cafe + combustivel. ~1h30 de Bento.</desc>
+      </trkpt>
+      <trkpt lat="-26.9906" lon="-48.6352">
+        <name>Dia 11 - Balneario Camboriu (Pernoite)</name>
+        <desc>Chegada ~12:00. 280 km. Tarde: Teleferico + Interpraias.</desc>
+      </trkpt>
+
+      <!-- PONTOS DE INTERESSE BC -->
+      <trkpt lat="-26.9943" lon="-48.6254">
+        <name>Teleferico Unipraias (Barra Sul)</name>
+        <desc>Embarque para Laranjeiras. Unico teleferico que liga duas praias no Brasil. R$ 70-100.</desc>
+      </trkpt>
+      <trkpt lat="-27.0103" lon="-48.6087">
+        <name>Praia de Laranjeiras</name>
+        <desc>Desembarque do teleferico. Praia calma, estrutura boa.</desc>
+      </trkpt>
+      <trkpt lat="-27.0234" lon="-48.5932">
+        <name>Rodovia Interpraias</name>
+        <desc>Estrada cenica SC-412. Curvas tecnicas com vista do mar!</desc>
+      </trkpt>
+      <trkpt lat="-26.9750" lon="-48.6100">
+        <name>Praia Brava</name>
+        <desc>Por do sol! Praia jovem, surfe.</desc>
+      </trkpt>
+
+      <!-- DIA 12: Loop Bombinhas + Guarda do Embau (200 km) -->
+
+      <trkpt lat="-26.9906" lon="-48.6352">
+        <name>Dia 12 - BC (Partida manha)</name>
+        <desc>Saida 07:00 para Bombinhas. Dia de praias!</desc>
+      </trkpt>
+
+      <!-- BOMBINHAS -->
+      <trkpt lat="-27.1392" lon="-48.5142">
+        <name>Porto Belo - SC</name>
+        <desc>Passagem para Bombinhas. Cidade charmosa.</desc>
+      </trkpt>
+      <trkpt lat="-27.1500" lon="-48.4800">
+        <name>Entrada Bombinhas</name>
+        <desc>TPA R$ 3,50 moto. Unica entrada da peninsula.</desc>
+      </trkpt>
+      <trkpt lat="-27.1350" lon="-48.4720">
+        <name>Praia da Sepultura</name>
+        <desc>IMPERDIVEL! Aguas cristalinas, snorkel incrivel. Chegar cedo!</desc>
+      </trkpt>
+      <trkpt lat="-27.1617" lon="-48.4983">
+        <name>Praia de Zimbros</name>
+        <desc>Vila de pescadores. Almocos frescos, tranquilidade.</desc>
+      </trkpt>
+
+      <!-- GUARDA DO EMBAU -->
+      <trkpt lat="-27.8900" lon="-48.5800">
+        <name>Guarda do Embau</name>
+        <desc>9a Reserva Mundial de Surfe. Primeira do Brasil! Atravessar Rio da Madre de canoa (R$ 5-10).</desc>
+      </trkpt>
+      <trkpt lat="-27.8920" lon="-48.5750">
+        <name>Rio da Madre</name>
+        <desc>Travessia de canoa para a praia. Experiencia unica!</desc>
+      </trkpt>
+
+      <trkpt lat="-26.9906" lon="-48.6352">
+        <name>Dia 12 - BC (Retorno noite)</name>
+        <desc>Retorno ~18:30. ~200 km no total do loop.</desc>
+      </trkpt>
+
+      <!-- DIA 13: Balneario Camboriu → Curitiba (230 km) -->
+
+      <trkpt lat="-26.9906" lon="-48.6352">
+        <name>Dia 13 - BC (Partida)</name>
+        <desc>Saida 08:00. Rumo a Curitiba.</desc>
+      </trkpt>
+      <trkpt lat="-26.3045" lon="-48.8487">
+        <name>Joinville - SC (Parada)</name>
+        <desc>Cafe. Maior cidade de SC.</desc>
+      </trkpt>
+      <trkpt lat="-25.5280" lon="-49.1530">
+        <name>Serra do Mar</name>
+        <desc>Subida para Curitiba. Atencao neblina possivel!</desc>
+      </trkpt>
+      <trkpt lat="-25.4284" lon="-49.2733">
+        <name>Dia 13 - Curitiba (Pernoite)</name>
+        <desc>Chegada ~12:00. 230 km. Tarde livre para descanso.</desc>
+      </trkpt>
+
+      <!-- DIA 14: Curitiba - Serra Verde Express -->
+
+      <trkpt lat="-25.4355" lon="-49.2748">
+        <name>Dia 14 - Estacao Rodoferroviaria</name>
+        <desc>Embarque Serra Verde Express 08:30. Reservar antecipado!</desc>
+      </trkpt>
+      <trkpt lat="-25.4800" lon="-48.8400">
+        <name>Morretes - PR</name>
+        <desc>Chegada 12:45. Almoco: BARREADO (prato tipico). Retorno van ~R$ 50.</desc>
+      </trkpt>
+      <trkpt lat="-25.4284" lon="-49.2733">
+        <name>Dia 14 - Curitiba (Volta)</name>
+        <desc>Retorno van ~16:30. Noite: jantar Santa Felicidade.</desc>
+      </trkpt>
+
+      <!-- PONTOS OPCIONAIS CURITIBA -->
+      <trkpt lat="-25.4412" lon="-49.2927">
+        <name>Jardim Botanico</name>
+        <desc>Icone de Curitiba. Estufa de vidro. Gratis.</desc>
+      </trkpt>
+      <trkpt lat="-25.3842" lon="-49.2758">
+        <name>Opera de Arame</name>
+        <desc>Teatro em estrutura metalica. Arquitetura unica.</desc>
+      </trkpt>
+      <trkpt lat="-25.3950" lon="-49.3350">
+        <name>Santa Felicidade</name>
+        <desc>Bairro italiano. Jantar tipico italiano!</desc>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+  <!-- WAYPOINTS IMPORTANTES -->
+  <wpt lat="-26.9943" lon="-48.6254">
+    <name>Teleferico Unipraias</name>
+    <desc>Unico teleferico que liga duas praias no Brasil. Vista panoramica 360.</desc>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="-27.0234" lon="-48.5932">
+    <name>Rodovia Interpraias</name>
+    <desc>Estrada cenica costeira. Curvas tecnicas com vista do mar!</desc>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="-27.1350" lon="-48.4720">
+    <name>Praia da Sepultura</name>
+    <desc>Snorkel em aguas cristalinas. Melhor praia de Bombinhas!</desc>
+    <sym>Beach</sym>
+  </wpt>
+  <wpt lat="-27.8900" lon="-48.5800">
+    <name>Guarda do Embau</name>
+    <desc>9a Reserva Mundial de Surfe. Travessia de canoa pelo Rio da Madre.</desc>
+    <sym>Beach</sym>
+  </wpt>
+  <wpt lat="-25.4800" lon="-48.8400">
+    <name>Morretes - Serra Verde Express</name>
+    <desc>Destino do trem turistico. Barreado: carne cozida por 20h!</desc>
+    <sym>Restaurant</sym>
+  </wpt>
+</gpx>

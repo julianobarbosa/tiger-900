@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx version="1.1" creator="AssistenteAI">
+  <metadata>
+    <name>Expedicao Sul-Sudeste: Serras e Serpentes</name>
+    <desc>Roteiro baseado na transcrição: Limeira, Rastro da Serpente, Graciosa, Urubici e Serra da Macaca.</desc>
+  </metadata>
+
+  <!-- PONTO 1: Primeiro Pernoite - Limeira -->
+  <wpt lat="-22.5644" lon="-47.4017">
+    <name>01-Limeira-Pernoite</name>
+    <desc>Primeira parada após trecho longo de 800km [1, 2].</desc>
+    <sym>Hotel</sym>
+  </wpt>
+
+  <!-- PONTO 2: Rota via Sorocaba (Opcional pista dupla) -->
+  <wpt lat="-23.5015" lon="-47.4521">
+    <name>02-Sorocaba</name>
+    <desc>Opção de rota em pista dupla antes de Capão Bonito [1, 2].</desc>
+    <sym>City (Small)</sym>
+  </wpt>
+
+  <!-- PONTO 3: Início do Rastro da Serpente -->
+  <wpt lat="-24.0064" lon="-48.3489">
+    <name>03-Capao-Bonito</name>
+    <desc>Entrada da Serra do Rastro da Serpente [1, 2].</desc>
+    <sym>Scenic Area</sym>
+  </wpt>
+
+  <!-- PONTO 4: Base para a Graciosa -->
+  <wpt lat="-25.4284" lon="-49.2733">
+    <name>04-Curitiba</name>
+    <desc>Pernoite recomendado. Base para fazer a Graciosa no dia seguinte [1, 3].</desc>
+    <sym>City (Large)</sym>
+  </wpt>
+
+  <!-- PONTO 5: Estrada da Graciosa -->
+  <wpt lat="-25.3683" lon="-48.9169">
+    <name>05-Estrada-da-Graciosa</name>
+    <desc>Passeio sugerido para o dia seguinte à chegada em Curitiba [3, 4].</desc>
+    <sym>Scenic Area</sym>
+  </wpt>
+
+  <!-- PONTO 6: Rumo ao Sul -->
+  <wpt lat="-27.8174" lon="-50.3268">
+    <name>06-Lages</name>
+    <desc>Parada no caminho descendo para Urubici [3, 4].</desc>
+    <sym>City (Small)</sym>
+  </wpt>
+
+  <!-- PONTO 7: Destino Final Sul -->
+  <wpt lat="-28.0142" lon="-49.5913">
+    <name>07-Urubici</name>
+    <desc>Mencionado nos áudios como 'Rubico', destino final antes do retorno [3, 4].</desc>
+    <sym>Scenic Area</sym>
+  </wpt>
+
+  <!-- PONTO 8: Retorno e Pernoite na BR-116 -->
+  <wpt lat="-24.4883" lon="-47.8437">
+    <name>08-Registro-SP</name>
+    <desc>Pernoite estratégico na volta pela BR-116. Hotel na beira da estrada [3, 4].</desc>
+    <sym>Hotel</sym>
+  </wpt>
+
+  <!-- PONTO 9: Atração Final de Retorno -->
+  <wpt lat="-24.0592" lon="-47.9944">
+    <name>09-Serra-da-Macaca</name>
+    <desc>Serra dentro do P.E. Carlos Botelho. Acesso sugerido após Registro [3, 4].</desc>
+    <sym>Scenic Area</sym>
+  </wpt>
+
+  <!-- ROTA SEQUENCIAL -->
+  <rte>
+    <name>Rota Completa das Serras</name>
+    <rtept lat="-22.5644" lon="-47.4017"><name>Limeira</name></rtept>
+    <rtept lat="-23.5015" lon="-47.4521"><name>Sorocaba</name></rtept>
+    <rtept lat="-24.0064" lon="-48.3489"><name>Capao Bonito</name></rtept>
+    <rtept lat="-25.4284" lon="-49.2733"><name>Curitiba</name></rtept>
+    <rtept lat="-25.3683" lon="-48.9169"><name>Graciosa</name></rtept>
+    <rtept lat="-27.8174" lon="-50.3268"><name>Lages</name></rtept>
+    <rtept lat="-28.0142" lon="-49.5913"><name>Urubici</name></rtept>
+    <rtept lat="-24.4883" lon="-47.8437"><name>Registro</name></rtept>
+    <rtept lat="-24.0592" lon="-47.9944"><name>Serra da Macaca</name></rtept>
+  </rte>
+</gpx>

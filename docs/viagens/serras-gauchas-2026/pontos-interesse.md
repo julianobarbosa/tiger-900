@@ -38,20 +38,33 @@
 │     CÂNIONS         │ ← Itaimbezinho, Fortaleza
 │ (Cambará do Sul)    │
 └─────────────────────┘
-       ↓ (130 km)
-┌─────────────────────┐
-│   SERRA GAÚCHA      │ ← Gramado, Canela
-└─────────────────────┘
-       ↓ (80 km)
+       ↓ (180 km)
 ┌─────────────────────┐
 │ VALE DOS VINHEDOS   │ ← Vinícolas, gastronomia
 │ (Bento Gonçalves)   │
 └─────────────────────┘
-       ↓ (50 km)
+       ↓ (280 km)
 ┌─────────────────────┐
-│  ROTA ROMÂNTICA     │ ← Cidades alemãs
-│ (Nova Petrópolis)   │
+│  LITORAL SC (NOVO)  │ ← Teleférico, praias, surfe
+│ (Balneário Camboriú)│
 └─────────────────────┘
+       ↓ (60 km)
+┌─────────────────────┐
+│    BOMBINHAS        │ ← 39 praias, snorkel
+│   (Península)       │
+└─────────────────────┘
+       ↓ (100 km)
+┌─────────────────────┐
+│ GUARDA DO EMBAÚ     │ ← Reserva Mundial de Surfe
+│    (Palhoça)        │
+└─────────────────────┘
+       ↓ (230 km)
+┌─────────────────────┐
+│    CURITIBA         │ ← Serra Verde Express
+│  (Capital do PR)    │
+└─────────────────────┘
+       ↓ (750 km)
+    GOIÂNIA
 ```
 
 ---
@@ -307,6 +320,179 @@
 
 ---
 
+## Litoral Catarinense
+
+### Balneário Camboriú
+
+| Informação | Detalhe |
+|------------|---------|
+| **Localização** | Litoral norte de SC |
+| **Apelido** | "Dubai Brasileira" |
+| **Destaque** | Prédios altos + praias |
+
+**Atrações principais:**
+
+| Atração | Tipo | Valor |
+|---------|------|-------|
+| **Teleférico Unipraias** | Transporte aéreo | R$ 70-100 |
+| **Cristo Luz** | Monumento | R$ 30-50 |
+| **Rodovia Interpraias** | Estrada cênica | Gratuito |
+| **Parque Unipraias** | Aventura | R$ 50-80 |
+
+**Teleférico Unipraias:**
+
+| Informação | Detalhe |
+|------------|---------|
+| **Único no Brasil** | Liga duas praias pelo ar |
+| **Trajeto** | Barra Sul → Laranjeiras |
+| **Horário** | 09h-19h |
+| **Duração** | ~3 minutos cada trecho |
+| **Vista** | Panorâmica 360° da costa |
+
+**Rodovia Interpraias:**
+- Estrada cênica costeira (SC-412)
+- Praias: Laranjeiras, Taquaras, Pinho, Estaleiro, Estaleirinho
+- Mirantes com vistas incríveis do mar
+- Curvas técnicas - ótimo para moto!
+
+**Praias de Balneário:**
+| Praia | Característica |
+|-------|----------------|
+| **Central** | Urbana, infraestrutura |
+| **Barra Sul** | Partida teleférico |
+| **Laranjeiras** | Chegada teleférico, calma |
+| **Praia Brava** | Surfe, jovem |
+| **Taquaras** | Família, sossegada |
+
+---
+
+### Bombinhas
+
+| Informação | Detalhe |
+|------------|---------|
+| **Localização** | Península, 70km de Florianópolis |
+| **Praias** | 39 praias na península |
+| **TPA (taxa)** | R$ 3,50 para motos |
+| **Acesso** | Via Porto Belo |
+
+**Destaques:**
+
+| Praia | Característica | Ideal para |
+|-------|----------------|------------|
+| **Sepultura** | Águas cristalinas | Snorkel, mergulho |
+| **Bombinhas** | Principal, infraestrutura | Famílias |
+| **Bombas** | Ondas | Surfe |
+| **Zimbros** | Vila de pescadores | Gastronomia, tranquilidade |
+| **Mariscal** | Extensa, dunas | Caminhada |
+| **Lagoinha** | Pequena, preservada | Fotos |
+
+**Mirantes e trilhas:**
+
+| Local | Tipo | Tempo |
+|-------|------|-------|
+| **Morro do Macaco** | Trilha + mirante | 1h30 ida |
+| **Costão da Sepultura** | Trilha curta | 30 min |
+| **Mirante Eco 360** | Plataforma | 15 min caminhada |
+
+**Dicas Bombinhas:**
+- TPA obrigatória na entrada (R$ 3,50 moto)
+- Estrada de acesso com curvas - divertida!
+- Alta temporada: chegar cedo (8h)
+- Sepultura: levar máscara de snorkel
+
+---
+
+### Guarda do Embaú
+
+| Informação | Detalhe |
+|------------|---------|
+| **Localização** | 46km sul de Florianópolis |
+| **Município** | Palhoça |
+| **Status** | 9ª Reserva Mundial de Surfe |
+| **Destaque** | Primeira do Brasil |
+
+**O que torna especial:**
+- Vilarejo preservado, clima rústico
+- Atravessia de canoa pelo Rio da Madre
+- Ondas consistentes para surfe
+- Paisagem de Mata Atlântica
+- Comunidade local acolhedora
+
+**Como funciona o acesso:**
+1. Estacionar a moto no vilarejo
+2. Atravessar o Rio da Madre de canoa (R$ 5-10)
+3. Caminhada pela praia
+
+**Atrações:**
+
+| Local | Característica |
+|-------|----------------|
+| **Praia da Guarda** | Principal, surfe |
+| **Rio da Madre** | Travessia de canoa |
+| **Trilha da Pedra do Urubu** | Vista panorâmica |
+| **Vila** | Restaurantes, artesanato |
+
+**Dicas:**
+- Melhor época surfe: outono/inverno
+- Janeiro: mar mais calmo, bom para banho
+- Almoço: peixes frescos nos restaurantes locais
+- Estrutura simples - leve água e protetor solar
+
+---
+
+### Serra Verde Express (Curitiba - Morretes)
+
+| Informação | Detalhe |
+|------------|---------|
+| **Tipo** | Trem turístico histórico |
+| **Trajeto** | Curitiba → Morretes |
+| **Distância** | 110 km de trilhos |
+| **Duração** | 4h15 (descida) |
+| **Paisagem** | Serra do Mar, Mata Atlântica |
+
+**Classes disponíveis:**
+
+| Classe | Preço | Característica |
+|--------|-------|----------------|
+| **Econômica** | R$ 35-50 | Básica |
+| **Turística** | R$ 80-100 | Recomendada |
+| **Boutique** | R$ 130-150 | Confortável |
+| **Luxo** | R$ 150-180 | Premium |
+
+**Horários:**
+| Sentido | Saída | Chegada |
+|---------|-------|---------|
+| Curitiba → Morretes | 08:30 | 12:45 |
+| Morretes → Curitiba | 15:00 | 18:30 |
+
+**Destaques do trajeto:**
+- Viaduto Carvalho (curva sobre abismo)
+- Ponte São João (engenharia histórica)
+- Véu de Noiva (cachoeira visível do trem)
+- Mata Atlântica preservada
+
+**Morretes - O que fazer:**
+
+| Atração | Tipo |
+|---------|------|
+| **Barreado** | Prato típico (carne 20h cozida) |
+| **Centro histórico** | Casarões coloniais |
+| **Rio Nhundiaquara** | Passeio de barco |
+| **Feira de artesanato** | Souvenires locais |
+
+**Retorno:**
+- Van/ônibus: ~R$ 50 (1h30)
+- Trem volta: comprar passagem separada
+- Estrada da Graciosa: cênica mas demorada
+
+**Dicas importantes:**
+- Reservar antecipado: serraverdeexpress.com.br
+- Sentar lado DIREITO (melhor vista descendo)
+- Levar câmera/GoPro
+- Jaqueta (ar-condicionado frio)
+
+---
+
 ## Rota Romântica
 
 ### Nova Petrópolis
@@ -371,6 +557,10 @@
 | Vinícolas | Bom | Vindima | Bom |
 | Urubici | Quente | Geada/neve | Ameno |
 | Gramado | Lotado | Frio agradável | Florido |
+| **Balneário Camboriú** | **Lotado, quente** | Vazio, frio | Agradável |
+| **Bombinhas** | **Lotado, mar calmo** | Vazio | Bom |
+| **Guarda do Embaú** | Mar calmo | Ondas! | Bom |
+| **Serra Verde Express** | Bom | Frio, neblina | Bom |
 
 ---
 
@@ -385,8 +575,14 @@
 | Cânions | 2 | 1 |
 | Gramado/Canela | 2 | 1 |
 | Vale dos Vinhedos | 2 | 1 |
+| **Balneário Camboriú** | **2** | **1** |
+| **Bombinhas** | **2** | **0.5** |
+| **Guarda do Embaú** | **1** | **0.5** |
+| **Curitiba + Serra Verde** | **2** | **1** |
 | Rota Romântica | 1 | 0.5 |
 
 ---
 
 *Valores de ingressos são estimativas para 2025/2026. Confirme antes de visitar.*
+
+*Última atualização: Janeiro/2026 - Adicionado Litoral SC e Serra Verde Express*

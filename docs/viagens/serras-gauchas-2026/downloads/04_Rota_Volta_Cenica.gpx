@@ -1,90 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gpx version="1.1" creator="Tiger900 Trip Planner"
-  xmlns="http://www.topografix.com/GPX/1/1"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<gpx version="1.1" creator="PAI Travel Assistant" xmlns="http://www.topografix.com/GPX/1/1">
   <metadata>
-    <name>Serras Gaúchas 2026 - Retorno Cênico</name>
-    <desc>Retorno alternativo Bento Gonçalves → Goiânia por estradas cênicas. ~1.700km em 5 dias. Revisita a serra e campos gerais. Para quem quer aproveitar mais!</desc>
-    <author><name>Juliano Barbosa</name></author>
-    <time>2026-01-30T08:00:00Z</time>
+    <name>Rota de Volta - Cenica (Alternativa)</name>
+    <author>Juliano M. Barbosa</author>
+    <desc>Retorno cenico de Bento Goncalves ate Goiania via Sao Jose dos Ausentes e Lages. Paisagens incriveis, revisita a serra.</desc>
   </metadata>
-
-  <!-- WAYPOINTS -->
-  <wpt lat="-29.1687" lon="-51.5181"><name>Bento Gonçalves - PARTIDA</name><desc>Dia 11: Última taça de vinho antes da estrada</desc><sym>Flag, Green</sym></wpt>
-  <wpt lat="-28.2944" lon="-50.3861"><name>São José dos Ausentes</name><desc>Dia 11: Estrada cênica RS-020 - paisagens incríveis</desc><sym>Scenic Area</sym></wpt>
-  <wpt lat="-29.0489" lon="-50.1439"><name>Cambará do Sul (revisita)</name><desc>Dia 11: Última vista dos cânions ao pôr do sol</desc><sym>Scenic Area</sym></wpt>
-  <wpt lat="-28.7769" lon="-50.7056"><name>Vacaria</name><desc>Dia 11: PERNOITE - Churrasco de lá!</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-27.8161" lon="-50.3269"><name>Lages</name><desc>Dia 12: Parada - maior cidade da serra</desc><sym>Gas Station</sym></wpt>
-  <wpt lat="-26.2441" lon="-49.2654"><name>Rio Negrinho</name><desc>Dia 12: Estrada cênica SC-114/SC-301</desc><sym>Scenic Area</sym></wpt>
-  <wpt lat="-25.4290" lon="-49.2671"><name>Curitiba - DESCANSO</name><desc>Dia 12: PERNOITE - Chegada à noite</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-25.0945" lon="-50.1633"><name>Ponta Grossa</name><desc>Dia 13: Parque Vila Velha (opcional)</desc><sym>Trail Head</sym></wpt>
-  <wpt lat="-24.2500" lon="-50.0167"><name>Campos Gerais</name><desc>Dia 13: Paisagem única - cânions e campos</desc><sym>Scenic Area</sym></wpt>
-  <wpt lat="-22.9789" lon="-49.8706"><name>Ourinhos</name><desc>Dia 13: PERNOITE</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-19.7476" lon="-47.9356"><name>Uberaba</name><desc>Dia 14: PERNOITE</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-17.8833" lon="-47.7667"><name>Caldas Novas</name><desc>Dia 15: Parada nas águas quentes (opcional)</desc><sym>Swimming Area</sym></wpt>
-  <wpt lat="-16.6869" lon="-49.2648"><name>Goiânia - CHEGADA</name><desc>Dia 15: FIM DA EXPEDIÇÃO!</desc><sym>Flag, Red</sym></wpt>
-
-  <!-- TRACK -->
   <trk>
-    <name>Retorno Cênico: Bento → Goiânia</name>
-    <desc>~1.700km em 5 dias - Via serras e estradas cênicas</desc>
+    <name>Volta Cenica - Bento a Goiania</name>
     <trkseg>
-      <!-- Dia 11: Bento Gonçalves → Vacaria (~200km cênico) -->
-      <trkpt lat="-29.1687" lon="-51.5181"><ele>618</ele><name>Bento Gonçalves</name></trkpt>
-      <trkpt lat="-29.0167" lon="-51.1833"><ele>700</ele><name>Flores da Cunha</name></trkpt>
-      <trkpt lat="-28.8833" lon="-50.8167"><ele>850</ele><name>São Marcos</name></trkpt>
-      <trkpt lat="-28.7769" lon="-50.7056"><ele>955</ele><name>Vacaria (passagem)</name></trkpt>
-      <trkpt lat="-28.5167" lon="-50.4000"><ele>1000</ele></trkpt>
-      <trkpt lat="-28.2944" lon="-50.3861"><ele>1200</ele><name>São José dos Ausentes</name></trkpt>
-      <trkpt lat="-28.7472" lon="-50.0697"><ele>1100</ele><name>Estrada RS-020</name></trkpt>
-      <trkpt lat="-29.0489" lon="-50.1439"><ele>1020</ele><name>Cambará do Sul (revisita)</name></trkpt>
-      <trkpt lat="-28.7769" lon="-50.7056"><ele>955</ele><name>Vacaria</name></trkpt>
+      <!-- Dia 11: Bento Goncalves → Sao Jose dos Ausentes (opcional) → Vacaria -->
+      <trkpt lat="-29.1690" lon="-51.5170">
+        <name>Bento Goncalves - RS (Partida)</name>
+        <desc>Inicio do retorno cenico</desc>
+      </trkpt>
+      <trkpt lat="-28.7461" lon="-50.0697">
+        <name>Sao Jose dos Ausentes - RS</name>
+        <desc>Rota do Sol - paisagens incriveis. Altitude 1.200m. Opcional pernoite.</desc>
+      </trkpt>
+      <trkpt lat="-28.5076" lon="-50.9370">
+        <name>Vacaria - RS</name>
+        <desc>Capital Nacional da Maca</desc>
+      </trkpt>
 
-      <!-- Dia 12: Vacaria → Curitiba (~400km cênico) -->
-      <trkpt lat="-28.4333" lon="-50.5667"><ele>920</ele></trkpt>
-      <trkpt lat="-27.8161" lon="-50.3269"><ele>916</ele><name>Lages</name></trkpt>
-      <trkpt lat="-27.4833" lon="-50.3333"><ele>880</ele><name>Ponte Alta</name></trkpt>
-      <trkpt lat="-27.1667" lon="-50.1833"><ele>820</ele><name>Curitibanos</name></trkpt>
-      <trkpt lat="-26.8833" lon="-50.0000"><ele>780</ele><name>Santa Cecília</name></trkpt>
-      <trkpt lat="-26.4833" lon="-49.5833"><ele>750</ele><name>Campo Alegre</name></trkpt>
-      <trkpt lat="-26.2441" lon="-49.2654"><ele>793</ele><name>Rio Negrinho</name></trkpt>
-      <trkpt lat="-26.1117" lon="-49.8053"><ele>800</ele><name>Mafra</name></trkpt>
-      <trkpt lat="-25.7833" lon="-49.6833"><ele>850</ele><name>Rio Negro</name></trkpt>
-      <trkpt lat="-25.5333" lon="-49.3833"><ele>900</ele><name>Lapa</name></trkpt>
-      <trkpt lat="-25.4290" lon="-49.2671"><ele>934</ele><name>Curitiba</name></trkpt>
+      <!-- Dia 12: Vacaria → Lages -->
+      <trkpt lat="-27.8170" lon="-50.3264">
+        <name>Lages - SC</name>
+        <desc>Capital Nacional do Pinhao. Experimente o entrevero.</desc>
+      </trkpt>
 
-      <!-- Dia 13: Curitiba → Ourinhos (~450km) -->
-      <trkpt lat="-25.2500" lon="-49.9833"><ele>950</ele><name>Palmeira</name></trkpt>
-      <trkpt lat="-25.0945" lon="-50.1633"><ele>975</ele><name>Ponta Grossa</name></trkpt>
-      <trkpt lat="-25.0833" lon="-50.0667"><ele>900</ele><name>Parque Vila Velha</name></trkpt>
-      <trkpt lat="-24.7833" lon="-50.0167"><ele>850</ele><name>Castro</name></trkpt>
-      <trkpt lat="-24.5167" lon="-49.9500"><ele>820</ele><name>Tibagi</name></trkpt>
-      <trkpt lat="-24.2500" lon="-50.0167"><ele>780</ele><name>Campos Gerais</name></trkpt>
-      <trkpt lat="-23.9167" lon="-50.0833"><ele>700</ele><name>Jaguariaíva</name></trkpt>
-      <trkpt lat="-23.6000" lon="-50.6500"><ele>650</ele><name>Siqueira Campos</name></trkpt>
-      <trkpt lat="-23.3045" lon="-51.1696"><ele>576</ele><name>Londrina</name></trkpt>
-      <trkpt lat="-23.1167" lon="-50.3667"><ele>520</ele><name>Cambará</name></trkpt>
-      <trkpt lat="-22.9789" lon="-49.8706"><ele>480</ele><name>Ourinhos</name></trkpt>
+      <!-- Dia 13: Lages → Curitiba -->
+      <trkpt lat="-25.4284" lon="-49.2733">
+        <name>Curitiba - PR</name>
+        <desc>Dia de folga opcional. Jardim Botanico, Opera de Arame.</desc>
+      </trkpt>
 
-      <!-- Dia 14: Ourinhos → Uberaba (~400km) -->
-      <trkpt lat="-22.7500" lon="-49.6167"><ele>500</ele><name>Santa Cruz do Rio Pardo</name></trkpt>
-      <trkpt lat="-22.3246" lon="-49.0606"><ele>460</ele><name>Bauru</name></trkpt>
-      <trkpt lat="-21.9667" lon="-48.5667"><ele>500</ele><name>Jaú</name></trkpt>
-      <trkpt lat="-21.7833" lon="-48.1833"><ele>520</ele><name>Araraquara</name></trkpt>
-      <trkpt lat="-21.2092" lon="-48.1747"><ele>510</ele></trkpt>
-      <trkpt lat="-20.5194" lon="-47.4000"><ele>680</ele><name>Franca</name></trkpt>
-      <trkpt lat="-19.7476" lon="-47.9356"><ele>764</ele><name>Uberaba</name></trkpt>
+      <!-- Dia 14: Curitiba → Ourinhos -->
+      <trkpt lat="-25.0945" lon="-50.1619">
+        <name>Ponta Grossa - PR (Passagem)</name>
+        <desc>Parada para cafe</desc>
+      </trkpt>
+      <trkpt lat="-22.9797" lon="-49.8708">
+        <name>Ourinhos - SP</name>
+        <desc>Pernoite</desc>
+      </trkpt>
 
-      <!-- Dia 15: Uberaba → Goiânia (~420km cênico) -->
-      <trkpt lat="-19.4833" lon="-47.6500"><ele>800</ele><name>Sacramento</name></trkpt>
-      <trkpt lat="-19.2167" lon="-47.4167"><ele>850</ele><name>Araxá</name></trkpt>
-      <trkpt lat="-18.6333" lon="-47.0333"><ele>920</ele><name>Monte Carmelo</name></trkpt>
-      <trkpt lat="-18.1833" lon="-47.9333"><ele>870</ele><name>Itumbiara</name></trkpt>
-      <trkpt lat="-17.8833" lon="-47.7667"><ele>500</ele><name>Caldas Novas</name></trkpt>
-      <trkpt lat="-17.4833" lon="-48.1833"><ele>700</ele><name>Morrinhos (via rural)</name></trkpt>
-      <trkpt lat="-17.0000" lon="-48.9500"><ele>750</ele><name>Bela Vista de Goiás</name></trkpt>
-      <trkpt lat="-16.6869" lon="-49.2648"><ele>749</ele><name>Goiânia - CHEGADA</name></trkpt>
+      <!-- Dia 15: Ourinhos → Uberaba → Goiania -->
+      <trkpt lat="-19.7500" lon="-47.9318">
+        <name>Uberaba - MG</name>
+        <desc>Parada para almoco</desc>
+      </trkpt>
+      <trkpt lat="-16.6869" lon="-49.2648">
+        <name>Goiania - GO (Chegada)</name>
+        <desc>Fim da viagem!</desc>
+      </trkpt>
     </trkseg>
   </trk>
+
+  <!-- Waypoints importantes -->
+  <wpt lat="-28.7461" lon="-50.0697">
+    <name>Mirante Sao Jose dos Ausentes</name>
+    <desc>Vista panoramica da Rota do Sol</desc>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="-27.8170" lon="-50.3264">
+    <name>Lages - Pinhao</name>
+    <desc>Experimente pinhao assado e entrevero</desc>
+    <sym>Restaurant</sym>
+  </wpt>
 </gpx>

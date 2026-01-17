@@ -1,123 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gpx version="1.1" creator="Tiger900 Trip Planner"
-  xmlns="http://www.topografix.com/GPX/1/1"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<gpx version="1.1" creator="PAI Travel Assistant" xmlns="http://www.topografix.com/GPX/1/1">
   <metadata>
-    <name>Serras Gaúchas 2026 - Roteiro Completo 15 Dias</name>
-    <desc>Expedição completa: Goiânia → Serras SC/RS → Vale dos Vinhedos → Goiânia. Inclui Serra do Rio do Rastro, Corvo Branco, Cânions e vinícolas.</desc>
-    <author><name>Juliano Barbosa</name></author>
-    <time>2026-01-19T06:00:00Z</time>
+    <name>Rota Cenica Completa - Goiania as Serras Gauchas + Litoral SC 2026</name>
+    <author>Juliano M. Barbosa</author>
+    <desc>Viagem de 18 dias de moto - Triumph Tiger 900 Rally Pro. Roteiro otimizado incluindo Litoral SC (Balneario Camboriu, Bombinhas, Guarda do Embau) e Serra Verde Express.</desc>
+    <time>2026-01-17T00:00:00Z</time>
   </metadata>
 
-  <!-- WAYPOINTS - Pontos de interesse e pernoites -->
-  <wpt lat="-16.6869" lon="-49.2648"><name>Goiânia - PARTIDA</name><desc>Dia 1: Início da viagem às 06:00</desc><sym>Flag, Green</sym></wpt>
-  <wpt lat="-18.9113" lon="-48.2622"><name>Uberlândia</name><desc>Dia 1: Parada para combustível e almoço</desc><sym>Gas Station</sym></wpt>
-  <wpt lat="-21.1767" lon="-47.8108"><name>Ribeirão Preto</name><desc>Dia 1: Pernoite - ~480km de Goiânia</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-23.5505" lon="-46.6333"><name>São Paulo (Rodoanel)</name><desc>Dia 2: Bypass pelo Rodoanel - evitar centro</desc><sym>Waypoint</sym></wpt>
-  <wpt lat="-25.4290" lon="-49.2671"><name>Curitiba</name><desc>Dia 2: Pernoite - ~430km de Ribeirão</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-27.5954" lon="-48.5480"><name>Florianópolis</name><desc>Dia 3: Pernoite - ~300km de Curitiba via BR-101</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-28.4816" lon="-49.0039"><name>Gravatal</name><desc>Dia 4: Subida para serra - águas termais</desc><sym>Swimming Area</sym></wpt>
-  <wpt lat="-28.0147" lon="-49.5902"><name>Urubici - BASE</name><desc>Dias 4-6: Base para explorar as serras</desc><sym>Campground</sym></wpt>
-  <wpt lat="-28.1281" lon="-49.4733"><name>Morro da Igreja</name><desc>Ponto mais alto de SC - 1.822m</desc><sym>Summit</sym></wpt>
-  <wpt lat="-28.4647" lon="-49.5233"><name>Serra do Rio do Rastro</name><desc>Dia 5: 284 curvas, 1.400m de desnível - IMPERDÍVEL</desc><sym>Scenic Area</sym></wpt>
-  <wpt lat="-28.1836" lon="-49.3897"><name>Serra do Corvo Branco</name><desc>Dia 6: Estrada de terra espetacular (verificar condições)</desc><sym>Scenic Area</sym></wpt>
-  <wpt lat="-29.0489" lon="-50.1439"><name>Cambará do Sul</name><desc>Dias 7-8: Base para os cânions</desc><sym>Campground</sym></wpt>
-  <wpt lat="-29.0372" lon="-49.9989"><name>Cânion Itaimbezinho</name><desc>Dia 7: Trilhas Vértice e Cotovelo</desc><sym>Trail Head</sym></wpt>
-  <wpt lat="-29.0667" lon="-49.9833"><name>Cânion Fortaleza</name><desc>Dia 8: Mirantes e trilhas</desc><sym>Trail Head</sym></wpt>
-  <wpt lat="-29.2167" lon="-51.3500"><name>Vale dos Vinhedos</name><desc>Dias 9-10: Vinícolas e gastronomia</desc><sym>Winery</sym></wpt>
-  <wpt lat="-29.1687" lon="-51.5181"><name>Bento Gonçalves</name><desc>Dias 9-10: Pernoite - capital do vinho</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-28.7769" lon="-50.7056"><name>Vacaria</name><desc>Dia 11: Início do retorno</desc><sym>Waypoint</sym></wpt>
-  <wpt lat="-25.4290" lon="-49.2671"><name>Curitiba - Descanso</name><desc>Dia 12: Dia de folga - manutenção moto</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-23.3045" lon="-51.1696"><name>Londrina</name><desc>Dia 13: Passagem via BR-376</desc><sym>Waypoint</sym></wpt>
-  <wpt lat="-22.9789" lon="-49.8706"><name>Ourinhos</name><desc>Dia 13: Pernoite</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-19.7476" lon="-47.9356"><name>Uberaba</name><desc>Dia 14: Pernoite</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-16.6869" lon="-49.2648"><name>Goiânia - CHEGADA</name><desc>Dia 15: Fim da expedição!</desc><sym>Flag, Red</sym></wpt>
-
-  <!-- TRACK - Rota completa -->
   <trk>
-    <name>Roteiro Completo - 15 Dias</name>
-    <desc>~3.200km total - Ida cênica + Serras + Retorno rápido</desc>
+    <name>Rota Cenica Completa - 18 dias</name>
     <trkseg>
-      <!-- Dia 1: Goiânia → Ribeirão Preto (~480km) -->
-      <trkpt lat="-16.6869" lon="-49.2648"><ele>749</ele><name>Goiânia</name></trkpt>
-      <trkpt lat="-17.3917" lon="-49.2194"><ele>770</ele></trkpt>
-      <trkpt lat="-18.1669" lon="-47.9461"><ele>950</ele></trkpt>
-      <trkpt lat="-18.5833" lon="-48.1833"><ele>890</ele></trkpt>
-      <trkpt lat="-18.9113" lon="-48.2622"><ele>863</ele><name>Uberlândia</name></trkpt>
-      <trkpt lat="-19.4833" lon="-47.9333"><ele>820</ele></trkpt>
-      <trkpt lat="-19.9333" lon="-47.7833"><ele>780</ele></trkpt>
-      <trkpt lat="-20.5194" lon="-47.4000"><ele>950</ele><name>Franca</name></trkpt>
-      <trkpt lat="-21.1767" lon="-47.8108"><ele>546</ele><name>Ribeirão Preto</name></trkpt>
+      <!-- FASE 1: Deslocamento (Dias 1-4) -->
 
-      <!-- Dia 2: Ribeirão Preto → Curitiba (~530km) -->
-      <trkpt lat="-21.6167" lon="-47.7167"><ele>580</ele></trkpt>
-      <trkpt lat="-22.0167" lon="-47.8833"><ele>620</ele></trkpt>
-      <trkpt lat="-22.9099" lon="-47.0626"><ele>680</ele><name>Campinas</name></trkpt>
-      <trkpt lat="-23.5505" lon="-46.6333"><ele>760</ele><name>São Paulo (Rodoanel)</name></trkpt>
-      <trkpt lat="-23.9619" lon="-46.3344"><ele>750</ele><name>Santos (bypass)</name></trkpt>
-      <trkpt lat="-24.5083" lon="-47.8417"><ele>30</ele><name>Registro</name></trkpt>
-      <trkpt lat="-25.4290" lon="-49.2671"><ele>934</ele><name>Curitiba</name></trkpt>
+      <!-- Dia 1: Goiania → Uberaba (380 km) -->
+      <trkpt lat="-16.6869" lon="-49.2648">
+        <name>Dia 1 - Goiania - GO (Partida)</name>
+        <desc>Saida 06:00. Tanque cheio.</desc>
+      </trkpt>
+      <trkpt lat="-18.4097" lon="-49.2175">
+        <name>Itumbiara - GO (Parada)</name>
+        <desc>Cafe + combustivel. ~2h30 de Goiania.</desc>
+      </trkpt>
+      <trkpt lat="-19.7500" lon="-47.9318">
+        <name>Dia 1 - Uberaba - MG (Pernoite)</name>
+        <desc>Chegada ~12:00. 380 km.</desc>
+      </trkpt>
 
-      <!-- Dia 3: Curitiba → Florianópolis (~300km) -->
-      <trkpt lat="-25.8661" lon="-48.6311"><ele>5</ele><name>Paranaguá</name></trkpt>
-      <trkpt lat="-26.3044" lon="-48.8487"><ele>10</ele><name>Joinville</name></trkpt>
-      <trkpt lat="-26.9167" lon="-48.6667"><ele>8</ele><name>Itajaí</name></trkpt>
-      <trkpt lat="-27.5954" lon="-48.5480"><ele>7</ele><name>Florianópolis</name></trkpt>
+      <!-- Dia 2: Uberaba → Ourinhos (360 km) -->
+      <trkpt lat="-21.1775" lon="-47.8103">
+        <name>Ribeirao Preto - SP (Parada)</name>
+        <desc>Cafe. ~2h30 de Uberaba.</desc>
+      </trkpt>
+      <trkpt lat="-22.9797" lon="-49.8708">
+        <name>Dia 2 - Ourinhos - SP (Pernoite)</name>
+        <desc>Chegada ~13:00. 360 km. Pedagios ~R$50.</desc>
+      </trkpt>
 
-      <!-- Dia 4: Florianópolis → Urubici (~180km) -->
-      <trkpt lat="-28.0333" lon="-48.6500"><ele>10</ele><name>Imbituba</name></trkpt>
-      <trkpt lat="-28.4816" lon="-49.0039"><ele>40</ele><name>Gravatal</name></trkpt>
-      <trkpt lat="-28.6000" lon="-49.3667"><ele>400</ele><name>São Joaquim (acesso)</name></trkpt>
-      <trkpt lat="-28.0147" lon="-49.5902"><ele>915</ele><name>Urubici</name></trkpt>
+      <!-- Dia 3: Ourinhos → Ponta Grossa (350 km) -->
+      <trkpt lat="-24.2547" lon="-49.9640">
+        <name>Jaguariaiva - PR (Parada)</name>
+        <desc>Cafe. Divisa SP/PR.</desc>
+      </trkpt>
+      <trkpt lat="-25.0945" lon="-50.1619">
+        <name>Dia 3 - Ponta Grossa - PR (Pernoite)</name>
+        <desc>Chegada ~13:00. 350 km. Opcional: Vila Velha a tarde.</desc>
+      </trkpt>
 
-      <!-- Dias 5-6: Circuito das Serras -->
-      <trkpt lat="-28.1281" lon="-49.4733"><ele>1822</ele><name>Morro da Igreja</name></trkpt>
-      <trkpt lat="-28.0147" lon="-49.5902"><ele>915</ele><name>Urubici (volta)</name></trkpt>
-      <trkpt lat="-28.2833" lon="-49.6167"><ele>600</ele></trkpt>
-      <trkpt lat="-28.4647" lon="-49.5233"><ele>1460</ele><name>Serra do Rio do Rastro - Topo</name></trkpt>
-      <trkpt lat="-28.4833" lon="-49.4333"><ele>200</ele><name>Serra do Rio do Rastro - Base</name></trkpt>
-      <trkpt lat="-28.4647" lon="-49.5233"><ele>1460</ele><name>Rio do Rastro (retorno)</name></trkpt>
-      <trkpt lat="-28.0147" lon="-49.5902"><ele>915</ele><name>Urubici</name></trkpt>
-      <trkpt lat="-28.1836" lon="-49.3897"><ele>1200</ele><name>Serra do Corvo Branco</name></trkpt>
-      <trkpt lat="-28.0147" lon="-49.5902"><ele>915</ele><name>Urubici</name></trkpt>
+      <!-- Dia 4: Ponta Grossa → Urubici (380 km) -->
+      <trkpt lat="-25.7697" lon="-49.7714">
+        <name>Lapa - PR (Parada)</name>
+        <desc>Cafe rapido. Centro historico.</desc>
+      </trkpt>
+      <trkpt lat="-27.8170" lon="-50.3264">
+        <name>Lages - SC (Passagem)</name>
+        <desc>Combustivel. Entrada na regiao serrana.</desc>
+      </trkpt>
+      <trkpt lat="-28.0150" lon="-49.5920">
+        <name>Dia 4 - Urubici - SC (Pernoite)</name>
+        <desc>Chegada ~13:00. 380 km. Noites frias (5-10C)!</desc>
+      </trkpt>
 
-      <!-- Dia 7-8: Urubici → Cambará do Sul (~200km) -->
-      <trkpt lat="-28.2944" lon="-50.3861"><ele>970</ele><name>São José dos Ausentes</name></trkpt>
-      <trkpt lat="-29.0489" lon="-50.1439"><ele>1020</ele><name>Cambará do Sul</name></trkpt>
-      <trkpt lat="-29.0372" lon="-49.9989"><ele>900</ele><name>Cânion Itaimbezinho</name></trkpt>
-      <trkpt lat="-29.0489" lon="-50.1439"><ele>1020</ele><name>Cambará (volta)</name></trkpt>
-      <trkpt lat="-29.0667" lon="-49.9833"><ele>950</ele><name>Cânion Fortaleza</name></trkpt>
-      <trkpt lat="-29.0489" lon="-50.1439"><ele>1020</ele><name>Cambará (volta)</name></trkpt>
+      <!-- FASE 2: Serras Catarinenses (Dias 5-6) -->
 
-      <!-- Dias 9-10: Cambará → Bento Gonçalves (~180km) -->
-      <trkpt lat="-28.7769" lon="-50.7056"><ele>955</ele><name>Vacaria</name></trkpt>
-      <trkpt lat="-29.2167" lon="-51.3500"><ele>640</ele><name>Vale dos Vinhedos</name></trkpt>
-      <trkpt lat="-29.1687" lon="-51.5181"><ele>618</ele><name>Bento Gonçalves</name></trkpt>
+      <!-- Dia 5: Urubici - Exploracao -->
+      <trkpt lat="-28.0350" lon="-49.5100">
+        <name>Dia 5 - Serra do Corvo Branco (Ida/Volta)</name>
+        <desc>ATENCAO: Travessia fechada ate mar/2026. Acesso liberado: Urubici → mirantes. Ingresso R$80.</desc>
+      </trkpt>
+      <trkpt lat="-28.0420" lon="-49.5800">
+        <name>Dia 5 - Pedra Furada</name>
+        <desc>Trilha 1,5km. Melhor luz: por do sol. Cartao postal de Urubici.</desc>
+      </trkpt>
 
-      <!-- Dia 11: Bento → Vacaria (~120km) -->
-      <trkpt lat="-28.7769" lon="-50.7056"><ele>955</ele><name>Vacaria</name></trkpt>
+      <!-- Dia 6: Urubici → Bom Jardim (80 km) - ROTA ALTA -->
+      <trkpt lat="-28.2200" lon="-49.6300">
+        <name>SC-430 (Rota Alta)</name>
+        <desc>Contorna trecho fechado do Corvo Branco.</desc>
+      </trkpt>
+      <trkpt lat="-28.3606" lon="-49.5733">
+        <name>Dia 6 - Bom Jardim da Serra - SC</name>
+        <desc>Base para Serra do Rio do Rastro.</desc>
+      </trkpt>
+      <trkpt lat="-28.3900" lon="-49.5400">
+        <name>CLIMAX - Serra do Rio do Rastro</name>
+        <desc>284 curvas! Desnivel 1.400m. Fazer DESCIDA de manha. Mirantes imperdíveis!</desc>
+      </trkpt>
 
-      <!-- Dia 12: Vacaria → Curitiba (~380km) -->
-      <trkpt lat="-28.2944" lon="-50.3861"><ele>970</ele><name>São José dos Ausentes</name></trkpt>
-      <trkpt lat="-27.8161" lon="-50.3269"><ele>916</ele><name>Lages</name></trkpt>
-      <trkpt lat="-26.1117" lon="-49.8053"><ele>793</ele><name>Mafra</name></trkpt>
-      <trkpt lat="-25.4290" lon="-49.2671"><ele>934</ele><name>Curitiba - Descanso</name></trkpt>
+      <!-- FASE 3: Canions e Serra Gaucha (Dias 7-10) -->
 
-      <!-- Dia 13: Curitiba → Ourinhos (~450km) -->
-      <trkpt lat="-25.0945" lon="-50.1633"><ele>975</ele><name>Ponta Grossa</name></trkpt>
-      <trkpt lat="-23.3045" lon="-51.1696"><ele>576</ele><name>Londrina</name></trkpt>
-      <trkpt lat="-22.9789" lon="-49.8706"><ele>480</ele><name>Ourinhos</name></trkpt>
+      <!-- Dia 7: Bom Jardim → Cambara (180 km) -->
+      <trkpt lat="-28.2901" lon="-49.9300">
+        <name>Sao Joaquim - SC (Parada)</name>
+        <desc>Cidade mais fria do Brasil. Cafe + opcional vinicola.</desc>
+      </trkpt>
+      <trkpt lat="-29.0450" lon="-50.1467">
+        <name>Dia 7 - Cambara do Sul - RS (Pernoite)</name>
+        <desc>Chegada ~13:00. 180 km. Base para canions.</desc>
+      </trkpt>
 
-      <!-- Dia 14: Ourinhos → Uberaba (~400km) -->
-      <trkpt lat="-22.3246" lon="-49.0606"><ele>460</ele><name>Bauru</name></trkpt>
-      <trkpt lat="-21.2092" lon="-48.1747"><ele>510</ele><name>Araraquara</name></trkpt>
-      <trkpt lat="-19.7476" lon="-47.9356"><ele>764</ele><name>Uberaba</name></trkpt>
+      <!-- Dia 8: Cambara - Canions -->
+      <trkpt lat="-29.1830" lon="-50.0858">
+        <name>Dia 8 - Canion Itaimbezinho</name>
+        <desc>Maior do Brasil - 720m. Trilha Cotovelo IMPERDIVEL! Ingresso R$96,90/pessoa.</desc>
+      </trkpt>
+      <trkpt lat="-29.0650" lon="-49.9350">
+        <name>Dia 8 - Canion Fortaleza</name>
+        <desc>900m profundidade. Vistas dramaticas. Tirolesa FECHADA.</desc>
+      </trkpt>
 
-      <!-- Dia 15: Uberaba → Goiânia (~420km) -->
-      <trkpt lat="-18.9439" lon="-46.9928"><ele>972</ele><name>Patrocínio</name></trkpt>
-      <trkpt lat="-17.8833" lon="-47.7667"><ele>850</ele><name>Caldas Novas</name></trkpt>
-      <trkpt lat="-16.6869" lon="-49.2648"><ele>749</ele><name>Goiânia - CHEGADA</name></trkpt>
+      <!-- Dia 9: Cambara → Bento Goncalves (180 km) -->
+      <trkpt lat="-28.7461" lon="-50.0697">
+        <name>Sao Jose dos Ausentes - RS (Parada)</name>
+        <desc>Rota do Sol - paisagens incriveis!</desc>
+      </trkpt>
+      <trkpt lat="-29.1690" lon="-51.5170">
+        <name>Dia 9 - Bento Goncalves - RS (Pernoite)</name>
+        <desc>Chegada ~13:00. 180 km. Vale dos Vinhedos!</desc>
+      </trkpt>
+
+      <!-- Dia 10: Bento - Vinicolas -->
+      <trkpt lat="-29.1500" lon="-51.4800">
+        <name>Dia 10 - Vale dos Vinhedos</name>
+        <desc>Cave Geisse, Casa Valduga, Miolo, Pizzato. ~40km circulando.</desc>
+      </trkpt>
+
+      <!-- FASE 4: Litoral Catarinense (Dias 11-13) - NOVO! -->
+
+      <!-- Dia 11: Bento → Balneario Camboriu (280 km) -->
+      <trkpt lat="-28.5076" lon="-50.9370">
+        <name>Vacaria - RS (Parada)</name>
+        <desc>Cafe + combustivel.</desc>
+      </trkpt>
+      <trkpt lat="-26.9906" lon="-48.6352">
+        <name>Dia 11 - Balneario Camboriu - SC (Pernoite)</name>
+        <desc>Chegada ~12:00. 280 km. Tarde: Teleferico + Interpraias!</desc>
+      </trkpt>
+      <trkpt lat="-26.9943" lon="-48.6254">
+        <name>Teleferico Unipraias</name>
+        <desc>Unico no Brasil que liga duas praias! R$ 70-100.</desc>
+      </trkpt>
+
+      <!-- Dia 12: Loop Bombinhas + Guarda do Embau (200 km) -->
+      <trkpt lat="-27.1350" lon="-48.4720">
+        <name>Dia 12 - Praia da Sepultura (Bombinhas)</name>
+        <desc>Aguas cristalinas! Snorkel incrivel. TPA R$ 3,50 moto.</desc>
+      </trkpt>
+      <trkpt lat="-27.8900" lon="-48.5800">
+        <name>Dia 12 - Guarda do Embau</name>
+        <desc>9a Reserva Mundial de Surfe! Primeira do Brasil. Travessia de canoa R$ 5-10.</desc>
+      </trkpt>
+
+      <!-- Dia 13: Balneario Camboriu → Curitiba (230 km) -->
+      <trkpt lat="-26.3045" lon="-48.8487">
+        <name>Joinville - SC (Parada)</name>
+        <desc>Cafe. Maior cidade de SC.</desc>
+      </trkpt>
+      <trkpt lat="-25.4284" lon="-49.2733">
+        <name>Dia 13 - Curitiba - PR (Pernoite)</name>
+        <desc>Chegada ~12:00. 230 km. Tarde livre.</desc>
+      </trkpt>
+
+      <!-- FASE 5: Curitiba + Retorno (Dias 14-18) -->
+
+      <!-- Dia 14: Curitiba - Serra Verde Express -->
+      <trkpt lat="-25.4355" lon="-49.2748">
+        <name>Dia 14 - Serra Verde Express (Embarque)</name>
+        <desc>Estacao Rodoferroviaria 08:30. RESERVAR ANTECIPADO! Lado DIREITO melhor vista.</desc>
+      </trkpt>
+      <trkpt lat="-25.4800" lon="-48.8400">
+        <name>Morretes - PR</name>
+        <desc>Chegada 12:45. BARREADO obrigatorio! Retorno van ~R$ 50.</desc>
+      </trkpt>
+      <trkpt lat="-25.3950" lon="-49.3350">
+        <name>Santa Felicidade</name>
+        <desc>Jantar italiano! Bairro italiano de Curitiba.</desc>
+      </trkpt>
+
+      <!-- Dia 15: Curitiba → Ourinhos (400 km) -->
+      <trkpt lat="-22.9797" lon="-49.8708">
+        <name>Dia 15 - Ourinhos - SP (Pernoite)</name>
+        <desc>400 km via BR-376/BR-153.</desc>
+      </trkpt>
+
+      <!-- Dia 16: Ourinhos → Uberaba (360 km) -->
+      <trkpt lat="-19.7500" lon="-47.9318">
+        <name>Dia 16 - Uberaba - MG (Pernoite)</name>
+        <desc>360 km.</desc>
+      </trkpt>
+
+      <!-- Dia 17: Uberaba → Goiania (380 km) -->
+      <trkpt lat="-16.6869" lon="-49.2648">
+        <name>Dia 17 - Goiania - GO (CHEGADA)</name>
+        <desc>380 km. FIM DA VIAGEM! Chegada ~12:00.</desc>
+      </trkpt>
+
+      <!-- Dia 18: Buffer -->
+      <trkpt lat="-16.6869" lon="-49.2648">
+        <name>Dia 18 - Buffer (Opcional)</name>
+        <desc>Dia reserva para imprevistos ou descanso.</desc>
+      </trkpt>
     </trkseg>
   </trk>
+
+  <!-- WAYPOINTS IMPORTANTES -->
+  <wpt lat="-28.0350" lon="-49.5100">
+    <name>Serra do Corvo Branco</name>
+    <desc>Mirantes acessiveis. Travessia FECHADA ate mar/2026.</desc>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="-28.3900" lon="-49.5400">
+    <name>Serra do Rio do Rastro</name>
+    <desc>284 curvas, 1400m desnivel. Uma das estradas mais bonitas do Brasil!</desc>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="-29.1830" lon="-50.0858">
+    <name>Canion Itaimbezinho</name>
+    <desc>Maior canion do Brasil - 720m. Trilha do Cotovelo imperdivel!</desc>
+    <sym>Park</sym>
+  </wpt>
+  <wpt lat="-29.0650" lon="-49.9350">
+    <name>Canion Fortaleza</name>
+    <desc>900m profundidade. Vistas dramaticas.</desc>
+    <sym>Park</sym>
+  </wpt>
+  <wpt lat="-29.1500" lon="-51.4800">
+    <name>Vale dos Vinhedos</name>
+    <desc>Principal regiao vinicola do Brasil.</desc>
+    <sym>Winery</sym>
+  </wpt>
+  <wpt lat="-26.9943" lon="-48.6254">
+    <name>Teleferico Unipraias</name>
+    <desc>Unico teleferico que liga duas praias no Brasil!</desc>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="-27.1350" lon="-48.4720">
+    <name>Praia da Sepultura</name>
+    <desc>Aguas cristalinas, snorkel incrivel!</desc>
+    <sym>Beach</sym>
+  </wpt>
+  <wpt lat="-27.8900" lon="-48.5800">
+    <name>Guarda do Embau</name>
+    <desc>9a Reserva Mundial de Surfe. Primeira do Brasil!</desc>
+    <sym>Beach</sym>
+  </wpt>
+  <wpt lat="-25.4800" lon="-48.8400">
+    <name>Morretes - Serra Verde Express</name>
+    <desc>Destino do trem. Barreado: carne cozida por 20h!</desc>
+    <sym>Restaurant</sym>
+  </wpt>
 </gpx>

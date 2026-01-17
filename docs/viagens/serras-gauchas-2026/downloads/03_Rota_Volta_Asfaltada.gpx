@@ -1,82 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gpx version="1.1" creator="Tiger900 Trip Planner"
-  xmlns="http://www.topografix.com/GPX/1/1"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<gpx version="1.1" creator="Expedia Travel Assistant" xmlns="http://www.topografix.com/GPX/1/1">
   <metadata>
-    <name>Serras Gaúchas 2026 - Retorno Rápido</name>
-    <desc>Retorno Bento Gonçalves → Goiânia via rodovias principais. ~1.570km em 5 dias. Opção mais rápida e com melhor infraestrutura.</desc>
-    <author><name>Juliano Barbosa</name></author>
-    <time>2026-01-30T08:00:00Z</time>
+    <name>Rota de Volta - Asfaltada</name>
+    <desc>Retorno de Gramado até Goiânia pela rota mais segura e pavimentada.</desc>
   </metadata>
-
-  <!-- WAYPOINTS -->
-  <wpt lat="-29.1687" lon="-51.5181"><name>Bento Gonçalves - PARTIDA</name><desc>Dia 11: Saída do Vale dos Vinhedos</desc><sym>Flag, Green</sym></wpt>
-  <wpt lat="-28.7769" lon="-50.7056"><name>Vacaria</name><desc>Dia 11: Parada para combustível e café</desc><sym>Gas Station</sym></wpt>
-  <wpt lat="-28.2944" lon="-50.3861"><name>São José dos Ausentes</name><desc>Dia 11: Última vista da serra (opcional)</desc><sym>Scenic Area</sym></wpt>
-  <wpt lat="-27.8161" lon="-50.3269"><name>Lages</name><desc>Dia 11: Almoço - comida serrana</desc><sym>Restaurant</sym></wpt>
-  <wpt lat="-25.4290" lon="-49.2671"><name>Curitiba - DESCANSO</name><desc>Dia 12: DIA DE FOLGA - Manutenção moto, passeio</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-25.0945" lon="-50.1633"><name>Ponta Grossa</name><desc>Dia 13: Parada combustível</desc><sym>Gas Station</sym></wpt>
-  <wpt lat="-23.3045" lon="-51.1696"><name>Londrina</name><desc>Dia 13: Almoço - cidade grande</desc><sym>Restaurant</sym></wpt>
-  <wpt lat="-22.9789" lon="-49.8706"><name>Ourinhos</name><desc>Dia 13: PERNOITE (~450km de Curitiba)</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-22.3246" lon="-49.0606"><name>Bauru</name><desc>Dia 14: Parada combustível</desc><sym>Gas Station</sym></wpt>
-  <wpt lat="-19.7476" lon="-47.9356"><name>Uberaba</name><desc>Dia 14: PERNOITE (~400km)</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-18.9439" lon="-46.9928"><name>Patrocínio</name><desc>Dia 15: Parada combustível - última antes de casa</desc><sym>Gas Station</sym></wpt>
-  <wpt lat="-16.6869" lon="-49.2648"><name>Goiânia - CHEGADA</name><desc>Dia 15: FIM DA EXPEDIÇÃO! (~420km)</desc><sym>Flag, Red</sym></wpt>
-
-  <!-- TRACK -->
   <trk>
-    <name>Retorno Rápido: Bento → Goiânia</name>
-    <desc>~1.570km em 5 dias - Via BR-116, BR-376, BR-153</desc>
+    <name>Volta - Gramado a Goiânia</name>
     <trkseg>
-      <!-- Dia 11: Bento Gonçalves → Curitiba (~380km) -->
-      <trkpt lat="-29.1687" lon="-51.5181"><ele>618</ele><name>Bento Gonçalves</name></trkpt>
-      <trkpt lat="-29.0167" lon="-51.1833"><ele>700</ele><name>Flores da Cunha</name></trkpt>
-      <trkpt lat="-28.8833" lon="-50.8167"><ele>850</ele><name>São Marcos</name></trkpt>
-      <trkpt lat="-28.7769" lon="-50.7056"><ele>955</ele><name>Vacaria</name></trkpt>
-      <trkpt lat="-28.4333" lon="-50.5667"><ele>920</ele></trkpt>
-      <trkpt lat="-28.2944" lon="-50.3861"><ele>970</ele><name>São José dos Ausentes</name></trkpt>
-      <trkpt lat="-27.8161" lon="-50.3269"><ele>916</ele><name>Lages</name></trkpt>
-      <trkpt lat="-27.3333" lon="-50.3333"><ele>850</ele><name>Correia Pinto</name></trkpt>
-      <trkpt lat="-26.7667" lon="-50.0333"><ele>780</ele><name>Porto União</name></trkpt>
-      <trkpt lat="-26.1117" lon="-49.8053"><ele>793</ele><name>Mafra</name></trkpt>
-      <trkpt lat="-25.7833" lon="-49.6833"><ele>850</ele><name>Rio Negro</name></trkpt>
-      <trkpt lat="-25.4290" lon="-49.2671"><ele>934</ele><name>Curitiba</name></trkpt>
-
-      <!-- Dia 12: Curitiba - DIA DE DESCANSO -->
-      <!-- Manutenção preventiva, revisão pneus, descanso -->
-
-      <!-- Dia 13: Curitiba → Ourinhos (~450km) -->
-      <trkpt lat="-25.2500" lon="-49.4500"><ele>920</ele><name>Campo Largo</name></trkpt>
-      <trkpt lat="-25.0945" lon="-50.1633"><ele>975</ele><name>Ponta Grossa</name></trkpt>
-      <trkpt lat="-24.7833" lon="-50.0167"><ele>850</ele><name>Castro</name></trkpt>
-      <trkpt lat="-24.2833" lon="-50.6333"><ele>780</ele><name>Piraí do Sul</name></trkpt>
-      <trkpt lat="-23.9167" lon="-50.7667"><ele>700</ele><name>Wenceslau Braz</name></trkpt>
-      <trkpt lat="-23.6000" lon="-50.6500"><ele>650</ele><name>Siqueira Campos</name></trkpt>
-      <trkpt lat="-23.3045" lon="-51.1696"><ele>576</ele><name>Londrina</name></trkpt>
-      <trkpt lat="-23.1167" lon="-50.3667"><ele>520</ele><name>Cambará</name></trkpt>
-      <trkpt lat="-22.9789" lon="-49.8706"><ele>480</ele><name>Ourinhos</name></trkpt>
-
-      <!-- Dia 14: Ourinhos → Uberaba (~400km) -->
-      <trkpt lat="-22.7500" lon="-49.6167"><ele>500</ele><name>Santa Cruz do Rio Pardo</name></trkpt>
-      <trkpt lat="-22.3246" lon="-49.0606"><ele>460</ele><name>Bauru</name></trkpt>
-      <trkpt lat="-21.9667" lon="-48.5667"><ele>500</ele><name>Jaú</name></trkpt>
-      <trkpt lat="-21.7833" lon="-48.1833"><ele>520</ele><name>Araraquara</name></trkpt>
-      <trkpt lat="-21.2092" lon="-48.1747"><ele>510</ele></trkpt>
-      <trkpt lat="-20.5500" lon="-47.9333"><ele>680</ele><name>Ribeirão Preto (bypass)</name></trkpt>
-      <trkpt lat="-20.0333" lon="-47.9167"><ele>720</ele><name>Franca (bypass)</name></trkpt>
-      <trkpt lat="-19.7476" lon="-47.9356"><ele>764</ele><name>Uberaba</name></trkpt>
-
-      <!-- Dia 15: Uberaba → Goiânia (~420km) -->
-      <trkpt lat="-19.4833" lon="-47.6500"><ele>800</ele><name>Sacramento</name></trkpt>
-      <trkpt lat="-19.2167" lon="-47.4167"><ele>850</ele><name>Araxá (bypass)</name></trkpt>
-      <trkpt lat="-18.9439" lon="-46.9928"><ele>972</ele><name>Patrocínio</name></trkpt>
-      <trkpt lat="-18.6333" lon="-47.0333"><ele>920</ele><name>Monte Carmelo</name></trkpt>
-      <trkpt lat="-18.4667" lon="-47.4833"><ele>870</ele><name>Catalão (bypass)</name></trkpt>
-      <trkpt lat="-17.8833" lon="-48.1667"><ele>820</ele><name>Ipameri</name></trkpt>
-      <trkpt lat="-17.4500" lon="-48.9667"><ele>780</ele><name>Pires do Rio</name></trkpt>
-      <trkpt lat="-16.9667" lon="-49.2833"><ele>760</ele><name>Senador Canedo</name></trkpt>
-      <trkpt lat="-16.6869" lon="-49.2648"><ele>749</ele><name>Goiânia - CHEGADA</name></trkpt>
+      <trkpt lat="-29.3730" lon="-50.8761"><name>Gramado - RS</name></trkpt>
+      <trkpt lat="-28.5076" lon="-50.9370"><name>Vacaria - RS</name></trkpt>
+      <trkpt lat="-25.4284" lon="-49.2733"><name>Curitiba - PR</name></trkpt>
+      <trkpt lat="-23.3045" lon="-51.1696"><name>Londrina - PR</name></trkpt>
+      <trkpt lat="-22.9797" lon="-49.8708"><name>Ourinhos - SP</name></trkpt>
+      <trkpt lat="-19.7500" lon="-47.9318"><name>Uberaba - MG</name></trkpt>
+      <trkpt lat="-16.6869" lon="-49.2648"><name>Goiânia - GO</name></trkpt>
     </trkseg>
   </trk>
 </gpx>

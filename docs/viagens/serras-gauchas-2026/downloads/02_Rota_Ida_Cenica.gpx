@@ -1,87 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gpx version="1.1" creator="Tiger900 Trip Planner"
-  xmlns="http://www.topografix.com/GPX/1/1"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<gpx version="1.1" creator="Expedia Travel Assistant" xmlns="http://www.topografix.com/GPX/1/1">
   <metadata>
-    <name>Serras Gaúchas 2026 - Ida Cênica</name>
-    <desc>Trecho Goiânia → Urubici (Dias 1-4). ~1.600km via litoral de SC. Rota com paisagens variadas: cerrado, serra, litoral e serra catarinense.</desc>
-    <author><name>Juliano Barbosa</name></author>
-    <time>2026-01-19T06:00:00Z</time>
+    <name>Rota Cênica - Ida</name>
+    <desc>Trecho de Goiânia até Urubici - SC (Serra do Corvo Branco)</desc>
   </metadata>
-
-  <!-- WAYPOINTS -->
-  <wpt lat="-16.6869" lon="-49.2648"><name>Goiânia - PARTIDA</name><desc>Dia 1: Saída às 06:00. Tanque cheio!</desc><sym>Flag, Green</sym></wpt>
-  <wpt lat="-18.9113" lon="-48.2622"><name>Uberlândia</name><desc>Dia 1: Parada combustível (~300km). Posto Shell BR-050</desc><sym>Gas Station</sym></wpt>
-  <wpt lat="-21.1767" lon="-47.8108"><name>Ribeirão Preto</name><desc>Dia 1: PERNOITE (~480km). Sugestão: Hotel Íbis Ribeirão</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-22.9099" lon="-47.0626"><name>Campinas</name><desc>Dia 2: Parada combustível</desc><sym>Gas Station</sym></wpt>
-  <wpt lat="-23.5505" lon="-46.6333"><name>São Paulo - Rodoanel</name><desc>Dia 2: Usar Rodoanel Sul/Leste - evitar marginal</desc><sym>Waypoint</sym></wpt>
-  <wpt lat="-24.5083" lon="-47.8417"><name>Registro</name><desc>Dia 2: Almoço - comida caiçara</desc><sym>Restaurant</sym></wpt>
-  <wpt lat="-25.4290" lon="-49.2671"><name>Curitiba</name><desc>Dia 2: PERNOITE (~530km). Centro histórico vale visita</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-26.3044" lon="-48.8487"><name>Joinville</name><desc>Dia 3: Parada combustível</desc><sym>Gas Station</sym></wpt>
-  <wpt lat="-26.9167" lon="-48.6667"><name>Balneário Camboriú</name><desc>Dia 3: Parada opcional - vista da praia</desc><sym>Beach</sym></wpt>
-  <wpt lat="-27.5954" lon="-48.5480"><name>Florianópolis</name><desc>Dia 3: PERNOITE (~300km). Lagoa da Conceição</desc><sym>Hotel</sym></wpt>
-  <wpt lat="-28.4816" lon="-49.0039"><name>Gravatal</name><desc>Dia 4: Águas termais - parada relaxante</desc><sym>Swimming Area</sym></wpt>
-  <wpt lat="-28.2833" lon="-49.6167"><name>Bom Jardim da Serra</name><desc>Dia 4: Início da subida - paisagem muda</desc><sym>Scenic Area</sym></wpt>
-  <wpt lat="-28.0147" lon="-49.5902"><name>Urubici - CHEGADA</name><desc>Dia 4: BASE DAS SERRAS (~180km). Frio mesmo no verão!</desc><sym>Flag, Red</sym></wpt>
-
-  <!-- TRACK -->
   <trk>
-    <name>Ida: Goiânia → Urubici</name>
-    <desc>~1.600km em 4 dias - Rota cênica via litoral SC</desc>
+    <name>Ida - Goiânia a Urubici</name>
     <trkseg>
-      <!-- Dia 1: Goiânia → Ribeirão Preto -->
-      <trkpt lat="-16.6869" lon="-49.2648"><ele>749</ele><name>Goiânia</name></trkpt>
-      <trkpt lat="-16.8333" lon="-49.2500"><ele>760</ele></trkpt>
-      <trkpt lat="-17.3917" lon="-49.2194"><ele>770</ele><name>Morrinhos</name></trkpt>
-      <trkpt lat="-17.7333" lon="-49.1000"><ele>750</ele><name>Goiatuba</name></trkpt>
-      <trkpt lat="-18.1669" lon="-47.9461"><ele>950</ele><name>Itumbiara</name></trkpt>
-      <trkpt lat="-18.5833" lon="-48.1833"><ele>890</ele></trkpt>
-      <trkpt lat="-18.9113" lon="-48.2622"><ele>863</ele><name>Uberlândia</name></trkpt>
-      <trkpt lat="-19.2333" lon="-48.0667"><ele>840</ele><name>Uberaba (bypass)</name></trkpt>
-      <trkpt lat="-19.7476" lon="-47.9356"><ele>764</ele></trkpt>
-      <trkpt lat="-20.1500" lon="-47.5667"><ele>880</ele><name>Sacramento</name></trkpt>
-      <trkpt lat="-20.5194" lon="-47.4000"><ele>950</ele><name>Franca</name></trkpt>
-      <trkpt lat="-20.8167" lon="-47.6333"><ele>700</ele></trkpt>
-      <trkpt lat="-21.1767" lon="-47.8108"><ele>546</ele><name>Ribeirão Preto</name></trkpt>
-
-      <!-- Dia 2: Ribeirão Preto → Curitiba -->
-      <trkpt lat="-21.4000" lon="-47.5667"><ele>580</ele><name>Sertãozinho</name></trkpt>
-      <trkpt lat="-21.7833" lon="-47.3167"><ele>620</ele><name>Pirassununga</name></trkpt>
-      <trkpt lat="-22.3500" lon="-47.3833"><ele>650</ele><name>Limeira</name></trkpt>
-      <trkpt lat="-22.9099" lon="-47.0626"><ele>680</ele><name>Campinas</name></trkpt>
-      <trkpt lat="-23.2167" lon="-46.8833"><ele>720</ele><name>Jundiaí</name></trkpt>
-      <trkpt lat="-23.5505" lon="-46.6333"><ele>760</ele><name>São Paulo - Rodoanel</name></trkpt>
-      <trkpt lat="-23.7833" lon="-46.4500"><ele>750</ele><name>Mogi das Cruzes</name></trkpt>
-      <trkpt lat="-23.9619" lon="-46.3344"><ele>10</ele><name>Santos</name></trkpt>
-      <trkpt lat="-24.1833" lon="-46.7833"><ele>15</ele><name>Peruíbe</name></trkpt>
-      <trkpt lat="-24.5083" lon="-47.8417"><ele>30</ele><name>Registro</name></trkpt>
-      <trkpt lat="-24.7333" lon="-47.9333"><ele>50</ele><name>Jacupiranga</name></trkpt>
-      <trkpt lat="-25.0167" lon="-48.5000"><ele>200</ele><name>Curitiba (entrada)</name></trkpt>
-      <trkpt lat="-25.4290" lon="-49.2671"><ele>934</ele><name>Curitiba</name></trkpt>
-
-      <!-- Dia 3: Curitiba → Florianópolis -->
-      <trkpt lat="-25.5333" lon="-49.0833"><ele>900</ele><name>São José dos Pinhais</name></trkpt>
-      <trkpt lat="-25.8661" lon="-48.6311"><ele>5</ele><name>Paranaguá</name></trkpt>
-      <trkpt lat="-26.1167" lon="-48.6333"><ele>8</ele><name>Guaratuba</name></trkpt>
-      <trkpt lat="-26.3044" lon="-48.8487"><ele>10</ele><name>Joinville</name></trkpt>
-      <trkpt lat="-26.5500" lon="-48.7833"><ele>8</ele><name>Araquari</name></trkpt>
-      <trkpt lat="-26.7500" lon="-48.6167"><ele>6</ele><name>Penha</name></trkpt>
-      <trkpt lat="-26.9167" lon="-48.6667"><ele>8</ele><name>Balneário Camboriú</name></trkpt>
-      <trkpt lat="-27.1000" lon="-48.5833"><ele>5</ele><name>Tijucas</name></trkpt>
-      <trkpt lat="-27.3833" lon="-48.5333"><ele>5</ele><name>Biguaçu</name></trkpt>
-      <trkpt lat="-27.5954" lon="-48.5480"><ele>7</ele><name>Florianópolis</name></trkpt>
-
-      <!-- Dia 4: Florianópolis → Urubici -->
-      <trkpt lat="-27.7667" lon="-48.5833"><ele>5</ele><name>Palhoça</name></trkpt>
-      <trkpt lat="-28.0333" lon="-48.6500"><ele>10</ele><name>Imbituba</name></trkpt>
-      <trkpt lat="-28.3000" lon="-48.8500"><ele>20</ele><name>Tubarão</name></trkpt>
-      <trkpt lat="-28.4816" lon="-49.0039"><ele>40</ele><name>Gravatal</name></trkpt>
-      <trkpt lat="-28.5333" lon="-49.2000"><ele>150</ele><name>Orleans</name></trkpt>
-      <trkpt lat="-28.5000" lon="-49.3833"><ele>350</ele><name>Lauro Müller</name></trkpt>
-      <trkpt lat="-28.2833" lon="-49.6167"><ele>1100</ele><name>Bom Jardim da Serra</name></trkpt>
-      <trkpt lat="-28.0833" lon="-49.6000"><ele>980</ele></trkpt>
-      <trkpt lat="-28.0147" lon="-49.5902"><ele>915</ele><name>Urubici</name></trkpt>
+      <trkpt lat="-16.6869" lon="-49.2648"><name>Goiânia - GO</name></trkpt>
+      <trkpt lat="-19.7500" lon="-47.9318"><name>Uberaba - MG</name></trkpt>
+      <trkpt lat="-22.9797" lon="-49.8708"><name>Ourinhos - SP</name></trkpt>
+      <trkpt lat="-25.0945" lon="-50.1619"><name>Ponta Grossa - PR</name></trkpt>
+      <trkpt lat="-27.8170" lon="-50.3264"><name>Lages - SC</name></trkpt>
+      <trkpt lat="-28.0150" lon="-49.5920"><name>Urubici - SC (Serra do Corvo Branco)</name></trkpt>
     </trkseg>
   </trk>
 </gpx>

@@ -1,8 +1,9 @@
 # Guia de Clima - Serras Gaúchas 2026
 
-## Período da Viagem: 19/01 - 07/02/2026
+## Período da Viagem: 19/01 - 05/02/2026
 
 **Estação:** Verão (alta temporada)
+**Duração:** 18 dias
 
 ---
 
@@ -20,6 +21,10 @@
 | Cambará do Sul (RS) | 1.000m | 18-26°C | 10-16°C | Alta |
 | Serra Gaúcha (RS) | 800m | 22-30°C | 14-20°C | Moderada |
 | Vale dos Vinhedos (RS) | 600m | 24-32°C | 16-22°C | Moderada |
+| **Balneário Camboriú (SC)** | 5m | 28-33°C | 22-26°C | Moderada |
+| **Bombinhas (SC)** | 5m | 28-32°C | 22-26°C | Moderada |
+| **Guarda do Embaú (SC)** | 5m | 27-31°C | 21-25°C | Moderada |
+| **Curitiba (PR)** | 934m | 22-28°C | 16-20°C | Alta |
 
 ---
 
@@ -133,7 +138,7 @@
 
 ---
 
-### Fase 3: Cânions e Serra Gaúcha (Dias 10-14)
+### Fase 3: Cânions e Serra Gaúcha (Dias 7-10)
 
 #### Cambará do Sul
 
@@ -197,7 +202,105 @@
 
 ---
 
-### Fase 4: Retorno (Dias 15-20)
+### Fase 4: Litoral Catarinense (Dias 11-13)
+
+#### Balneário Camboriú
+
+| Característica | Descrição |
+|----------------|-----------|
+| **Altitude** | Nível do mar |
+| **Temp. Dia** | 28-33°C |
+| **Temp. Noite** | 22-26°C |
+| **Umidade** | Alta (70-85%) |
+
+**O que esperar (janeiro):**
+- Muito calor e sol forte
+- Brisa marítima refrescante
+- Pancadas de chuva à tarde (típico verão)
+- Noites quentes e úmidas
+- Alta temporada = praias lotadas
+
+**Recomendações:**
+- Protetor solar obrigatório (FPS 50+)
+- Hidratação constante
+- Evitar sol entre 11h-15h
+- Roupas leves e ventiladas
+- Cuidado com piso molhado após chuvas
+
+---
+
+#### Bombinhas
+
+| Característica | Descrição |
+|----------------|-----------|
+| **Altitude** | Nível do mar |
+| **Temp. Dia** | 28-32°C |
+| **Mar** | Calmo em janeiro (ideal snorkel) |
+
+**O que esperar:**
+- Mar mais calmo que praias abertas
+- Águas mais quentes (24-26°C)
+- Visibilidade boa para snorkel
+- Vento moderado nas praias expostas
+
+**Recomendações:**
+- Levar máscara de snorkel
+- Ir cedo (8-9h) para evitar lotação
+- Estacionamento difícil - chegar cedo
+
+---
+
+#### Guarda do Embaú
+
+| Característica | Descrição |
+|----------------|-----------|
+| **Altitude** | Nível do mar |
+| **Temp. Dia** | 27-31°C |
+| **Mar** | Calmo em janeiro (ondas no inverno) |
+
+**O que esperar:**
+- Janeiro: mar mais calmo (menos ondas)
+- Ótimo para banho de mar
+- Rio da Madre: águas mornas
+- Brisa constante da tarde
+
+**Recomendações:**
+- Levar dinheiro para canoa (R$ 5-10)
+- Proteção solar intensa
+- Estrutura simples - levar água
+
+---
+
+### Fase 5: Curitiba e Retorno (Dias 14-18)
+
+#### Curitiba
+
+| Característica | Descrição |
+|----------------|-----------|
+| **Altitude** | 934m |
+| **Temp. Dia** | 22-28°C |
+| **Temp. Noite** | 16-20°C |
+| **Clima** | Subtropical de altitude |
+
+**O que esperar:**
+- Mais fresco que o litoral
+- Chuvas frequentes de verão
+- "Curitiba: 4 estações em um dia" (ditado local)
+- Manhãs amenas, tardes quentes, noites frescas
+
+**Serra Verde Express:**
+- Manhã: névoa possível na serra
+- Ar-condicionado no trem (levar jaqueta)
+- Morretes: quente e úmido
+
+**Recomendações:**
+- Roupa em camadas
+- Guarda-chuva sempre à mão
+- Jaqueta leve para noite
+
+---
+
+### Fase 6: Retorno Final (Dias 15-18)
 
 #### Nova Petrópolis → Vacaria
 
@@ -326,23 +429,21 @@
 | 19/01 Dom | Goiânia → Uberaba | Quente, pancadas tarde |
 | 20/01 Seg | Uberaba → Ourinhos | Quente, chance chuva |
 | 21/01 Ter | Ourinhos → Ponta Grossa | Ameno, possível chuva |
-| 22/01 Qua | Ponta Grossa → Lages | Fresco, nuvens |
-| 23/01 Qui | Lages → Urubici | Frio manhã, sol tarde |
+| 22/01 Qua | Ponta Grossa → Urubici | Fresco, nuvens |
+| 23/01 Qui | Urubici (explorar) | Frio manhã, sol tarde |
 | 24/01 Sex | Urubici → Bom Jardim | Neblina manhã, lindo tarde |
-| 25/01 Sáb | Bom Jardim → São Joaquim | Fresco, sol |
-| 26/01 Dom | São Joaquim (explorar) | Variável |
-| 27/01 Seg | São Joaquim → Cambará | Fresco, chance neblina |
-| 28/01 Ter | Cambará (cânions) | Neblina manhã, claro tarde |
-| 29/01 Qua | Cambará → Gramado | Ameno, possível chuva |
-| 30/01 Qui | Gramado → Bento | Quente |
-| 31/01 Sex | Bento → Nova Petrópolis | Quente |
-| 01/02 Sáb | Nova Petrópolis (livre) | Quente |
-| 02/02 Dom | Nova Petrópolis → Vacaria | Ameno |
-| 03/02 Seg | Vacaria → Curitiba | Ameno |
-| 04/02 Ter | Curitiba → Londrina | Quente |
-| 05/02 Qua | Londrina → Ourinhos | Quente |
-| 06/02 Qui | Ourinhos → Uberaba | Quente, chuva |
-| 07/02 Sex | Uberaba → Goiânia | Quente, chuva tarde |
+| 25/01 Sáb | Bom Jardim → Cambará | Fresco, sol |
+| 26/01 Dom | Cambará (cânions) | Neblina manhã, claro tarde |
+| 27/01 Seg | Cambará → Bento Gonçalves | Ameno, possível chuva |
+| 28/01 Ter | Bento (vinícolas) | Quente |
+| **29/01 Qua** | **Bento → Balneário Camboriú** | **Quente, sol, praia!** |
+| **30/01 Qui** | **Bombinhas + Guarda** | **Muito quente, mar calmo** |
+| **31/01 Sex** | **Balneário → Curitiba** | **Quente → Ameno** |
+| **01/02 Sáb** | **Curitiba (Serra Verde)** | **Ameno, neblina serra** |
+| 02/02 Dom | Curitiba → Ourinhos | Ameno → Quente |
+| 03/02 Seg | Ourinhos → Uberaba | Quente, chuva |
+| 04/02 Ter | Uberaba → Goiânia | Quente, chuva tarde |
+| 05/02 Qua | Buffer / Chegada | Reserva |
 
 ---
 
@@ -384,3 +485,5 @@
 ---
 
 *Previsões baseadas em médias históricas. Consulte a previsão atualizada antes de cada etapa.*
+
+*Última atualização: Janeiro/2026 - Adicionado Litoral SC e Curitiba*
