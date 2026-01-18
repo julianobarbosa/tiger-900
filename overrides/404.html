@@ -2,17 +2,38 @@
 
 {% block content %}
 <div class="md-content" data-md-component="content">
-  <article class="md-content__inner md-typeset">
-    <h1>Ops! Caminho errado</h1>
-    <p>Parece que pegamos uma trilha que nao existe no mapa.</p>
-    <p>
+  <article class="md-content__inner md-typeset" style="text-align: center; padding: 4rem 2rem;">
+    <!-- Mission badge style -->
+    <div style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: rgba(61, 74, 53, 0.4); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 0.25rem; font-family: 'Courier Prime', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.2em; color: #0df259; margin-bottom: 1.5rem;">
+      <span style="position: relative; width: 0.5rem; height: 0.5rem;">
+        <span style="position: absolute; inset: 0; background: #f44336; border-radius: 50%;"></span>
+      </span>
+      Erro 404
+    </div>
+
+    <h1 style="font-size: 3rem; font-weight: 900; text-transform: uppercase; letter-spacing: -0.03em; line-height: 1; font-style: italic; margin: 0 0 1rem 0; color: white;">
+      Trilha Nao<br>Encontrada
+    </h1>
+
+    <!-- Stamp effect -->
+    <div style="display: inline-block; border: 3px double #0df259; transform: rotate(-5deg); opacity: 0.8; padding: 0.5rem 1rem; font-family: 'Courier Prime', monospace; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #0df259; background: rgba(16, 34, 22, 0.5); margin: 1rem 0 2rem;">
+      Fora do Mapa
+    </div>
+
+    <p style="font-family: 'Courier Prime', monospace; color: rgba(255, 255, 255, 0.6); max-width: 30rem; margin: 0 auto 2rem; line-height: 1.6;">
+      Parece que pegamos uma trilha que nao existe no mapa. O GPS perdeu o sinal ou voce digitou uma coordenada invalida.
+    </p>
+
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
       <a href="{{ config.site_url }}" class="md-button md-button--primary">
-        Voltar para a Home
+        <span class="material-symbols-outlined" style="vertical-align: middle; margin-right: 0.5rem;">home</span>
+        Voltar para Base
       </a>
       <a href="{{ config.site_url }}viagens/serras-gauchas-2026/" class="md-button">
-        Ver Roteiro da Viagem
+        <span class="material-symbols-outlined" style="vertical-align: middle; margin-right: 0.5rem;">map</span>
+        Ver Roteiro
       </a>
-    </p>
+    </div>
   </article>
 </div>
 {% endblock %}
