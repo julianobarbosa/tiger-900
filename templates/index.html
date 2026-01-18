@@ -1,0 +1,596 @@
+<!doctype html>
+
+<html class="dark" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Tiger 900 - Rugged Explorer Concept</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Courier+Prime:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#0df259",
+              "background-light": "#f5f8f6",
+              "background-dark": "#102216",
+              olive: "#3d4a35",
+              clay: "#5c4d3c",
+              kraft: "#d9c5b2",
+            },
+            fontFamily: {
+              display: ["Space Grotesk", "sans-serif"],
+              mono: ["Courier Prime", "monospace"],
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+          "FILL" 0,
+          "wght" 400,
+          "GRAD" 0,
+          "opsz" 24;
+      }
+      .rugged-texture {
+        background-image: radial-gradient(#22492f 0.5px, transparent 0.5px);
+        background-size: 10px 10px;
+      }
+      .paper-shadow {
+        box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+      }
+      .stamp-effect {
+        border: 3px double #0df259;
+        transform: rotate(-5deg);
+        opacity: 0.8;
+      }
+      .typewriter {
+        font-family: "Courier Prime", monospace;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-background-light dark:bg-background-dark font-display text-white selection:bg-primary selection:text-background-dark min-h-screen"
+  >
+    <div
+      class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden rugged-texture"
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <!-- Header / Navigation -->
+        <header
+          class="flex items-center justify-between border-b border-solid border-white/10 px-10 py-4 bg-background-dark/80 backdrop-blur-md sticky top-0 z-50"
+        >
+          <div class="flex items-center gap-8">
+            <div class="flex items-center gap-3 text-primary">
+              <span class="material-symbols-outlined text-3xl">explore</span>
+              <h2
+                class="text-white text-xl font-bold leading-tight tracking-tight uppercase typewriter"
+              >
+                Tiger 900 Explorer
+              </h2>
+            </div>
+            <nav class="hidden md:flex items-center gap-8">
+              <a
+                class="text-white/70 hover:text-primary text-sm font-medium transition-colors uppercase tracking-widest"
+                href="#"
+                >Logbook</a
+              >
+              <a
+                class="text-white/70 hover:text-primary text-sm font-medium transition-colors uppercase tracking-widest"
+                href="#"
+                >Cartography</a
+              >
+              <a
+                class="text-white/70 hover:text-primary text-sm font-medium transition-colors uppercase tracking-widest"
+                href="#"
+                >Telemetry</a
+              >
+            </nav>
+          </div>
+          <div class="flex items-center gap-6">
+            <div
+              class="hidden lg:flex items-stretch rounded-lg bg-white/5 border border-white/10 h-10"
+            >
+              <div class="flex items-center justify-center pl-4 text-white/40">
+                <span class="material-symbols-outlined text-xl">search</span>
+              </div>
+              <input
+                class="bg-transparent border-none focus:ring-0 text-sm placeholder:text-white/30 w-48"
+                placeholder="Search entries..."
+              />
+            </div>
+            <button
+              class="bg-primary text-background-dark px-5 py-2 rounded-sm font-bold text-xs uppercase tracking-tighter hover:bg-primary/90 transition-all flex items-center gap-2"
+            >
+              <span class="material-symbols-outlined text-lg">edit_note</span>
+              New Entry
+            </button>
+            <div class="size-10 rounded-full border border-primary/50 p-0.5">
+              <div
+                class="w-full h-full rounded-full bg-cover bg-center"
+                data-alt="Profile portrait of an adventure motorcyclist"
+                style="
+                  background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuCWt7nzJnZU9Hi91b8A3CTgRVJqk8BLmkuW24ei6E37uG1mmNhoXmRL1kRGGmO6tpP37qzGXUapqi0EB17oRuINS4W8T4QErrWBio-7QvOR2ex3tiCV9VqMuDHBjdxXJlRedG_9mXfNMg7JAfsB3q7lUZ-bTSfOeUYk0O4O_EdC1zN209fHHhx7fYwdTjZTdZi7aWU8m3ZvU8_gyvFRPSzzUxZ_ws6kjLH9dNJGUWiSKPreLXComUqfyMHJIvnPohOFfLspQD7OTrk&quot;);
+                "
+              ></div>
+            </div>
+          </div>
+        </header>
+        <main
+          class="flex-1 flex flex-col max-w-7xl mx-auto w-full px-4 md:px-10 py-8 gap-8"
+        >
+          <!-- Hero Section: The Passport Stamp / Main Expedition -->
+          <div
+            class="relative grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-white/5 p-6 rounded-xl border border-white/10 overflow-hidden"
+          >
+            <div
+              class="absolute -top-10 -right-10 opacity-5 pointer-events-none"
+            >
+              <span class="material-symbols-outlined text-[300px]"
+                >language</span
+              >
+            </div>
+            <div class="lg:col-span-7 space-y-6 z-10">
+              <div
+                class="inline-flex items-center gap-2 px-3 py-1 bg-olive/40 border border-white/20 text-primary text-xs font-mono uppercase tracking-[0.2em] rounded"
+              >
+                <span class="relative flex h-2 w-2">
+                  <span
+                    class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"
+                  ></span>
+                  <span
+                    class="relative inline-flex rounded-full h-2 w-2 bg-primary"
+                  ></span>
+                </span>
+                Active Mission: 042
+              </div>
+              <div class="relative inline-block">
+                <h1
+                  class="text-white text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none italic"
+                >
+                  Serras Gaúchas<br />Expedition
+                </h1>
+                <!-- Stamp Overlay -->
+                <div
+                  class="absolute -right-4 -bottom-6 stamp-effect px-4 py-2 border-2 border-primary text-primary font-mono font-bold text-xl uppercase tracking-widest bg-background-dark/50 backdrop-blur-sm"
+                >
+                  Verified Trail
+                </div>
+              </div>
+              <p
+                class="text-white/60 text-lg typewriter max-w-xl leading-relaxed"
+              >
+                Exploration of high-altitude canyons and fog-drenched trails in
+                Southern Brazil. Testing suspension response on fractured basalt
+                and loose scree.
+              </p>
+              <div class="flex flex-wrap gap-4 pt-4">
+                <button
+                  class="bg-primary text-background-dark px-8 py-4 font-black uppercase text-sm flex items-center gap-3 paper-shadow active:translate-y-0.5 transition-transform"
+                >
+                  Open Field Journal
+                  <span class="material-symbols-outlined">menu_book</span>
+                </button>
+                <button
+                  class="bg-white/10 hover:bg-white/20 text-white px-8 py-4 font-bold uppercase text-sm border border-white/10 transition-colors"
+                >
+                  View GPS Path
+                </button>
+              </div>
+            </div>
+            <div class="lg:col-span-5 relative">
+              <div
+                class="aspect-square bg-cover bg-center rounded-sm border-[12px] border-white shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500"
+                data-alt="Tiger 900 motorcycle parked on a rocky mountain ridge overlooking clouds"
+                style="
+                  background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuD8GTbMvrwC_LrtnZxFkutAGJFzAFluh73zAQCbITlaQsLWorP7evJTJVAGbRcYyocOEx0Ykmz5CX7aOuyf5PVYy41PO1yg0OJHupL78WDWRYJ_wEwIL4cwLqPXW8-7NZ5ob_5fXCrxA_q4S2intXMBWn0LLmQ3jvFAMmGzJWJ8qMI3aUwMg1MXnVZExtTGK_SY6noyXNxqxCZ9ElLt_cU1yYF_wxjH1KWukdIA4UKZDucU3JVfM5qsaBFboEDqrI_tCeT3v_GMBXk&quot;);
+                "
+              ></div>
+              <!-- Compass Widget -->
+              <div
+                class="absolute -bottom-8 -left-8 size-32 bg-background-dark border-4 border-olive rounded-full flex items-center justify-center shadow-2xl"
+              >
+                <div
+                  class="relative w-full h-full flex items-center justify-center"
+                >
+                  <div
+                    class="absolute text-[8px] top-2 font-bold text-white/40"
+                  >
+                    N
+                  </div>
+                  <div
+                    class="absolute text-[8px] bottom-2 font-bold text-white/40"
+                  >
+                    S
+                  </div>
+                  <div
+                    class="absolute text-[8px] right-2 font-bold text-white/40"
+                  >
+                    E
+                  </div>
+                  <div
+                    class="absolute text-[8px] left-2 font-bold text-white/40"
+                  >
+                    W
+                  </div>
+                  <div
+                    class="w-1 h-20 bg-primary absolute rounded-full rotate-[45deg] origin-center shadow-[0_0_10px_#0df259]"
+                  ></div>
+                  <div class="size-2 bg-white rounded-full z-10"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Stats & Real-time Readouts -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div
+              class="bg-white/5 border border-white/10 p-6 flex flex-col gap-1 relative overflow-hidden group"
+            >
+              <div
+                class="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-20 transition-opacity"
+              >
+                <span class="material-symbols-outlined text-4xl">height</span>
+              </div>
+              <span
+                class="text-white/40 text-xs font-mono uppercase tracking-widest"
+                >Altitude</span
+              >
+              <span class="text-3xl font-black text-white"
+                >1,450
+                <small class="text-sm font-normal text-white/50">m</small></span
+              >
+              <div
+                class="flex items-center gap-1 text-primary text-xs font-bold pt-2"
+              >
+                <span class="material-symbols-outlined text-sm"
+                  >trending_up</span
+                >
+                +120m Ascent
+              </div>
+            </div>
+            <div
+              class="bg-white/5 border border-white/10 p-6 flex flex-col gap-1 relative overflow-hidden group"
+            >
+              <div
+                class="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-20 transition-opacity"
+              >
+                <span class="material-symbols-outlined text-4xl">terrain</span>
+              </div>
+              <span
+                class="text-white/40 text-xs font-mono uppercase tracking-widest"
+                >Terrain</span
+              >
+              <span class="text-3xl font-black text-white">ROCKY/MUD</span>
+              <div
+                class="flex items-center gap-1 text-white/30 text-xs font-bold pt-2 uppercase"
+              >
+                Gravel Mode Active
+              </div>
+            </div>
+            <div
+              class="bg-white/5 border border-white/10 p-6 flex flex-col gap-1 relative overflow-hidden group"
+            >
+              <div
+                class="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-20 transition-opacity"
+              >
+                <span class="material-symbols-outlined text-4xl">distance</span>
+              </div>
+              <span
+                class="text-white/40 text-xs font-mono uppercase tracking-widest"
+                >Distance</span
+              >
+              <span class="text-3xl font-black text-white"
+                >342.8
+                <small class="text-sm font-normal text-white/50"
+                  >km</small
+                ></span
+              >
+              <div
+                class="flex items-center gap-1 text-primary text-xs font-bold pt-2"
+              >
+                <span class="material-symbols-outlined text-sm">bolt</span>
+                Fuel: 45%
+              </div>
+            </div>
+            <div
+              class="bg-white/5 border border-white/10 p-6 flex flex-col gap-1 relative overflow-hidden group"
+            >
+              <div
+                class="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-20 transition-opacity"
+              >
+                <span class="material-symbols-outlined text-4xl"
+                  >device_thermostat</span
+                >
+              </div>
+              <span
+                class="text-white/40 text-xs font-mono uppercase tracking-widest"
+                >Engine Temp</span
+              >
+              <span class="text-3xl font-black text-white"
+                >92°
+                <small class="text-sm font-normal text-white/50">C</small></span
+              >
+              <div
+                class="flex items-center gap-1 text-primary text-xs font-bold pt-2"
+              >
+                <span class="material-symbols-outlined text-sm"
+                  >check_circle</span
+                >
+                Stable
+              </div>
+            </div>
+          </div>
+          <!-- Main Journal Grid -->
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Timeline / Waypoints (Left Column) -->
+            <div class="lg:col-span-1 space-y-6">
+              <h3
+                class="text-white text-xl font-bold flex items-center gap-2 uppercase tracking-tight"
+              >
+                <span class="material-symbols-outlined text-primary"
+                  >route</span
+                >
+                Waypoints Timeline
+              </h3>
+              <div
+                class="bg-olive/10 border-l-2 border-primary/30 p-6 space-y-8"
+              >
+                <div class="flex gap-4 relative">
+                  <div class="flex flex-col items-center">
+                    <div
+                      class="size-4 bg-primary rounded-full shadow-[0_0_10px_#0df259]"
+                    ></div>
+                    <div class="w-px h-full bg-primary/20 mt-2"></div>
+                  </div>
+                  <div>
+                    <h4 class="text-white font-bold leading-none">
+                      Campamento Base
+                    </h4>
+                    <p class="text-white/50 text-xs font-mono mt-1">
+                      08:00 AM • Alt 500m
+                    </p>
+                    <p class="text-white/40 text-sm mt-2 typewriter">
+                      Departure under clear skies. Equipment check complete.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex gap-4 relative">
+                  <div class="flex flex-col items-center">
+                    <div class="size-4 bg-white/20 rounded-full"></div>
+                    <div class="w-px h-full bg-primary/20 mt-2"></div>
+                  </div>
+                  <div>
+                    <h4 class="text-white font-bold leading-none">
+                      Rastro de Lama
+                    </h4>
+                    <p class="text-white/50 text-xs font-mono mt-1">
+                      11:30 AM • Heavy Rain
+                    </p>
+                    <p class="text-white/40 text-sm mt-2 typewriter">
+                      Mud tracking system engaged. Traction control working
+                      hard.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex gap-4 relative">
+                  <div class="flex flex-col items-center">
+                    <div class="size-4 bg-white/20 rounded-full"></div>
+                    <div class="w-px h-full bg-primary/20 mt-2"></div>
+                  </div>
+                  <div>
+                    <h4 class="text-white font-bold leading-none">
+                      Pico da Neblina
+                    </h4>
+                    <p class="text-white/50 text-xs font-mono mt-1">
+                      02:15 PM • CP Alpha
+                    </p>
+                    <p class="text-white/40 text-sm mt-2 typewriter">
+                      Visibility dropped to 5 meters. Temp: 8°C.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex gap-4">
+                  <div class="flex flex-col items-center">
+                    <div
+                      class="size-8 -ml-2 bg-primary text-background-dark rounded-full flex items-center justify-center"
+                    >
+                      <span class="material-symbols-outlined text-sm font-black"
+                        >flag</span
+                      >
+                    </div>
+                  </div>
+                  <div>
+                    <h4
+                      class="text-primary font-black leading-none uppercase tracking-widest"
+                    >
+                      Mirante do Sol
+                    </h4>
+                    <p class="text-white/50 text-xs font-mono mt-1">
+                      05:45 PM • Final Descent
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Featured Entries & Photos (Right Column) -->
+            <div class="lg:col-span-2 space-y-6">
+              <div class="flex items-center justify-between">
+                <h3
+                  class="text-white text-xl font-bold flex items-center gap-2 uppercase tracking-tight"
+                >
+                  <span class="material-symbols-outlined text-primary"
+                    >auto_stories</span
+                  >
+                  Field Records
+                </h3>
+                <a
+                  class="text-primary text-xs font-mono uppercase tracking-widest hover:underline"
+                  href="#"
+                  >See all entries</a
+                >
+              </div>
+              <!-- Entry Card 1 -->
+              <div
+                class="group relative bg-kraft/10 border border-kraft/20 p-1 flex flex-col md:flex-row gap-6 hover:bg-kraft/20 transition-all cursor-pointer"
+              >
+                <div
+                  class="w-full md:w-64 h-48 bg-cover bg-center grayscale group-hover:grayscale-0 transition-all border-4 border-white paper-shadow -rotate-1"
+                  data-alt="A dirt path winding through green hills under a cloudy sky"
+                  style="
+                    background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuDgRMW9xY_rT0GxEDk-BmpP7CxOdPoNQNnBbIJnd81PFRcru9Vdcjx6Ash0qOMW104D06u8_PGruaYd1aEuCrG7y3iQ49yeRxaFnfO1ZJgE77F8st3c4A9ozeAQ2_aqg3VlyqGJMWy_iNdzKevcszXWdtFpJ1MBq90vl5fBcs-WaDKDEt5LVFBq5I0AyVc_FJfD-iWq92WLSS5NINZ3RwHk_ZF0cD2ihjqGj6zAzApM1M094u7pR9MWnkGrPNLjeZdFFTRL4CzAb4Y&quot;);
+                  "
+                ></div>
+                <div class="flex-1 py-4 pr-6 space-y-2">
+                  <div class="flex justify-between items-start">
+                    <span
+                      class="text-primary font-mono text-xs uppercase tracking-tighter"
+                      >Day 3 Log • 24 Oct</span
+                    >
+                    <span class="material-symbols-outlined text-white/20"
+                      >push_pin</span
+                    >
+                  </div>
+                  <h4
+                    class="text-white text-2xl font-black uppercase tracking-tighter"
+                  >
+                    Suspension Field Test
+                  </h4>
+                  <p class="text-white/60 text-sm typewriter leading-relaxed">
+                    The long-travel suspension handled the loose gravel
+                    effortlessly. Oil levels stable after 4 hours of continuous
+                    technical climb. Recorded minor slippage on the rear at
+                    coordinate 29.3S.
+                  </p>
+                  <div class="pt-4">
+                    <button
+                      class="text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-2 group-hover:translate-x-2 transition-transform"
+                    >
+                      Read Full Observation
+                      <span class="material-symbols-outlined text-sm"
+                        >arrow_forward</span
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Entry Card 2 (Quick Note) -->
+              <div
+                class="bg-background-dark border-2 border-dashed border-white/10 p-6 rounded-lg relative overflow-hidden"
+              >
+                <div
+                  class="absolute -right-6 -top-6 rotate-12 bg-primary/20 text-primary p-4 rounded-full"
+                >
+                  <span class="material-symbols-outlined text-5xl"
+                    >warning</span
+                  >
+                </div>
+                <div class="max-w-md">
+                  <span class="text-white/40 text-xs font-mono uppercase"
+                    >Mechanic's Note</span
+                  >
+                  <p class="text-white italic mt-2 typewriter">
+                    "Chain requires tensioning at next stop. Dust ingress higher
+                    than expected in the Serra do Rio do Rastro section."
+                  </p>
+                </div>
+              </div>
+              <!-- Map Preview Segment -->
+              <div
+                class="relative h-64 w-full rounded-xl overflow-hidden border border-white/20 group"
+              >
+                <div
+                  class="absolute inset-0 bg-cover bg-center grayscale opacity-50 group-hover:scale-105 transition-transform duration-700"
+                  data-alt="Monochromatic topographic map of a mountainous region"
+                  data-location="Rio Grande do Sul, Brazil"
+                  style="
+                    background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuBqTvao2WjStXCw4O8msOfpd2Cx3MVfYk94_GuBZqSu99yLdctaeQC1RrJnpMLZUlr_feLXD5FRcVC9DIN0WHeydd8D-UEuig1OPU1wCGqJrAhcWdur5FvEukPq6zroZfNsVVkl-K4cBZdsxWQ2p4H4pxpYl6B9ZDoqoeuNLePzC60fCJUpYPPbxke_AIW_DLT5FNHDM6rjnO8WwmAaxHrrciqa_j9dy58sPyJAeNBL0uaKD1dwfKJLnxrrCWPriqYVALbkjBkA-zA&quot;);
+                  "
+                ></div>
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-transparent"
+                ></div>
+                <div class="absolute inset-0 flex flex-col justify-end p-6">
+                  <h4 class="text-white text-xl font-bold uppercase">
+                    Expedition Map
+                  </h4>
+                  <p class="text-white/60 text-xs font-mono">
+                    12 Active Waypoints • 48.2km to Destination
+                  </p>
+                </div>
+                <div
+                  class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                >
+                  <div
+                    class="size-12 bg-primary/20 rounded-full flex items-center justify-center animate-pulse border border-primary"
+                  >
+                    <span class="material-symbols-outlined text-primary"
+                      >location_on</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <!-- Footer / Journal Credits -->
+        <footer
+          class="mt-auto border-t border-white/10 px-10 py-8 bg-background-dark text-center"
+        >
+          <div
+            class="flex flex-col md:flex-row justify-between items-center gap-4"
+          >
+            <div
+              class="flex items-center gap-2 text-white/30 text-xs font-mono uppercase"
+            >
+              <span class="material-symbols-outlined text-sm">copyright</span>
+              2024 Tiger 900 Rugged Explorer Manual
+            </div>
+            <div class="flex gap-6">
+              <a
+                class="text-white/40 hover:text-primary transition-colors uppercase text-[10px] tracking-widest font-bold"
+                href="#"
+                >Privacy Protocol</a
+              >
+              <a
+                class="text-white/40 hover:text-primary transition-colors uppercase text-[10px] tracking-widest font-bold"
+                href="#"
+                >Export Logs</a
+              >
+              <a
+                class="text-white/40 hover:text-primary transition-colors uppercase text-[10px] tracking-widest font-bold"
+                href="#"
+                >Settings</a
+              >
+            </div>
+            <div
+              class="text-primary font-mono text-[10px] uppercase tracking-widest"
+            >
+              v.3.0.42-rugged
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

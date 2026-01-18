@@ -10,6 +10,7 @@ theme:
   name: material
   language: pt-BR
   custom_dir: overrides
+  font: false  # Disabled - using Space Grotesk + Courier Prime
   features:
     - navigation.tabs
     - navigation.sections
@@ -23,21 +24,10 @@ theme:
     - toc.integrate
     - content.tabs.link
   palette:
-    # Palette toggle for light mode
-    - scheme: default
-      primary: teal
-      accent: amber
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
+    # Rugged Explorer - Dark mode only
     - scheme: slate
-      primary: teal
-      accent: amber
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
+      primary: custom
+      accent: custom
 
 nav:
   - Home: index.md
@@ -72,8 +62,8 @@ plugins:
       height: auto
       zoomable: true
       draggable: true
-  - minify:
-      minify_html: true
+  # - minify:
+  #     minify_html: true
   - macros
   - git-revision-date-localized:
       type: date
@@ -101,6 +91,7 @@ extra_javascript:
   - assets/js/loader.js
 
 extra_css:
+  - assets/css/rugged-explorer.css
   - assets/css/roteiro-interativo.css
   - assets/css/core.css
 

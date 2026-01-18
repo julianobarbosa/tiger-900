@@ -1,0 +1,1177 @@
+/**
+ * Tiger 900 - Rugged Explorer Theme
+ * Dark adventure journal aesthetic with typewriter typography
+ */
+
+/* ============================================
+   CSS CUSTOM PROPERTIES
+   ============================================ */
+
+:root {
+  /* Rugged Explorer Color Palette */
+  --rugged-primary: #0df259;
+  --rugged-background: #102216;
+  --rugged-olive: #3d4a35;
+  --rugged-clay: #5c4d3c;
+  --rugged-kraft: #d9c5b2;
+  --rugged-texture-dot: #22492f;
+
+  /* Override Material Theme Colors */
+  --md-primary-fg-color: var(--rugged-primary);
+  --md-primary-fg-color--light: #3df876;
+  --md-primary-fg-color--dark: #0ab844;
+  --md-primary-bg-color: var(--rugged-background);
+  --md-accent-fg-color: var(--rugged-primary);
+  --md-accent-fg-color--transparent: rgba(13, 242, 89, 0.1);
+
+  /* Typography */
+  --md-text-font: "Space Grotesk", sans-serif;
+  --md-code-font: "Courier Prime", monospace;
+}
+
+/* Force dark scheme */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: var(--rugged-background);
+  --md-default-fg-color: rgba(255, 255, 255, 0.87);
+  --md-default-fg-color--light: rgba(255, 255, 255, 0.54);
+  --md-default-fg-color--lighter: rgba(255, 255, 255, 0.32);
+  --md-default-fg-color--lightest: rgba(255, 255, 255, 0.12);
+
+  --md-code-bg-color: rgba(255, 255, 255, 0.05);
+  --md-code-fg-color: var(--rugged-kraft);
+
+  --md-typeset-color: rgba(255, 255, 255, 0.87);
+  --md-typeset-a-color: var(--rugged-primary);
+
+  --md-footer-bg-color: var(--rugged-background);
+  --md-footer-bg-color--dark: #0a1610;
+}
+
+/* ============================================
+   BODY & BACKGROUND TEXTURE
+   ============================================ */
+
+body {
+  background-color: var(--rugged-background) !important;
+}
+
+/* Rugged dot texture overlay */
+.md-main {
+  position: relative;
+}
+
+.md-main::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: radial-gradient(var(--rugged-texture-dot) 0.5px, transparent 0.5px);
+  background-size: 10px 10px;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.5;
+}
+
+.md-main__inner {
+  position: relative;
+  z-index: 1;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+/* Display headings - Space Grotesk uppercase */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+.md-typeset h1 {
+  font-weight: 900;
+  letter-spacing: -0.03em;
+}
+
+/* Typewriter class for body text */
+.typewriter,
+.md-typeset code,
+.md-typeset pre,
+.md-typeset kbd {
+  font-family: "Courier Prime", monospace !important;
+}
+
+/* Selection color */
+::selection {
+  background: var(--rugged-primary);
+  color: var(--rugged-background);
+}
+
+/* ============================================
+   HEADER / NAVIGATION
+   ============================================ */
+
+.md-header {
+  background: rgba(16, 34, 22, 0.8) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.md-header__title {
+  font-family: "Courier Prime", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+.md-header__button.md-logo {
+  color: var(--rugged-primary);
+}
+
+/* Navigation tabs */
+.md-tabs {
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.md-tabs__link {
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.7rem;
+  font-weight: 500;
+  opacity: 0.7;
+  transition: all 0.2s ease;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  opacity: 1;
+  color: var(--rugged-primary);
+}
+
+/* ============================================
+   SEARCH
+   ============================================ */
+
+.md-search__form {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.25rem;
+}
+
+.md-search__input {
+  font-family: "Courier Prime", monospace;
+}
+
+.md-search__input::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* ============================================
+   SIDEBAR / TOC
+   ============================================ */
+
+.md-sidebar {
+  background: transparent;
+}
+
+.md-nav__title {
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  color: var(--rugged-primary);
+}
+
+.md-nav__link {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.8rem;
+  transition: all 0.2s ease;
+}
+
+.md-nav__link:hover {
+  color: var(--rugged-primary);
+}
+
+.md-nav__link--active {
+  color: var(--rugged-primary);
+  font-weight: 600;
+}
+
+/* ============================================
+   CONTENT AREA
+   ============================================ */
+
+.md-content {
+  background: transparent;
+}
+
+/* Links */
+.md-typeset a {
+  color: var(--rugged-primary);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.md-typeset a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+
+.md-button {
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  font-size: 0.8rem;
+  border-radius: 0;
+  transition: all 0.2s ease;
+}
+
+.md-button--primary {
+  background: var(--rugged-primary) !important;
+  color: var(--rugged-background) !important;
+  border: none;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.md-button--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.md-button--primary:active {
+  transform: translateY(1px);
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Secondary button */
+.md-button:not(.md-button--primary) {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.md-button:not(.md-button--primary):hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* ============================================
+   PAPER SHADOW UTILITY
+   ============================================ */
+
+.paper-shadow {
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.paper-shadow:hover {
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* ============================================
+   STAMP EFFECT
+   ============================================ */
+
+.stamp-effect {
+  border: 3px double var(--rugged-primary);
+  transform: rotate(-5deg);
+  opacity: 0.8;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--rugged-primary);
+  background: rgba(16, 34, 22, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+/* ============================================
+   STATS CARDS
+   ============================================ */
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.stat-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.stat-card__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5rem;
+  opacity: 0.1;
+  font-size: 2.5rem;
+  transition: opacity 0.2s ease;
+}
+
+.stat-card:hover .stat-card__icon {
+  opacity: 0.2;
+}
+
+.stat-card__label {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.7rem;
+  font-family: "Courier Prime", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.25rem;
+}
+
+.stat-card__value {
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.stat-card__value small {
+  font-size: 0.5em;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.stat-card__trend {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--rugged-primary);
+  margin-top: 0.5rem;
+}
+
+/* ============================================
+   IMAGES - GRAYSCALE HOVER EFFECT
+   ============================================ */
+
+.md-typeset img:not(.emojione):not(.twemoji):not(.emoji) {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease, transform 0.3s ease;
+  border-radius: 0;
+}
+
+.md-typeset img:not(.emojione):not(.twemoji):not(.emoji):hover {
+  filter: grayscale(0%);
+  transform: scale(1.02);
+}
+
+/* Polaroid-style image container */
+.image-polaroid {
+  display: inline-block;
+  background: white;
+  padding: 0.75rem;
+  padding-bottom: 2rem;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+  transform: rotate(-1deg);
+  transition: transform 0.3s ease;
+}
+
+.image-polaroid:hover {
+  transform: rotate(0deg);
+}
+
+.image-polaroid img {
+  filter: grayscale(0%) !important;
+}
+
+/* ============================================
+   ADMONITIONS
+   ============================================ */
+
+.md-typeset .admonition,
+.md-typeset details {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 4px solid var(--rugged-primary);
+  border-radius: 0;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Warning admonition */
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-left-color: #ff9800;
+}
+
+/* Danger admonition */
+.md-typeset .admonition.danger,
+.md-typeset details.danger {
+  border-left-color: #f44336;
+}
+
+/* Info admonition */
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-left-color: #2196f3;
+}
+
+/* Tip admonition */
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-left-color: var(--rugged-primary);
+}
+
+/* ============================================
+   TABLES
+   ============================================ */
+
+.md-typeset table:not([class]) {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0;
+}
+
+.md-typeset table:not([class]) th {
+  background: rgba(255, 255, 255, 0.05);
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background: rgba(13, 242, 89, 0.05);
+}
+
+/* ============================================
+   CODE BLOCKS
+   ============================================ */
+
+.md-typeset code {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--rugged-kraft);
+  border-radius: 0;
+  padding: 0.1em 0.3em;
+}
+
+.md-typeset pre {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0;
+}
+
+.md-typeset pre > code {
+  background: transparent;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+.md-footer {
+  background: var(--rugged-background);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.md-footer-meta {
+  background: rgba(10, 22, 16, 0.8);
+}
+
+.md-footer__link {
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+
+.md-footer__link:hover {
+  color: var(--rugged-primary);
+}
+
+/* ============================================
+   HERO SECTION (RUGGED STYLE)
+   ============================================ */
+
+.rugged-hero {
+  position: relative;
+  margin: -1rem -1rem 2rem -1rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+/* Background globe icon */
+.rugged-hero::before {
+  content: 'language';
+  font-family: 'Material Symbols Outlined';
+  position: absolute;
+  top: -3rem;
+  right: -3rem;
+  font-size: 20rem;
+  opacity: 0.03;
+  pointer-events: none;
+}
+
+/* Hero grid layout */
+.rugged-hero__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .rugged-hero__grid {
+    grid-template-columns: 7fr 5fr;
+  }
+}
+
+.rugged-hero__content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Hero image container with compass */
+.rugged-hero__image-container {
+  position: relative;
+}
+
+.rugged-hero__image {
+  aspect-ratio: 1;
+  background-size: cover;
+  background-position: center;
+  border: 12px solid white;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+  transform: rotate(2deg);
+  transition: transform 0.5s ease;
+}
+
+.rugged-hero__image:hover {
+  transform: rotate(0deg);
+}
+
+.rugged-hero__image-container .compass-widget {
+  position: absolute;
+  bottom: -2rem;
+  left: -2rem;
+}
+
+/* Mission badge */
+.mission-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgba(61, 74, 53, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.25rem;
+  font-family: "Courier Prime", monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--rugged-primary);
+  margin-bottom: 1.5rem;
+}
+
+.mission-badge__dot {
+  position: relative;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.mission-badge__dot::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--rugged-primary);
+  border-radius: 50%;
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+.mission-badge__dot::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--rugged-primary);
+  border-radius: 50%;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(2); opacity: 0; }
+}
+
+/* Hero title */
+.rugged-hero__title {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  font-style: italic;
+  margin: 0 0 1rem 0;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .rugged-hero__title {
+    font-size: 2rem;
+  }
+}
+
+/* Hero description */
+.rugged-hero__desc {
+  font-family: "Courier Prime", monospace;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  max-width: 40rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Hero buttons */
+.rugged-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* ============================================
+   WAYPOINTS / TIMELINE (RUGGED)
+   ============================================ */
+
+.rugged-waypoints {
+  background: rgba(61, 74, 53, 0.1);
+  border-left: 2px solid rgba(13, 242, 89, 0.3);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.rugged-waypoint {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.rugged-waypoint:last-child {
+  margin-bottom: 0;
+}
+
+.rugged-waypoint__marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rugged-waypoint__dot {
+  width: 1rem;
+  height: 1rem;
+  background: var(--rugged-primary);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--rugged-primary);
+  flex-shrink: 0;
+}
+
+.rugged-waypoint__dot--inactive {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+}
+
+.rugged-waypoint__line {
+  width: 2px;
+  flex: 1;
+  background: rgba(13, 242, 89, 0.2);
+  margin-top: 0.5rem;
+}
+
+.rugged-waypoint__content h4 {
+  margin: 0;
+  font-weight: 700;
+  color: white;
+}
+
+.rugged-waypoint__meta {
+  font-family: "Courier Prime", monospace;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 0.25rem;
+}
+
+.rugged-waypoint__desc {
+  font-family: "Courier Prime", monospace;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 0.5rem;
+}
+
+/* ============================================
+   FIELD RECORD CARDS
+   ============================================ */
+
+.field-record {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: rgba(217, 197, 178, 0.1);
+  border: 1px solid rgba(217, 197, 178, 0.2);
+  padding: 0.25rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .field-record {
+    flex-direction: row;
+  }
+}
+
+.field-record:hover {
+  background: rgba(217, 197, 178, 0.2);
+}
+
+.field-record__image {
+  width: 100%;
+  height: 12rem;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+  border: 4px solid white;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+  transform: rotate(-1deg);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .field-record__image {
+    width: 16rem;
+    flex-shrink: 0;
+  }
+}
+
+.field-record:hover .field-record__image {
+  filter: grayscale(0%);
+  transform: rotate(0deg);
+}
+
+.field-record__content {
+  flex: 1;
+  padding: 1rem;
+}
+
+.field-record__date {
+  font-family: "Courier Prime", monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--rugged-primary);
+  margin-bottom: 0.5rem;
+}
+
+.field-record__title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem 0;
+  color: white;
+}
+
+.field-record__desc {
+  font-family: "Courier Prime", monospace;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.6;
+}
+
+.field-record__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--rugged-primary);
+  margin-top: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.field-record:hover .field-record__cta {
+  transform: translateX(0.5rem);
+}
+
+/* ============================================
+   MECHANIC'S NOTE
+   ============================================ */
+
+.mechanics-note {
+  background: var(--rugged-background);
+  border: 2px dashed rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  margin: 1.5rem 0;
+}
+
+.mechanics-note::before {
+  content: 'warning';
+  font-family: 'Material Symbols Outlined';
+  position: absolute;
+  top: -1.5rem;
+  right: -1.5rem;
+  font-size: 5rem;
+  color: var(--rugged-primary);
+  opacity: 0.2;
+  transform: rotate(12deg);
+}
+
+.mechanics-note__label {
+  font-family: "Courier Prime", monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 0.5rem;
+}
+
+.mechanics-note__text {
+  font-family: "Courier Prime", monospace;
+  font-style: italic;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+/* ============================================
+   MAP PREVIEW
+   ============================================ */
+
+.map-preview {
+  position: relative;
+  height: 16rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 1.5rem 0;
+}
+
+.map-preview__bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: transform 0.7s ease;
+}
+
+.map-preview:hover .map-preview__bg {
+  transform: scale(1.05);
+}
+
+.map-preview__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, var(--rugged-background), transparent);
+}
+
+.map-preview__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem;
+}
+
+.map-preview__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+}
+
+.map-preview__meta {
+  font-family: "Courier Prime", monospace;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.map-preview__pin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 3rem;
+  height: 3rem;
+  background: rgba(13, 242, 89, 0.2);
+  border: 1px solid var(--rugged-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: pulse-pin 2s ease-in-out infinite;
+}
+
+@keyframes pulse-pin {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); }
+  50% { transform: translate(-50%, -50%) scale(1.1); }
+}
+
+/* ============================================
+   COMPASS WIDGET
+   ============================================ */
+
+.compass-widget {
+  width: 8rem;
+  height: 8rem;
+  background: var(--rugged-background);
+  border: 4px solid var(--rugged-olive);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.compass-widget__direction {
+  position: absolute;
+  font-size: 0.5rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.compass-widget__direction--n { top: 0.5rem; }
+.compass-widget__direction--s { bottom: 0.5rem; }
+.compass-widget__direction--e { right: 0.5rem; }
+.compass-widget__direction--w { left: 0.5rem; }
+
+.compass-widget__needle {
+  width: 2px;
+  height: 5rem;
+  background: var(--rugged-primary);
+  border-radius: 1px;
+  transform: rotate(45deg);
+  box-shadow: 0 0 10px var(--rugged-primary);
+}
+
+.compass-widget__center {
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: white;
+  border-radius: 50%;
+}
+
+/* ============================================
+   MATERIAL SYMBOLS ICON STYLING
+   ============================================ */
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* ============================================
+   MOBILE RESPONSIVE ADJUSTMENTS
+   ============================================ */
+
+@media (max-width: 768px) {
+  .rugged-hero {
+    margin: -0.5rem -0.5rem 1.5rem -0.5rem;
+    padding: 2rem 1rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .stat-card {
+    padding: 1rem;
+  }
+
+  .stat-card__value {
+    font-size: 1.5rem;
+  }
+}
+
+/* ============================================
+   JOURNAL GRID LAYOUT
+   ============================================ */
+
+.journal-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+@media (min-width: 1024px) {
+  .journal-grid {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+.journal-grid__sidebar {
+  order: 2;
+}
+
+.journal-grid__main {
+  order: 1;
+}
+
+@media (min-width: 1024px) {
+  .journal-grid__sidebar {
+    order: 1;
+  }
+  .journal-grid__main {
+    order: 2;
+  }
+}
+
+/* Section icons */
+.section-icon {
+  color: var(--rugged-primary);
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  font-size: 1.5rem !important;
+}
+
+/* Section links */
+.section-link {
+  display: block;
+  text-align: right;
+  font-family: "Courier Prime", monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.section-link a {
+  color: var(--rugged-primary) !important;
+}
+
+/* Field record header */
+.field-record__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.field-record__pin {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+/* Waypoint final flag */
+.rugged-waypoint__flag {
+  width: 2rem;
+  height: 2rem;
+  margin-left: -0.5rem;
+  background: var(--rugged-primary);
+  color: var(--rugged-background);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rugged-waypoint__flag .material-symbols-outlined {
+  font-size: 0.875rem;
+}
+
+.rugged-waypoint__title--final {
+  color: var(--rugged-primary) !important;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Stat card neutral trend */
+.stat-card__trend--neutral {
+  color: rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+}
+
+/* Footer version */
+.footer-version {
+  font-family: 'Courier Prime', monospace;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Button icon alignment */
+.md-button .material-symbols-outlined {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  font-size: 1.25rem;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  .rugged-texture::before,
+  .md-main::before {
+    display: none;
+  }
+
+  .md-typeset img {
+    filter: none;
+  }
+}
