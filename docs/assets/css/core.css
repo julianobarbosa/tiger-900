@@ -1,0 +1,538 @@
+/**
+ * Tiger 900 - Core CSS
+ * Styles for core infrastructure components
+ */
+
+/* ============================================
+   OFFLINE INDICATOR
+   ============================================ */
+
+.offline-indicator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 8px 16px;
+  background: linear-gradient(135deg, #ff5722, #e64a19);
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  z-index: 9999;
+  display: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  animation: slideDown 0.3s ease;
+}
+
+.offline-indicator.visible {
+  display: block;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Adjust body when offline */
+body.offline-mode {
+  padding-top: 40px;
+}
+
+/* ============================================
+   SYNC INDICATOR
+   ============================================ */
+
+.sync-indicator {
+  position: fixed;
+  bottom: 70px;
+  right: 16px;
+  padding: 8px 16px;
+  border-radius: 24px;
+  font-size: 13px;
+  font-weight: 500;
+  background: var(--md-primary-fg-color, #009688);
+  color: white;
+  display: none;
+  align-items: center;
+  gap: 8px;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.sync-indicator.visible {
+  display: flex;
+}
+
+.sync-indicator.syncing {
+  background: #ff9800;
+}
+
+.sync-indicator.offline {
+  background: #757575;
+}
+
+.sync-indicator.error {
+  background: #f44336;
+  cursor: pointer;
+}
+
+.sync-indicator.error:hover {
+  background: #d32f2f;
+}
+
+.sync-indicator .sync-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.sync-indicator.syncing .sync-icon {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ============================================
+   PWA UPDATE NOTIFICATION
+   ============================================ */
+
+.pwa-update-notification {
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 16px;
+  background: var(--md-primary-fg-color, #009688);
+  color: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  z-index: 9998;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  animation: slideUp 0.3s ease;
+}
+
+.pwa-update-notification span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pwa-update-notification button {
+  padding: 8px 16px;
+  background: white;
+  color: var(--md-primary-fg-color, #009688);
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.pwa-update-notification button:hover {
+  transform: scale(1.05);
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* ============================================
+   LOADING STATES
+   ============================================ */
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--md-default-bg-color, #fafafa) 25%,
+    var(--md-code-bg-color, #f5f5f5) 50%,
+    var(--md-default-bg-color, #fafafa) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 4px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.skeleton-text {
+  height: 1em;
+  margin-bottom: 0.5em;
+}
+
+.skeleton-image {
+  width: 100%;
+  padding-bottom: 75%; /* 4:3 aspect ratio */
+}
+
+/* ============================================
+   TOAST NOTIFICATIONS
+   ============================================ */
+
+.toast-container {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9997;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  pointer-events: none;
+}
+
+.toast {
+  padding: 12px 20px;
+  background: #323232;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  animation: fadeInUp 0.3s ease;
+  pointer-events: auto;
+}
+
+.toast.success {
+  background: #4caf50;
+}
+
+.toast.error {
+  background: #f44336;
+}
+
+.toast.warning {
+  background: #ff9800;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.toast.fade-out {
+  animation: fadeOutDown 0.3s ease forwards;
+}
+
+@keyframes fadeOutDown {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+/* ============================================
+   DARK MODE ADJUSTMENTS
+   ============================================ */
+
+[data-md-color-scheme="slate"] .offline-indicator {
+  background: linear-gradient(135deg, #e64a19, #bf360c);
+}
+
+[data-md-color-scheme="slate"] .sync-indicator {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+[data-md-color-scheme="slate"] .pwa-update-notification {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+[data-md-color-scheme="slate"] .toast {
+  background: #424242;
+}
+
+/* ============================================
+   NETWORK STATUS INDICATOR
+   ============================================ */
+
+.network-status {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 16px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  z-index: 9999;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.network-status.online {
+  display: none;
+}
+
+.network-status.offline {
+  display: block;
+  background: linear-gradient(135deg, #ff5722, #e64a19);
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  animation: slideDown 0.3s ease;
+}
+
+/* Adjust body padding when offline banner shown */
+body:has(.network-status.offline[style*="display: block"]) {
+  padding-top: 44px;
+}
+
+/* Fallback for browsers without :has() */
+body.offline-mode {
+  padding-top: 44px;
+}
+
+/* ============================================
+   CACHE PROGRESS INDICATOR
+   ============================================ */
+
+.cache-progress {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  background: var(--md-primary-fg-color, #009688);
+  color: white;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 9998;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  animation: fadeInUp 0.3s ease;
+}
+
+.cache-progress .spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.cache-progress.fade-out {
+  animation: fadeOutDown 0.3s ease forwards;
+}
+
+/* ============================================
+   PWA BUTTONS
+   ============================================ */
+
+.pwa-install-btn,
+.pwa-download-btn {
+  margin: 4px;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.pwa-install-btn:hover,
+.pwa-download-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pwa-download-btn {
+  background: var(--md-code-bg-color, #f5f5f5);
+  color: var(--md-default-fg-color, #333);
+  border: 1px solid var(--md-default-fg-color--lighter, #ddd);
+}
+
+[data-md-color-scheme="slate"] .pwa-download-btn {
+  background: var(--md-code-bg-color, #2d2d2d);
+  color: var(--md-default-fg-color, #fff);
+  border-color: var(--md-default-fg-color--lighter, #555);
+}
+
+/* ============================================
+   UPDATE NOTIFICATION (Enhanced)
+   ============================================ */
+
+.pwa-update-notification {
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, #2196f3, #1976d2);
+  color: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  z-index: 9998;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  animation: slideUp 0.4s ease;
+}
+
+.pwa-update-notification span {
+  font-size: 14px;
+  font-weight: 500;
+  flex: 1;
+}
+
+.pwa-update-notification button {
+  padding: 8px 16px;
+  background: white;
+  color: #1976d2;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.pwa-update-notification button:hover {
+  transform: scale(1.05);
+}
+
+.pwa-update-notification .close-btn {
+  padding: 4px 8px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  line-height: 1;
+}
+
+.pwa-update-notification .close-btn:hover {
+  color: white;
+  transform: none;
+}
+
+/* ============================================
+   STORAGE STATUS
+   ============================================ */
+
+.storage-status {
+  padding: 16px;
+  background: var(--md-code-bg-color, #f5f5f5);
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+.storage-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.storage-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.storage-item .label {
+  color: var(--md-default-fg-color--light, #666);
+}
+
+.storage-item .value {
+  font-weight: 500;
+}
+
+.storage-bar {
+  margin-top: 12px;
+  height: 8px;
+  background: var(--md-default-fg-color--lightest, #e0e0e0);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.storage-bar-fill {
+  height: 100%;
+  background: var(--md-primary-fg-color, #009688);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+/* ============================================
+   RESPONSIVE ADJUSTMENTS
+   ============================================ */
+
+@media (max-width: 768px) {
+  .sync-indicator {
+    bottom: 80px;
+    right: 12px;
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .pwa-update-notification {
+    bottom: 12px;
+    left: 12px;
+    right: 12px;
+    padding: 12px;
+  }
+
+  .toast-container {
+    bottom: 90px;
+    left: 12px;
+    right: 12px;
+    transform: none;
+  }
+
+  .toast {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cache-progress {
+    bottom: 90px;
+    left: 12px;
+    right: 12px;
+    transform: none;
+    justify-content: center;
+  }
+
+  .network-status.offline {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+}

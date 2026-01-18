@@ -1,0 +1,379 @@
+# Sprint Status - Tiger 900 Rally Pro
+# Tracks implementation progress through sprints
+
+project: "Tiger 900 Rally Pro"
+current_sprint: 1
+sprint_goal: "Core Infrastructure Setup"
+
+sprints:
+  sprint_1:
+    name: "Core Infrastructure"
+    status: "completed"
+    start_date: "2026-01-16"
+    end_date: "2026-01-16"
+    stories:
+      - id: "1.1"
+        title: "Setup Modular JavaScript Structure"
+        status: "completed"
+        files_created:
+          - docs/assets/js/main.js
+          - docs/assets/js/loader.js
+          - docs/assets/js/features/.gitkeep
+
+      - id: "1.2"
+        title: "Implement IndexedDB Store Module"
+        status: "completed"
+        files_created:
+          - docs/assets/js/core/store.js
+        features:
+          - "Store API with CRUD operations"
+          - "PhotosStore with day grouping"
+          - "WeatherStore with cache TTL"
+          - "SyncQueueStore for offline"
+
+      - id: "1.3"
+        title: "Create Utility Functions Module"
+        status: "completed"
+        files_created:
+          - docs/assets/js/core/utils.js
+        features:
+          - "UUID generation"
+          - "Date formatting (pt-BR)"
+          - "Debounce/throttle"
+          - "Image compression"
+          - "GPS extraction"
+          - "GPX parsing"
+          - "Network status helpers"
+
+      - id: "1.4"
+        title: "Configure Build Environment"
+        status: "completed"
+        files_modified:
+          - mkdocs.yml
+        files_created:
+          - docs/assets/js/core/sync.js
+          - docs/assets/css/core.css
+        features:
+          - "ES module loader"
+          - "Sync manager with queue"
+          - "Offline indicator styles"
+          - "Toast notification styles"
+
+    deliverables:
+      - "Modular JS architecture with ES6 modules"
+      - "IndexedDB wrapper (4 stores)"
+      - "Utility functions library"
+      - "Sync manager for offline operations"
+      - "Core CSS for new components"
+
+    notes: |
+      Sprint 1 completed successfully. Core infrastructure is in place:
+      - ES modules loaded via loader.js (MkDocs compatibility)
+      - IndexedDB stores ready for photos, routes, weather, syncQueue
+      - Utility functions cover all common operations
+      - Sync manager handles offline queue
+      - Legacy scripts preserved alongside new architecture
+
+  sprint_2:
+    name: "PWA Foundation"
+    status: "completed"
+    start_date: "2026-01-16"
+    end_date: "2026-01-16"
+    stories:
+      - id: "6.1"
+        title: "Enhanced Service Worker with Workbox"
+        status: "completed"
+        files_modified:
+          - docs/service-worker.js
+        features:
+          - "Multiple cache strategies (CacheFirst, NetworkFirst, StaleWhileRevalidate)"
+          - "Precaching of critical assets"
+          - "Versioned cache with auto-cleanup"
+          - "Message handling for cache commands"
+          - "Background sync support"
+          - "Offline fallback page"
+
+      - id: "6.2"
+        title: "Offline Content Cache"
+        status: "completed"
+        files_modified:
+          - docs/assets/js/pwa-register.js
+        files_created:
+          - docs/assets/js/pwa/manager.js
+        features:
+          - "Download for Offline button"
+          - "Cache progress indicator"
+          - "Storage status display"
+          - "On-demand URL caching"
+
+      - id: "6.3"
+        title: "Offline Status Indicator"
+        status: "completed"
+        files_modified:
+          - docs/assets/css/core.css
+        features:
+          - "Network status banner"
+          - "Online/Offline toast notifications"
+          - "Update available notification"
+          - "Responsive styles"
+
+    deliverables:
+      - "Enhanced Service Worker v2.0.0"
+      - "PWA Manager module (ES module)"
+      - "Offline indicator UI"
+      - "Download for Offline feature"
+      - "Update notification system"
+
+  sprint_3:
+    name: "Weather & Itinerary"
+    status: "completed"
+    start_date: "2026-01-16"
+    end_date: "2026-01-16"
+    stories:
+      - id: "4.1"
+        title: "Weather Widget Component"
+        status: "completed"
+        files_created:
+          - docs/assets/js/features/weather.js
+        features:
+          - "WeatherWidget custom element"
+          - "Open-Meteo API integration"
+          - "IndexedDB caching with 3h TTL"
+          - "WMO weather codes mapping"
+          - "Offline graceful degradation"
+          - "Severity-based styling"
+
+      - id: "4.2"
+        title: "Multi-day Weather Overview"
+        status: "completed"
+        features:
+          - "WeatherOverview custom element"
+          - "Horizontal scrollable cards"
+          - "Rain warning highlights (>50%)"
+          - "All trip days forecast"
+          - "Batch API fetching"
+
+      - id: "5.1"
+        title: "Timeline Visual Component"
+        status: "completed"
+        files_created:
+          - docs/assets/js/features/timeline.js
+        features:
+          - "TripTimeline custom element"
+          - "Phase-grouped vertical timeline"
+          - "Progress bar with trip status"
+          - "Day markers with status (past/today/future)"
+          - "Pulse animation for current day"
+          - "Weather integration per day"
+
+      - id: "5.2"
+        title: "Expandable Day Cards"
+        status: "completed"
+        features:
+          - "DayCard custom element"
+          - "DayCardsAccordion container"
+          - "Single-expand accordion pattern"
+          - "Weather details in expanded view"
+          - "Highlights/destaques display"
+          - "Action buttons (details, map)"
+          - "Auto-expand current day"
+
+    deliverables:
+      - "Weather module (ES6) with custom elements"
+      - "Timeline module (ES6) with custom elements"
+      - "WeatherWidget for single day forecast"
+      - "WeatherOverview for all trip days"
+      - "TripTimeline vertical timeline"
+      - "DayCard expandable cards"
+      - "DayCardsAccordion container"
+
+    notes: |
+      Sprint 3 completed successfully. Weather and Itinerary features implemented:
+      - Custom elements using Shadow DOM for encapsulation
+      - Weather data from Open-Meteo API (free, no key needed)
+      - IndexedDB caching via WeatherStore
+      - Timeline with phase grouping and progress tracking
+      - Accordion cards with weather integration
+      - Full offline support with graceful degradation
+
+  sprint_4:
+    name: "Gallery & Map"
+    status: "completed"
+    start_date: "2026-01-16"
+    end_date: "2026-01-16"
+    stories:
+      - id: "2.1"
+        title: "Photo Upload with GPS"
+        status: "completed"
+        files_created:
+          - docs/assets/js/features/gallery.js
+        features:
+          - "PhotoUpload custom element"
+          - "Drag & drop file upload"
+          - "EXIF GPS extraction"
+          - "Browser geolocation fallback"
+          - "Image compression (canvas API)"
+          - "Thumbnail generation (200px)"
+          - "Medium version (800px)"
+          - "WebP format with quality 0.8"
+          - "IndexedDB storage via PhotosStore"
+          - "Sync queue integration"
+
+      - id: "2.2"
+        title: "Photo Grid Gallery"
+        status: "completed"
+        features:
+          - "PhotoGrid custom element"
+          - "Responsive CSS Grid layout"
+          - "Lazy loading with skeleton states"
+          - "GPS badge indicator"
+          - "Hover overlay with caption"
+          - "PhotoLightbox custom element"
+          - "Keyboard navigation (arrows, escape)"
+          - "Touch swipe support"
+          - "Photo metadata display"
+
+      - id: "3.1"
+        title: "Leaflet Map Setup"
+        status: "completed"
+        files_created:
+          - docs/assets/js/features/map.js
+        features:
+          - "RouteMap custom element"
+          - "Dynamic Leaflet.js loading"
+          - "OpenStreetMap tiles"
+          - "Custom emoji markers"
+          - "Trip waypoints database"
+          - "POIs (landmarks, attractions)"
+          - "MiniMap preview element"
+          - "Configurable zoom/center"
+
+      - id: "3.2"
+        title: "GPX Route Display"
+        status: "completed"
+        features:
+          - "GPX file parsing"
+          - "Polyline route rendering"
+          - "Color-coded routes per day"
+          - "Start/end markers"
+          - "Photo markers from GPS"
+          - "Fit bounds auto-zoom"
+          - "Show all routes mode"
+          - "Single day route mode"
+
+    deliverables:
+      - "Gallery module (ES6) with custom elements"
+      - "Map module (ES6) with custom elements"
+      - "PhotoUpload with drag & drop"
+      - "PhotoGrid with lazy loading"
+      - "PhotoLightbox with gestures"
+      - "RouteMap with Leaflet integration"
+      - "MiniMap for preview cards"
+      - "GPX parsing and display"
+
+    notes: |
+      Sprint 4 completed successfully. Gallery and Map features implemented:
+      - Photo upload with automatic GPS extraction from EXIF
+      - Image processing pipeline (compress, thumbnail, medium)
+      - Grid gallery with skeleton loading and lightbox
+      - Leaflet.js dynamically loaded on demand
+      - Route display with color-coded polylines
+      - Photo markers integrated with map
+      - All components use Shadow DOM for encapsulation
+
+  sprint_5:
+    name: "Integration & Polish"
+    status: "completed"
+    start_date: "2026-01-16"
+    end_date: "2026-01-16"
+    stories:
+      - id: "2.3"
+        title: "Photo Lightbox"
+        status: "completed"
+        notes: "Implemented in Sprint 4 (PhotoLightbox custom element)"
+
+      - id: "2.4"
+        title: "Photo Captions"
+        status: "completed"
+        files_created:
+          - docs/assets/js/features/integration.js
+        features:
+          - "PhotoEditor custom element"
+          - "Inline caption editing"
+          - "Photo deletion with confirmation"
+          - "Sync queue integration for offline edits"
+
+      - id: "3.3"
+        title: "POI Markers"
+        status: "completed"
+        notes: "Implemented in Sprint 4 (emoji markers, POI database)"
+
+      - id: "3.4"
+        title: "Map Controls"
+        status: "completed"
+        features:
+          - "Zoom controls"
+          - "Fit bounds auto-zoom"
+          - "Day selection filtering"
+          - "Show all routes toggle"
+          - "Photo markers integration"
+
+      - id: "4.3"
+        title: "Weather Offline"
+        status: "completed"
+        features:
+          - "IndexedDB caching with 3h TTL"
+          - "Stale data fallback when offline"
+          - "Graceful degradation UI"
+          - "Cache-first strategy"
+
+      - id: "5.3"
+        title: "Media Preview"
+        status: "completed"
+        features:
+          - "MediaCarousel custom element"
+          - "Horizontal scrollable thumbnails"
+          - "Photo count badge"
+          - "Click to open lightbox"
+          - "Day-specific photo filtering"
+
+      - id: "5.4"
+        title: "Progress Indicators"
+        status: "completed"
+        features:
+          - "TripProgress custom element"
+          - "Circular progress with percentage"
+          - "Days completed/remaining display"
+          - "WarningBadge custom element"
+          - "Severity-based styling (info/warning/danger)"
+
+      - id: "6.4"
+        title: "Sync Queue"
+        status: "completed"
+        files_modified:
+          - docs/assets/js/core/sync.js
+        features:
+          - "SyncStatusElement custom element"
+          - "Pending items count display"
+          - "Manual retry button"
+          - "Status indicators (syncing/offline/error)"
+          - "Real-time status updates"
+
+    deliverables:
+      - "Integration module (ES6) with polish components"
+      - "PhotoEditor for caption management"
+      - "SyncStatusElement for queue visibility"
+      - "TripProgress for trip completion tracking"
+      - "MediaCarousel for photo previews"
+      - "WarningBadge for alerts and warnings"
+      - "Enhanced sync.js with additional exports"
+
+    notes: |
+      Sprint 5 completed successfully. Integration and polish features implemented:
+      - PhotoEditor enables inline caption editing and photo deletion
+      - SyncStatusElement shows real-time sync queue status
+      - TripProgress displays trip completion with circular progress
+      - MediaCarousel provides thumbnail previews in day cards
+      - WarningBadge handles weather and general alerts
+      - All components use Shadow DOM for encapsulation
+      - Full offline support with graceful degradation
