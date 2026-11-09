@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+     version="1.1"
+     creator="MyRouteApp">
+  <metadata>
+    <name>Serras Sul Sudeste</name>
+    <time>2026-01-19T12:00:00Z</time>
+  </metadata>
+  <rte>
+    <name>Rota das Serras</name>
+    <rtept lat="-22.5644" lon="-47.4017">
+      <name>Limeira</name>
+      <time>2026-01-20T08:00:00Z</time>
+    </rtept>
+    <rtept lat="-23.5015" lon="-47.4521">
+      <name>Sorocaba</name>
+      <time>2026-01-20T10:00:00Z</time>
+    </rtept>
+    <rtept lat="-24.0064" lon="-48.3489">
+      <name>Capao Bonito</name>
+      <time>2026-01-20T12:00:00Z</time>
+    </rtept>
+    <rtept lat="-25.4284" lon="-49.2733">
+      <name>Curitiba</name>
+      <time>2026-01-20T16:00:00Z</time>
+    </rtept>
+    <rtept lat="-25.3683" lon="-48.9169">
+      <name>Graciosa</name>
+      <time>2026-01-21T09:00:00Z</time>
+    </rtept>
+    <rtept lat="-27.8174" lon="-50.3268">
+      <name>Lages</name>
+      <time>2026-01-21T14:00:00Z</time>
+    </rtept>
+    <rtept lat="-28.0142" lon="-49.5913">
+      <name>Urubici</name>
+      <time>2026-01-21T17:00:00Z</time>
+    </rtept>
+    <rtept lat="-24.4883" lon="-47.8437">
+      <name>Registro</name>
+      <time>2026-01-22T15:00:00Z</time>
+    </rtept>
+    <rtept lat="-24.0592" lon="-47.9944">
+      <name>Serra da Macaca</name>
+      <time>2026-01-22T17:00:00Z</time>
+    </rtept>
+  </rte>
+</gpx>

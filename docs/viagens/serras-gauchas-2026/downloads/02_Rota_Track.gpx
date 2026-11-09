@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="PAI">
+  <metadata>
+    <name>Serras Sul-Sudeste - Track</name>
+    <desc>Roteiro: Limeira, Rastro da Serpente, Graciosa, Urubici e Serra da Macaca</desc>
+  </metadata>
+
+  <trk>
+    <name>Rota Completa das Serras</name>
+    <desc>Sequencia de pontos para navegacao</desc>
+    <trkseg>
+      <trkpt lat="-22.5644" lon="-47.4017">
+        <name>Limeira</name>
+      </trkpt>
+      <trkpt lat="-23.5015" lon="-47.4521">
+        <name>Sorocaba</name>
+      </trkpt>
+      <trkpt lat="-24.0064" lon="-48.3489">
+        <name>Capao Bonito</name>
+      </trkpt>
+      <trkpt lat="-25.4284" lon="-49.2733">
+        <name>Curitiba</name>
+      </trkpt>
+      <trkpt lat="-25.3683" lon="-48.9169">
+        <name>Graciosa</name>
+      </trkpt>
+      <trkpt lat="-27.8174" lon="-50.3268">
+        <name>Lages</name>
+      </trkpt>
+      <trkpt lat="-28.0142" lon="-49.5913">
+        <name>Urubici</name>
+      </trkpt>
+      <trkpt lat="-24.4883" lon="-47.8437">
+        <name>Registro</name>
+      </trkpt>
+      <trkpt lat="-24.0592" lon="-47.9944">
+        <name>Serra da Macaca</name>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+</gpx>

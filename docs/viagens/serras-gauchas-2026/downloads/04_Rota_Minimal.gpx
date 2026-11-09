@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0" creator="Google Maps">
+<rte>
+<name>Serras</name>
+<rtept lat="-22.5644" lon="-47.4017"><name>Limeira</name></rtept>
+<rtept lat="-23.5015" lon="-47.4521"><name>Sorocaba</name></rtept>
+<rtept lat="-24.0064" lon="-48.3489"><name>Capao Bonito</name></rtept>
+<rtept lat="-25.4284" lon="-49.2733"><name>Curitiba</name></rtept>
+<rtept lat="-25.3683" lon="-48.9169"><name>Graciosa</name></rtept>
+<rtept lat="-27.8174" lon="-50.3268"><name>Lages</name></rtept>
+<rtept lat="-28.0142" lon="-49.5913"><name>Urubici</name></rtept>
+<rtept lat="-24.4883" lon="-47.8437"><name>Registro</name></rtept>
+<rtept lat="-24.0592" lon="-47.9944"><name>Serra Macaca</name></rtept>
+</rte>
+</gpx>

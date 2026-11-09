@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="PAI">
+  <metadata>
+    <name>Serras Sul-Sudeste - Waypoints</name>
+    <desc>Roteiro: Limeira, Rastro da Serpente, Graciosa, Urubici e Serra da Macaca</desc>
+  </metadata>
+
+  <wpt lat="-22.5644" lon="-47.4017">
+    <name>01 Limeira Pernoite</name>
+    <desc>Primeira parada apos trecho longo de 800km</desc>
+  </wpt>
+
+  <wpt lat="-23.5015" lon="-47.4521">
+    <name>02 Sorocaba</name>
+    <desc>Opcao de rota em pista dupla antes de Capao Bonito</desc>
+  </wpt>
+
+  <wpt lat="-24.0064" lon="-48.3489">
+    <name>03 Capao Bonito</name>
+    <desc>Entrada da Serra do Rastro da Serpente</desc>
+  </wpt>
+
+  <wpt lat="-25.4284" lon="-49.2733">
+    <name>04 Curitiba</name>
+    <desc>Pernoite recomendado. Base para fazer a Graciosa</desc>
+  </wpt>
+
+  <wpt lat="-25.3683" lon="-48.9169">
+    <name>05 Estrada Graciosa</name>
+    <desc>Passeio sugerido para o dia seguinte</desc>
+  </wpt>
+
+  <wpt lat="-27.8174" lon="-50.3268">
+    <name>06 Lages</name>
+    <desc>Parada no caminho descendo para Urubici</desc>
+  </wpt>
+
+  <wpt lat="-28.0142" lon="-49.5913">
+    <name>07 Urubici</name>
+    <desc>Destino final antes do retorno</desc>
+  </wpt>
+
+  <wpt lat="-24.4883" lon="-47.8437">
+    <name>08 Registro SP</name>
+    <desc>Pernoite estrategico na volta pela BR-116</desc>
+  </wpt>
+
+  <wpt lat="-24.0592" lon="-47.9944">
+    <name>09 Serra da Macaca</name>
+    <desc>Serra dentro do P.E. Carlos Botelho</desc>
+  </wpt>
+
+</gpx>
